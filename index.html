@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fútbol Web</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: Arial, sans-serif; background: #0b1220; color: #fff; }
+    header { padding: 24px; background: #111b2e; text-align: center; }
+    header h1 { margin: 0; font-size: 32px; }
+    main { max-width: 1100px; margin: auto; padding: 30px 20px; }
+    .hero { padding: 30px; border-radius: 16px; background: #17243b; margin-bottom: 24px; }
+    .hero h2 { margin-top: 0; }
+    .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 18px; }
+    .card { background: #111b2e; border: 1px solid #263653; border-radius: 14px; padding: 20px; }
+    .card h3 { margin-top: 0; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>⚽ Fútbol Web</h1>
+  </header>
+  <main>
+    <section class="hero">
+      <h2>Partidos de hoy</h2>
+      <p>Bienvenido a tu nueva web de fútbol.</p>
+    </section>
+    <section class="cards">
+      <div class="card"><h3>🔥 Partidos</h3><p>Próximamente partidos y resultados.</p></div>
+      <div class="card"><h3>📊 Estadísticas</h3><p>Datos y estadísticas de los equipos.</p></div>
+      <div class="card"><h3>🎯 Predicciones</h3><p>Predicciones y favoritos del día.</p></div>
+    </section>
+  </main>
+</body>
+</html>
