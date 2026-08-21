@@ -9,29 +9,17 @@ jobs:
     steps:
       - name: Test endpoints
         run: |
-          echo "=== 6b. Descargando el summary del partido (Copa Argentina, event 401896387) ==="
           curl -s "https://site.api.espn.com/apis/site/v2/sports/soccer/arg.copa/summary?event=401896387" -o /tmp/summary.json
-          echo "Tamano del archivo:"
-          wc -c /tmp/summary.json
-          echo "Ocurrencias de 'card':"
-          grep -oi 'card' /tmp/summary.json | wc -l
-          echo "Ocurrencias de 'corner':"
-          grep -oi 'corner' /tmp/summary.json | wc -l
-          echo "Claves de primer nivel del JSON:"
-          python3 -c "import json; d=json.load(open('/tmp/summary.json')); print(list(d.keys()))"
+
+          echo "=== TODOS los 14 eventos, solo tipo + texto (sin recortar) ==="
+          python3 -c "import json; d=json.load(open('/tmp/summary.json')); events=d.get('keyEvents', []); [print(i, '|', e.get('type',{}).get('text'), '|', e.get('text')) for i, e in enumerate(events)]"
           echo ""
           echo ""
 
-          echo "=== 8. Estructura de keyEvents (tarjetas jugador+minuto) ==="
-          python3 -c "import json; d=json.load(open('/tmp/summary.json')); events=d.get('keyEvents', []); print('Total de eventos:', len(events)); [print(json.dumps(e, ensure_ascii=False)[:400], '\n---') for e in events[:6]]"
+          echo "=== Buscamos especificamente eventos tipo Yellow Card / Red Card ==="
+          python3 -c "import json; d=json.load(open('/tmp/summary.json')); events=d.get('keyEvents', []); cards=[e for e in events if 'card' in str(e.get('type',{}).get('text','')).lower()]; print('Tarjetas encontradas:', len(cards)); [print(json.dumps(c, ensure_ascii=False)[:500]) for c in cards]"
           echo ""
           echo ""
 
-          echo "=== 9. Estructura de odds / pickcenter (cuotas) ==="
-          python3 -c "import json; d=json.load(open('/tmp/summary.json')); print('ODDS:', json.dumps(d.get('odds', 'NO EXISTE'), ensure_ascii=False)[:800])"
-          python3 -c "import json; d=json.load(open('/tmp/summary.json')); print('PICKCENTER:', json.dumps(d.get('pickcenter', 'NO EXISTE'), ensure_ascii=False)[:800])"
-          echo ""
-          echo ""
-
-          echo "=== 10. Estructura de rosters ==="
-          python3 -c "import json; d=json.load(open('/tmp/summary.json')); r=d.get('rosters', []); print('Cantidad de equipos:', len(r)); print('Claves:', list(r[0].keys()) if r else 'vacio')"
+          echo "=== Donde aparece la palabra card 294 veces? mostramos 5 ejemplos de contexto ==="
+          grep -o '.\{30\}card.\{30\}' /tmp/summary.json -i | head -5
