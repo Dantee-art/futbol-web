@@ -7,17 +7,29 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - name: Test player-level stats
+      - name: Test player stats keys
         run: |
           curl -s "https://site.api.espn.com/apis/site/v2/sports/soccer/arg.copa/summary?event=401896387" -o /tmp/summary.json
 
-          echo "=== Estructura de boxscore (claves) ==="
-          python3 -c "import json; d=json.load(open('/tmp/summary.json')); bx=d.get('boxscore',{}); print('Claves de boxscore:', list(bx.keys()))"
+          echo "=== Claves de TODOS los jugadores del primer equipo (sin truncar valores) ==="
+          python3 -c "
+import json
+d = json.load(open('/tmp/summary.json'))
+r = d.get('rosters', [])
+roster = r[0].get('roster', []) if r else []
+for p in roster[:23]:
+    name = p.get('athlete', {}).get('displayName', '?')
+    print(name, '->', list(p.keys()))
+"
           echo ""
-
-          echo "=== boxscore.players si existe ==="
-          python3 -c "import json; d=json.load(open('/tmp/summary.json')); bx=d.get('boxscore',{}); players=bx.get('players', []); print('Equipos en players:', len(players)); print(json.dumps(players[0], ensure_ascii=False)[:1500]) if players else print('NO EXISTE boxscore.players')"
-          echo ""
-
-          echo "=== rosters[0].roster[0] jugador de ejemplo ==="
-          python3 -c "import json; d=json.load(open('/tmp/summary.json')); r=d.get('rosters', []); roster=r[0].get('roster', []) if r else []; print('Jugadores en roster:', len(roster)); print(json.dumps(roster[0], ensure_ascii=False)[:1500]) if roster else print('vacio')"
+          echo "=== Buscamos si CUALQUIER jugador tiene la clave 'stats' o 'statistics' ==="
+          python3 -c "
+import json
+d = json.load(open('/tmp/summary.json'))
+r = d.get('rosters', [])
+roster = r[0].get('roster', []) if r else []
+for p in roster:
+    if 'stats' in p or 'statistics' in p:
+        print('ENCONTRADO en', p.get('athlete', {}).get('displayName'))
+        print(json.dumps(p.get('stats', p.get('statistics')), ensure_ascii=False))
+"
