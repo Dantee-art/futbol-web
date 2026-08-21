@@ -26,3 +26,13 @@ jobs:
 
           echo "=== 4. Teams (para sacar IDs de equipos) ==="
           curl -s "https://site.api.espn.com/apis/site/v2/sports/soccer/arg.1/teams" | head -c 1500
+          echo ""
+          echo ""
+
+          echo "=== 5. Solo los event IDs + nombres de equipos del scoreboard ==="
+          curl -s "https://site.api.espn.com/apis/site/v2/sports/soccer/arg.1/scoreboard" | grep -o '"id":"[0-9]*"[^}]*"shortDisplayName":"[^"]*"' | head -30
+          echo ""
+          echo ""
+
+          echo "=== 6. Summary de Copa Argentina (usamos el evento de Racing-Belgrano si aparece en arg.copa) ==="
+          curl -s "https://site.api.espn.com/apis/site/v2/sports/soccer/arg.copa/scoreboard" | grep -o '"id":"[0-9]*"' | head -10
