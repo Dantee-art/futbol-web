@@ -34,5 +34,10 @@ jobs:
           echo ""
           echo ""
 
-          echo "=== 6. Summary de Copa Argentina (usamos el evento de Racing-Belgrano si aparece en arg.copa) ==="
-          curl -s "https://site.api.espn.com/apis/site/v2/sports/soccer/arg.copa/scoreboard" | grep -o '"id":"[0-9]*"' | head -10
+          echo "=== 6. SUMMARY del partido real (Copa Argentina, event 401896387) — CORNERS Y TARJETAS ==="
+          curl -s "https://site.api.espn.com/apis/site/v2/sports/soccer/arg.copa/summary?event=401896387" | grep -oiE '"(name|displayValue|label)":"[^"]*"' | grep -iE 'corner|card|foul|shot|possess|yellow|red' -A1 -B1
+          echo ""
+          echo ""
+
+          echo "=== 7. Mismo test pero en Premier League (para confirmar que es genérico, no algo raro de AFA) ==="
+          curl -s "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard" | grep -o '"id":"[0-9]*"[^}]*"shortDisplayName":"[^"]*"' | head -6
