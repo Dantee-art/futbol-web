@@ -9,49 +9,29 @@ jobs:
     steps:
       - name: Test endpoints
         run: |
-          echo "=== 1. Scoreboard Liga Profesional Argentina (arg.1) ==="
-          curl -s "https://site.api.espn.com/apis/site/v2/sports/soccer/arg.1/scoreboard" | head -c 2000
-          echo ""
-          echo ""
-
-          echo "=== 2. Scoreboard Copa Argentina (arg.copa) ==="
-          curl -s "https://site.api.espn.com/apis/site/v2/sports/soccer/arg.copa/scoreboard" | head -c 1500
-          echo ""
-          echo ""
-
-          echo "=== 3. Standings / tabla (requiere /apis/v2/, no /apis/site/v2/) ==="
-          curl -s "https://site.api.espn.com/apis/v2/sports/soccer/arg.1/standings" | head -c 1500
-          echo ""
-          echo ""
-
-          echo "=== 4. Teams (para sacar IDs de equipos) ==="
-          curl -s "https://site.api.espn.com/apis/site/v2/sports/soccer/arg.1/teams" | head -c 1500
-          echo ""
-          echo ""
-
-          echo "=== 5. Solo los event IDs + nombres de equipos del scoreboard ==="
-          curl -s "https://site.api.espn.com/apis/site/v2/sports/soccer/arg.1/scoreboard" | grep -o '"id":"[0-9]*"[^}]*"shortDisplayName":"[^"]*"' | head -30
-          echo ""
-          echo ""
-
-          echo "=== 6. SUMMARY del partido real (Copa Argentina, event 401896387) — CORNERS Y TARJETAS ==="
-          curl -s "https://site.api.espn.com/apis/site/v2/sports/soccer/arg.copa/summary?event=401896387" | grep -oiE '"(name|displayValue|label)":"[^"]*"' | grep -iE 'corner|card|foul|shot|possess|yellow|red' -A1 -B1
-          echo ""
-          echo ""
-
-          echo "=== 6b. Mismo partido: buscamos 'card' o 'corner' en TODO el JSON, no solo en statistics ==="
+          echo "=== 6b. Descargando el summary del partido (Copa Argentina, event 401896387) ==="
           curl -s "https://site.api.espn.com/apis/site/v2/sports/soccer/arg.copa/summary?event=401896387" -o /tmp/summary.json
-          echo "Tamaño del archivo:"
+          echo "Tamano del archivo:"
           wc -c /tmp/summary.json
           echo "Ocurrencias de 'card':"
           grep -oi 'card' /tmp/summary.json | wc -l
           echo "Ocurrencias de 'corner':"
           grep -oi 'corner' /tmp/summary.json | wc -l
-          echo "Ocurrencias de 'foul':"
-          grep -oi 'foul' /tmp/summary.json | wc -l
-          echo "Ocurrencias de 'possession':"
-          grep -oi 'possession' /tmp/summary.json | wc -l
-          echo "Claves de primer nivel del JSON (con python, viene instalado):"
+          echo "Claves de primer nivel del JSON:"
           python3 -c "import json; d=json.load(open('/tmp/summary.json')); print(list(d.keys()))"
           echo ""
           echo ""
+
+          echo "=== 8. Estructura de keyEvents (tarjetas jugador+minuto) ==="
+          python3 -c "import json; d=json.load(open('/tmp/summary.json')); events=d.get('keyEvents', []); print('Total de eventos:', len(events)); [print(json.dumps(e, ensure_ascii=False)[:400], '\n---') for e in events[:6]]"
+          echo ""
+          echo ""
+
+          echo "=== 9. Estructura de odds / pickcenter (cuotas) ==="
+          python3 -c "import json; d=json.load(open('/tmp/summary.json')); print('ODDS:', json.dumps(d.get('odds', 'NO EXISTE'), ensure_ascii=False)[:800])"
+          python3 -c "import json; d=json.load(open('/tmp/summary.json')); print('PICKCENTER:', json.dumps(d.get('pickcenter', 'NO EXISTE'), ensure_ascii=False)[:800])"
+          echo ""
+          echo ""
+
+          echo "=== 10. Estructura de rosters ==="
+          python3 -c "import json; d=json.load(open('/tmp/summary.json')); r=d.get('rosters', []); print('Cantidad de equipos:', len(r)); print('Claves:', list(r[0].keys()) if r else 'vacio')"
