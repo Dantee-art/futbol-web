@@ -39,5 +39,22 @@ jobs:
           echo ""
           echo ""
 
-          echo "=== 7. Mismo test pero en Premier League (para confirmar que es genérico, no algo raro de AFA) ==="
-          curl -s "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard" | grep -o '"id":"[0-9]*"[^}]*"shortDisplayName":"[^"]*"' | head -6
+          echo "=== 6b. Mismo partido: buscamos 'card' o 'corner' en TODO el JSON, no solo en statistics ==="
+          curl -s "https://site.api.espn.com/apis/site/v2/sports/soccer/arg.copa/summary?event=401896387" -o /tmp/summary.json
+          echo "Tamaño del archivo:"
+          wc -c /tmp/summary.json
+          echo "Ocurrencias de 'card':"
+          grep -oi 'card' /tmp/summary.json | wc -l
+          echo "Ocurrencias de 'corner':"
+          grep -oi 'corner' /tmp/summary.json | wc -l
+          echo "Ocurrencias de 'foul':"
+          grep -oi 'foul' /tmp/summary.json | wc -l
+          echo "Ocurrencias de 'possession':"
+          grep -oi 'possession' /tmp/summary.json | wc -l
+          echo "Claves de primer nivel del JSON (con python, viene instalado):"
+          python3 -c "import json; d=json.load(open('/tmp/summary.json')); print(list(d.keys()))"
+          echo ""
+          echo ""
+
+          echo "=== 7. Event IDs reales de Premier League (9 digitos) ==="
+          curl -s "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard" | grep -oE '"id":"40[0-9]{7}"' | sort -u | head -5
