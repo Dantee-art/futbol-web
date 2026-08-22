@@ -17,8 +17,14 @@ from espn_client import get_scoreboard, get_summary
 from calcular_historial import construir_historial
 from generar_analisis import armar_parrafo_partido, texto_btts
 
-CONFIG_PATH = "config/ligas.json"
-OUTPUT_PATH = "datos/picks_hoy.json"
+# --- CORRECCIÓN DE RUTAS ABSOLUTAS ---
+DIRECTORIO_SCRIPT = os.path.dirname(os.path.abspath(__file__))
+DIRECTORIO_RAIZ = os.path.dirname(DIRECTORIO_SCRIPT)
+
+CONFIG_PATH = os.path.join(DIRECTORIO_RAIZ, "config", "ligas.json")
+OUTPUT_PATH = os.path.join(DIRECTORIO_RAIZ, "datos", "picks_hoy.json")
+# -------------------------------------
+
 HISTORIAL_N = 20  # partidos hacia atras por equipo
 
 
@@ -127,3 +133,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+    
