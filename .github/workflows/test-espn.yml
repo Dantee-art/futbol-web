@@ -7,26 +7,19 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - name: Test H2H, gameInfo, injuries
+      - name: Test team schedule (historial completo)
         run: |
-          curl -s "https://site.api.espn.com/apis/site/v2/sports/soccer/arg.copa/summary?event=401896387" -o /tmp/summary.json
-
-          echo "=== seasonseries (posible H2H) ==="
-          python3 -c "import json; d=json.load(open('/tmp/summary.json')); print(json.dumps(d.get('seasonseries','NO EXISTE'), ensure_ascii=False)[:1200])"
+          echo "=== Schedule completo de Racing Club (team id 15) ==="
+          curl -s "https://site.api.espn.com/apis/site/v2/sports/soccer/arg.1/teams/15/schedule" -o /tmp/schedule.json
+          echo "Tamano del archivo:"
+          wc -c /tmp/schedule.json
+          echo "Claves de primer nivel:"
+          python3 -c "import json; d=json.load(open('/tmp/schedule.json')); print(list(d.keys()))"
           echo ""
 
-          echo "=== lastFiveGames (forma reciente por equipo) ==="
-          python3 -c "import json; d=json.load(open('/tmp/summary.json')); lfg=d.get('lastFiveGames',[]); print('Equipos:', len(lfg)); print(json.dumps(lfg[0], ensure_ascii=False)[:1200]) if lfg else print('vacio')"
+          echo "=== Cuantos eventos trae events[] ==="
+          python3 -c "import json; d=json.load(open('/tmp/schedule.json')); ev=d.get('events',[]); print('Total eventos:', len(ev))"
           echo ""
 
-          echo "=== gameInfo (arbitro, clima, asistencia, venue) ==="
-          python3 -c "import json; d=json.load(open('/tmp/summary.json')); print(json.dumps(d.get('gameInfo','NO EXISTE'), ensure_ascii=False)[:1200])"
-          echo ""
-
-          echo "=== Buscamos endpoint de lesiones a nivel equipo (Racing, team id 15) ==="
-          curl -s "https://site.api.espn.com/apis/site/v2/sports/soccer/arg.1/teams/15/injuries" | head -c 800
-          echo ""
-          echo ""
-
-          echo "=== Alternativa: injuries dentro del team info general ==="
-          curl -s "https://site.api.espn.com/apis/site/v2/sports/soccer/arg.1/teams/15" | grep -oi 'injur' | head -5
+          echo "=== Cuantos ya jugados (status completed) ==="
+          python3 -c "import json; d=json.load(open('/tmp/schedule.json')); ev=d.get('events',[]); jugados=[e for e in ev if e.get('competitions',[{}])[0].get('status',{}).get('type',{}).get('completed')]; print('Jugados:', len(jugados)); [print(e.get('date'), '-', e.get('name'), '-', e.get('competitions',[{}])[0].get('status',{}).get('type',{}).get('description')) for e in jugados[:25]]"
