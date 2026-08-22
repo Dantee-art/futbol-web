@@ -11,7 +11,14 @@ import os
 import time
 
 BASE = "https://site.api.espn.com/apis/site/v2/sports/soccer"
-HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; afa-picks-bot/1.0)"}
+
+# Encabezados actualizados para simular un navegador real y evitar bloqueos (403 Forbidden)
+HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+    "Accept-Language": "es-ES,es;q=0.9,en;q=0.8"
+}
+
 CACHE_DIR = "datos/cache"
 
 
@@ -74,3 +81,4 @@ def partidos_jugados_recientes(liga_slug, team_id, n=20):
     ]
     jugados.sort(key=lambda e: e.get("date", ""), reverse=True)
     return jugados[:n]
+    
