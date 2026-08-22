@@ -1,0 +1,37 @@
+name: Actualizar Picks Diarios
+
+on:
+  schedule:
+    - cron: '0 9 * * *'   # 9am UTC = 6am Argentina, ajustalo si queres otro horario
+  workflow_dispatch:        # tambien lo podes correr a mano
+
+jobs:
+  actualizar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 340   # la primera corrida con TODAS las ligas puede tardar bastante
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Instalar dependencias
+        run: pip install requests
+
+      - name: Actualizar datos (trae partidos + historial de todas las ligas)
+        working-directory: scripts
+        run: python actualizar_datos.py
+
+      - name: Generar HTML final
+        working-directory: scripts
+        run: python generar_html.py
+
+      - name: Mover index.html a la raiz del repo
+        run: mv scripts/index.html index.html
+
+      - name: Commitear cambios (datos, cache e index.html)
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Actualizacion automatica de picks diarios"
+          file_pattern: "index.html datos/**"
