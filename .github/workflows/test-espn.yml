@@ -7,13 +7,26 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - name: Test player stats keys
+      - name: Test H2H, gameInfo, injuries
         run: |
           curl -s "https://site.api.espn.com/apis/site/v2/sports/soccer/arg.copa/summary?event=401896387" -o /tmp/summary.json
 
-          echo "=== Claves de cada jugador del primer equipo ==="
-          python3 -c "import json; d=json.load(open('/tmp/summary.json')); r=d.get('rosters',[]); roster=r[0].get('roster',[]) if r else []; [print(p.get('athlete',{}).get('displayName','?'), '->', list(p.keys())) for p in roster[:23]]"
+          echo "=== seasonseries (posible H2H) ==="
+          python3 -c "import json; d=json.load(open('/tmp/summary.json')); print(json.dumps(d.get('seasonseries','NO EXISTE'), ensure_ascii=False)[:1200])"
           echo ""
 
-          echo "=== Buscamos si algun jugador tiene 'stats' o 'statistics' ==="
-          python3 -c "import json; d=json.load(open('/tmp/summary.json')); r=d.get('rosters',[]); roster=r[0].get('roster',[]) if r else []; hits=[p for p in roster if 'stats' in p or 'statistics' in p]; print('Jugadores con stats:', len(hits)); [print(p.get('athlete',{}).get('displayName'), json.dumps(p.get('stats', p.get('statistics')), ensure_ascii=False)) for p in hits]"
+          echo "=== lastFiveGames (forma reciente por equipo) ==="
+          python3 -c "import json; d=json.load(open('/tmp/summary.json')); lfg=d.get('lastFiveGames',[]); print('Equipos:', len(lfg)); print(json.dumps(lfg[0], ensure_ascii=False)[:1200]) if lfg else print('vacio')"
+          echo ""
+
+          echo "=== gameInfo (arbitro, clima, asistencia, venue) ==="
+          python3 -c "import json; d=json.load(open('/tmp/summary.json')); print(json.dumps(d.get('gameInfo','NO EXISTE'), ensure_ascii=False)[:1200])"
+          echo ""
+
+          echo "=== Buscamos endpoint de lesiones a nivel equipo (Racing, team id 15) ==="
+          curl -s "https://site.api.espn.com/apis/site/v2/sports/soccer/arg.1/teams/15/injuries" | head -c 800
+          echo ""
+          echo ""
+
+          echo "=== Alternativa: injuries dentro del team info general ==="
+          curl -s "https://site.api.espn.com/apis/site/v2/sports/soccer/arg.1/teams/15" | grep -oi 'injur' | head -5
