@@ -11,19 +11,19 @@ datos/picks_hoy.json, que despues lee generar_html.py.
 
 import json
 import os
-from datetime import datetime, timezone
+from datetime import datetime, timezone, date
 
 from espn_client import get_scoreboard, get_summary
 from calcular_historial import construir_historial
 from generar_analisis import armar_parrafo_partido, texto_btts
 
-# --- CORRECCIÓN DE RUTAS ABSOLUTAS ---
+# --- RUTAS ABSOLUTAS ---
 DIRECTORIO_SCRIPT = os.path.dirname(os.path.abspath(__file__))
 DIRECTORIO_RAIZ = os.path.dirname(DIRECTORIO_SCRIPT)
 
 CONFIG_PATH = os.path.join(DIRECTORIO_RAIZ, "config", "ligas.json")
 OUTPUT_PATH = os.path.join(DIRECTORIO_RAIZ, "datos", "picks_hoy.json")
-# -------------------------------------
+# -----------------------
 
 HISTORIAL_N = 20  # partidos hacia atras por equipo
 
@@ -63,7 +63,7 @@ def procesar_partido(liga_slug, liga_nombre, evento):
     seasonseries = summary.get("seasonseries", [])
     key_events = summary.get("keyEvents", [])
 
-    # Historial real de cada equipo (esto es lo que mas tarda: recorre ~20 partidos por equipo)
+    # Historial real de cada equipo
     hist_local = construir_historial(liga_slug, local_id, local_nombre, n=HISTORIAL_N)
     hist_visita = construir_historial(liga_slug, visita_id, visita_nombre, n=HISTORIAL_N)
 
@@ -93,6 +93,11 @@ def procesar_partido(liga_slug, liga_nombre, evento):
 
 def main():
     ligas = cargar_ligas()
+    
+    # OBTENEMOS LA FECHA DE HOY EXPLÍCITA (YYYYMMDD)
+    fecha_hoy = date.today().strftime("%Y%m%d")
+    print(f"Buscando partidos para la fecha: {fecha_hoy}")
+
     resultado = {
         "generado": datetime.now(timezone.utc).isoformat(),
         "ligas": [],
@@ -100,14 +105,15 @@ def main():
 
     for slug, nombre in ligas:
         try:
-            scoreboard = get_scoreboard(slug)
+            # PASAMOS LA FECHA EXPLÍCITA A LA API DE ESPN
+            scoreboard = get_scoreboard(slug, fecha_yyyymmdd=fecha_hoy)
         except Exception as e:
-            print(f"[AVISO] Liga {slug} fallo al traer scoreboard: {e}")
+            print(f"[AVISO] Liga {slug} falló al traer scoreboard: {e}")
             continue
 
         eventos = scoreboard.get("events", [])
         if not eventos:
-            continue  # esta liga no juega hoy, seguimos con la proxima
+            continue  # esta liga no juega hoy, seguimos con la próxima
 
         partidos_procesados = []
         for ev in eventos:
@@ -115,7 +121,7 @@ def main():
             try:
                 partidos_procesados.append(procesar_partido(slug, nombre, ev))
             except Exception as e:
-                print(f"[AVISO] Partido {ev.get('id')} de {slug} fallo: {e}")
+                print(f"[AVISO] Partido {ev.get('id')} de {slug} falló: {e}")
 
         if partidos_procesados:
             resultado["ligas"].append({
