@@ -8,9 +8,15 @@ en vez de inventarlo.
 
 import json
 import html as html_lib
+import os  # <-- Importamos os para manejar las rutas
 
-INPUT_PATH = "datos/picks_hoy.json"
-OUTPUT_PATH = "index.html"
+# --- CORRECCIÓN DE RUTAS ABSOLUTAS ---
+DIRECTORIO_SCRIPT = os.path.dirname(os.path.abspath(__file__))
+DIRECTORIO_RAIZ = os.path.dirname(DIRECTORIO_SCRIPT)
+
+INPUT_PATH = os.path.join(DIRECTORIO_RAIZ, "datos", "picks_hoy.json")
+OUTPUT_PATH = os.path.join(DIRECTORIO_RAIZ, "index.html")
+# -------------------------------------
 
 
 def esc(txt):
@@ -233,3 +239,4 @@ footer{padding:18px 20px 30px;font-family:'JetBrains Mono',monospace;font-size:9
 
 if __name__ == "__main__":
     generar()
+    
