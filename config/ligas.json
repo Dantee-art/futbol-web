@@ -1,0 +1,112 @@
+{
+  "_nota": "Lista completa de ligas de futbol soportadas por ESPN (site.api.espn.com/apis/site/v2/sports/soccer/{slug}). Fuente: github.com/pseudo-r/Public-ESPN-API, doc soccer.md. El script recorre esta lista todos los dias y trae los partidos que haya en cada una.",
+
+  "internacional_fifa": {
+    "fifa.world": "Copa del Mundo FIFA",
+    "fifa.wwc": "Copa del Mundo Femenina FIFA",
+    "fifa.cwc": "Mundial de Clubes FIFA",
+    "fifa.worldq.conmebol": "Eliminatorias Sudamericanas",
+    "fifa.worldq.uefa": "Eliminatorias UEFA",
+    "fifa.worldq.concacaf": "Eliminatorias CONCACAF",
+    "fifa.friendly": "Amistoso Internacional"
+  },
+
+  "uefa": {
+    "uefa.champions": "UEFA Champions League",
+    "uefa.champions_qual": "Champions League - Clasificacion",
+    "uefa.europa": "UEFA Europa League",
+    "uefa.europa.conf": "UEFA Conference League",
+    "uefa.super_cup": "Supercopa de Europa",
+    "uefa.euro": "Eurocopa",
+    "uefa.nations": "UEFA Nations League"
+  },
+
+  "sudamerica_conmebol": {
+    "arg.1": "Liga Profesional Argentina",
+    "arg.copa": "Copa Argentina",
+    "conmebol.libertadores": "Copa Libertadores",
+    "conmebol.sudamericana": "Copa Sudamericana",
+    "conmebol.recopa": "Recopa Sudamericana",
+    "conmebol.america": "Copa America",
+    "bra.1": "Brasileirao Serie A",
+    "bra.2": "Brasileirao Serie B",
+    "bra.copa_do_brazil": "Copa do Brasil",
+    "chi.1": "Primera Division de Chile",
+    "col.1": "Primera A de Colombia",
+    "par.1": "Primera Division de Paraguay",
+    "per.1": "Liga 1 de Peru",
+    "uru.1": "Liga AUF Uruguaya",
+    "bol.1": "Liga Profesional de Bolivia",
+    "ecu.1": "LigaPro Ecuador",
+    "ven.1": "Primera Division de Venezuela"
+  },
+
+  "norteamerica_concacaf": {
+    "usa.1": "MLS",
+    "usa.open": "US Open Cup",
+    "usa.nwsl": "NWSL",
+    "mex.1": "Liga MX",
+    "mex.2": "Liga de Expansion MX",
+    "concacaf.champions": "Concacaf Champions Cup",
+    "concacaf.leagues.cup": "Leagues Cup",
+    "concacaf.gold": "Concacaf Gold Cup",
+    "concacaf.nations.league": "Concacaf Nations League"
+  },
+
+  "inglaterra": {
+    "eng.1": "Premier League",
+    "eng.2": "Championship",
+    "eng.fa": "FA Cup",
+    "eng.league_cup": "Carabao Cup"
+  },
+
+  "espana": {
+    "esp.1": "LaLiga",
+    "esp.2": "LaLiga 2",
+    "esp.copa_del_rey": "Copa del Rey",
+    "esp.super_cup": "Supercopa de Espana"
+  },
+
+  "alemania": {
+    "ger.1": "Bundesliga",
+    "ger.2": "2. Bundesliga",
+    "ger.dfb_pokal": "DFB Pokal"
+  },
+
+  "italia": {
+    "ita.1": "Serie A",
+    "ita.2": "Serie B",
+    "ita.coppa_italia": "Coppa Italia"
+  },
+
+  "francia": {
+    "fra.1": "Ligue 1",
+    "fra.2": "Ligue 2",
+    "fra.coupe_de_france": "Coupe de France"
+  },
+
+  "otras_europa": {
+    "ned.1": "Eredivisie (Paises Bajos)",
+    "por.1": "Primeira Liga (Portugal)",
+    "bel.1": "Pro League (Belgica)",
+    "aut.1": "Bundesliga Austriaca",
+    "sco.1": "Premiership Escocesa",
+    "tur.1": "Super Lig (Turquia)",
+    "gre.1": "Super League Griega",
+    "rus.1": "Liga Premier Rusa"
+  },
+
+  "africa_caf": {
+    "caf.nations": "Copa Africana de Naciones",
+    "caf.champions": "CAF Champions League",
+    "rsa.1": "Premiership Sudafricana",
+    "nga.1": "Liga Profesional Nigeriana"
+  },
+
+  "asia_medio_oriente": {
+    "afc.champions": "AFC Champions League Elite",
+    "ksa.1": "Liga Profesional Saudi",
+    "jpn.1": "J.League (Japon)",
+    "chn.1": "Superliga China"
+  }
+}
