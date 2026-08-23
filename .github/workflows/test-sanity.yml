@@ -7,10 +7,30 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - name: Sanity check basico
+      - name: Probar con y sin el parametro dates
         run: |
-          echo "=== curl plano, sin headers, a arg.1 (el que siempre funciono) ==="
-          curl -s -o /dev/null -w "HTTP status: %{http_code}\n" "https://site.api.espn.com/apis/site/v2/sports/soccer/arg.1/scoreboard"
+          echo "=== SIN dates (sabemos que da 200) ==="
+          curl -s -o /dev/null -w "status: %{http_code}\n" "https://site.api.espn.com/apis/site/v2/sports/soccer/arg.1/scoreboard"
+
+          echo "=== CON dates=20260822 (curl plano) ==="
+          curl -s -o /dev/null -w "status: %{http_code}\n" "https://site.api.espn.com/apis/site/v2/sports/soccer/arg.1/scoreboard?dates=20260822"
+          curl -s "https://site.api.espn.com/apis/site/v2/sports/soccer/arg.1/scoreboard?dates=20260822" | head -c 300
           echo ""
-          echo "=== Mismo pedido pero mostrando el cuerpo si falla ==="
-          curl -s "https://site.api.espn.com/apis/site/v2/sports/soccer/arg.1/scoreboard" | head -c 300
+
+          echo "=== Ahora con Python requests, CON dates, con nuestro User-Agent actual ==="
+          python3 -c "
+import requests
+h = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36'}
+r = requests.get('https://site.api.espn.com/apis/site/v2/sports/soccer/arg.1/scoreboard?dates=20260822', headers=h, timeout=20)
+print('status:', r.status_code)
+print(r.text[:300])
+"
+          echo ""
+
+          echo "=== Python requests SIN headers para comparar ==="
+          python3 -c "
+import requests
+r = requests.get('https://site.api.espn.com/apis/site/v2/sports/soccer/arg.1/scoreboard?dates=20260822', timeout=20)
+print('status:', r.status_code)
+print(r.text[:300])
+"
