@@ -77,4 +77,67 @@ def procesar_partido(liga_slug, liga_nombre, evento):
         "fecha": evento.get("date"),
         "estado": comp.get("status", {}).get("type", {}).get("description"),
         "local": {"id": local_id, "nombre": local_nombre},
-        "visita": {"id": visita
+        "visita": {"id": visita_id, "nombre": visita_nombre},
+        "venue": game_info.get("venue", {}),
+        "arbitro": next(
+            (o.get("fullName") for o in game_info.get("officials", []) if o.get("position", {}).get("name") == "Referee"),
+            None,
+        ),
+        "cuotas": pickcenter,
+        "h2h": seasonseries,
+        "eventos_clave": key_events,
+        "historial_local": vars(hist_local),
+        "historial_visita": vars(hist_visita),
+        "pick_mas_seguro": pick,
+        "analisis": analisis_texto,
+    }
+
+
+def main():
+    ligas = cargar_ligas()
+
+    # OBTENEMOS LA FECHA DE HOY EXPLÍCITA (YYYYMMDD)
+    fecha_hoy = date.today().strftime("%Y%m%d")
+    print(f"Buscando partidos para la fecha: {fecha_hoy}")
+
+    resultado = {
+        "generado": datetime.now(timezone.utc).isoformat(),
+        "ligas": [],
+    }
+
+    for slug, nombre in ligas:
+        try:
+            # PASAMOS LA FECHA EXPLÍCITA A LA API DE ESPN
+            scoreboard = get_scoreboard(slug, fecha_yyyymmdd=fecha_hoy)
+        except Exception as e:
+            print(f"[AVISO] Liga {slug} falló al traer scoreboard: {e}")
+            continue
+
+        eventos = scoreboard.get("events", [])
+        if not eventos:
+            continue  # esta liga no juega hoy, seguimos con la próxima
+
+        partidos_procesados = []
+        for ev in eventos:
+            print(f"Procesando {slug}: {ev.get('shortName', ev.get('id'))}")
+            try:
+                partidos_procesados.append(procesar_partido(slug, nombre, ev))
+            except Exception as e:
+                print(f"[AVISO] Partido {ev.get('id')} de {slug} falló: {e}")
+
+        if partidos_procesados:
+            resultado["ligas"].append({
+                "slug": slug,
+                "nombre": nombre,
+                "partidos": partidos_procesados,
+            })
+
+    os.makedirs(os.path.dirname(OUTPUT_PATH), exist_ok=True)
+    with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
+        json.dump(resultado, f, ensure_ascii=False, indent=2)
+
+    print(f"Listo. {sum(len(l['partidos']) for l in resultado['ligas'])} partidos guardados en {OUTPUT_PATH}")
+
+
+if __name__ == "__main__":
+    main()
