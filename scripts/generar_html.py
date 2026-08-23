@@ -23,6 +23,24 @@ def esc(txt):
     return html_lib.escape(str(txt)) if txt is not None else ""
 
 
+def render_pick_seguro(pick):
+    if not pick or not pick.get("disponible"):
+        razon = (pick or {}).get("razon", "Sin datos suficientes.")
+        return f'<div class="redactado">⊘ <b>Sin pick seguro disponible:</b> {esc(razon)}</div>'
+    alternativas = pick.get("alternativas", [])
+    alt_html = ""
+    if alternativas:
+        items = "".join(f'<li>{esc(a["mercado"])}</li>' for a in alternativas)
+        alt_html = f'<div class="fundamento" style="margin-top:6px">Alternativas de respaldo: <ul style="margin-left:16px">{items}</ul></div>'
+    return f'''
+    <div class="pick-destacado" style="background:var(--verified-teal)">
+      <span class="tag" style="color:#e8dcae">Pick más seguro · confianza {esc(pick.get("confianza",""))}</span>
+      <div class="valor">{esc(pick["mercado"])}</div>
+      <div class="fundamento">{esc(pick["justificacion"])}</div>
+      {alt_html}
+    </div>'''
+
+
 def render_cuotas(pickcenter):
     if not pickcenter:
         return '<div class="redactado">⊘ <b>Sin cuota fija disponible</b> para este partido en la fuente.</div>'
@@ -107,7 +125,10 @@ def render_partido(p, idx_global):
       </summary>
       <div class="match-body">
 
-        <div class="section-label">Mercado principal <span class="sello">verificado · pickcenter</span></div>
+        <div class="section-label">Pick más seguro <span class="sello pendiente">cálculo propio, comparando todos los mercados</span></div>
+        {render_pick_seguro(p.get("pick_mas_seguro"))}
+
+        <div class="section-label" style="margin-top:16px">Mercado principal <span class="sello">verificado · pickcenter</span></div>
         {render_cuotas(p.get("cuotas"))}
 
         <div class="section-label" style="margin-top:16px">Historial H2H <span class="sello">verificado · seasonseries</span></div>
@@ -178,7 +199,7 @@ def generar():
 <nav class="indice">{"".join(indice_html)}</nav>
 {"".join(cuerpo_html)}
 <footer>
-  <b>Metodología:</b> cuotas y mercado principal desde pickcenter (ESPN). H2H desde seasonseries. Tarjetas y goles con jugador/minuto desde keyEvents. Remates por equipo desde boxscore. Promedios de historial calculados sobre los últimos {esc(data.get("historial_n","20"))} partidos jugados de cada equipo, vía teams/schedule. Sin córners ni remates por jugador individual: no existen en esta fuente. Sin bajas/lesiones: endpoint sin datos cargados. Análisis narrativo generado con plantillas condicionales en Python, sin IA ni costo de API.
+  <b>Metodología:</b> cuotas y mercado principal desde pickcenter (ESPN). H2H desde seasonseries. Tarjetas y goles con jugador/minuto desde keyEvents. Remates por equipo desde boxscore. Promedios de historial calculados sobre los últimos {esc(data.get("historial_n","20"))} partidos jugados de cada equipo, vía teams/schedule. El "pick más seguro" es un cálculo propio que compara la fuerza estadística de varios mercados (doble oportunidad, goles totales, remates) y elige el de mayor desvío respecto a una línea de referencia — no es una recomendación de casa de apuestas. Sin córners ni remates por jugador individual: no existen en esta fuente. Sin bajas/lesiones: endpoint sin datos cargados. Análisis narrativo generado con plantillas condicionales en Python, sin IA ni costo de API.
 </footer>
 </body>
 </html>'''
@@ -239,4 +260,3 @@ footer{padding:18px 20px 30px;font-family:'JetBrains Mono',monospace;font-size:9
 
 if __name__ == "__main__":
     generar()
-    
