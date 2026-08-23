@@ -11,19 +11,7 @@ import os
 import time
 
 BASE = "https://site.api.espn.com/apis/site/v2/sports/soccer"
-
-# Encabezados avanzados imitando una visita real desde el sitio web de ESPN
-HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
-    "Accept": "application/json, text/plain, */*",
-    "Accept-Language": "es-ES,es;q=0.9,en;q=0.8",
-    "Referer": "https://www.espn.com/",
-    "Origin": "https://www.espn.com",
-    "Sec-Ch-Ua": '"Not A(Brand";v="99", "Google Chrome";v="121", "Chromium";v="121"',
-    "Sec-Ch-Ua-Mobile": "?0",
-    "Sec-Ch-Ua-Platform": '"Windows"',
-}
-
+HEADERS = {}
 CACHE_DIR = "datos/cache"
 
 
@@ -86,4 +74,3 @@ def partidos_jugados_recientes(liga_slug, team_id, n=20):
     ]
     jugados.sort(key=lambda e: e.get("date", ""), reverse=True)
     return jugados[:n]
-    
