@@ -68,6 +68,8 @@ def procesar_partido(liga_slug, liga_nombre, evento):
     hist_visita = construir_historial(liga_slug, visita_id, visita_nombre, n=HISTORIAL_N)
 
     analisis_texto = armar_parrafo_partido(hist_local, hist_visita)
+    pick = pick_mas_seguro(hist_local, hist_visita)
+    
 
     return {
         "event_id": event_id,
