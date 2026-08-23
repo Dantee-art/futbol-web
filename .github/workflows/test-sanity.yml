@@ -1,0 +1,16 @@
+name: Test ESPN API
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Sanity check basico
+        run: |
+          echo "=== curl plano, sin headers, a arg.1 (el que siempre funciono) ==="
+          curl -s -o /dev/null -w "HTTP status: %{http_code}\n" "https://site.api.espn.com/apis/site/v2/sports/soccer/arg.1/scoreboard"
+          echo ""
+          echo "=== Mismo pedido pero mostrando el cuerpo si falla ==="
+          curl -s "https://site.api.espn.com/apis/site/v2/sports/soccer/arg.1/scoreboard" | head -c 300
