@@ -15,7 +15,7 @@ from datetime import datetime, timezone, date
 
 from espn_client import get_scoreboard, get_summary
 from calcular_historial import construir_historial
-from generar_analisis import armar_parrafo_partido, texto_btts
+from generar_analisis import armar_parrafo_partido, pick_mas_seguro
 
 # --- RUTAS ABSOLUTAS ---
 DIRECTORIO_SCRIPT = os.path.dirname(os.path.abspath(__file__))
