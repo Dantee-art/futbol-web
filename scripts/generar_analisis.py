@@ -176,7 +176,7 @@ def evaluar_mercados_candidatos(local: HistorialEquipo, visitante: HistorialEqui
     linea_remates_partido = 23.5
     total_remates = local.remates_totales_prom + visitante.remates_totales_prom
     diff_remates = total_remates - linea_remates_partido
-    score_remates = (abs(diff_remates) / linea_remates_partido) * factor_confianza * 3  # normalizado a escala similar
+    score_remates = (abs(diff_remates) / linea_remates_partido) * factor_confianza
     if abs(diff_remates) > 2:
         veredicto = "Más" if diff_remates > 0 else "Menos"
         candidatos.append({
@@ -193,7 +193,7 @@ def evaluar_mercados_candidatos(local: HistorialEquipo, visitante: HistorialEqui
     linea_remates_equipo = 11.5
     for eq in (local, visitante):
         diff_eq = eq.remates_totales_prom - linea_remates_equipo
-        score_eq = (abs(diff_eq) / linea_remates_equipo) * factor_confianza * 2.5
+        score_eq = (abs(diff_eq) / linea_remates_equipo) * factor_confianza
         if abs(diff_eq) > 2:
             veredicto = "Más" if diff_eq > 0 else "Menos"
             candidatos.append({
@@ -207,7 +207,7 @@ def evaluar_mercados_candidatos(local: HistorialEquipo, visitante: HistorialEqui
 
     # --- 5) Ambos anotan ---
     prom_btts = (local.partidos_ambos_anotan_pct + visitante.partidos_ambos_anotan_pct) / 2
-    score_btts = (abs(prom_btts - 50) / 50) * factor_confianza * 2
+    score_btts = (abs(prom_btts - 50) / 50) * factor_confianza
     if abs(prom_btts - 50) > 12:
         veredicto = "Sí" if prom_btts > 50 else "No"
         candidatos.append({
