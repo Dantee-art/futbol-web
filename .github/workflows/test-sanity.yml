@@ -17,20 +17,9 @@ jobs:
           curl -s "https://site.api.espn.com/apis/site/v2/sports/soccer/arg.1/scoreboard?dates=20260822" | head -c 300
           echo ""
 
-          echo "=== Ahora con Python requests, CON dates, con nuestro User-Agent actual ==="
-          python3 -c "
-import requests
-h = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36'}
-r = requests.get('https://site.api.espn.com/apis/site/v2/sports/soccer/arg.1/scoreboard?dates=20260822', headers=h, timeout=20)
-print('status:', r.status_code)
-print(r.text[:300])
-"
+          echo "=== Python requests CON dates, con nuestro User-Agent actual ==="
+          python3 -c "import requests; h={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36'}; r=requests.get('https://site.api.espn.com/apis/site/v2/sports/soccer/arg.1/scoreboard?dates=20260822', headers=h, timeout=20); print('status:', r.status_code); print(r.text[:300])"
           echo ""
 
           echo "=== Python requests SIN headers para comparar ==="
-          python3 -c "
-import requests
-r = requests.get('https://site.api.espn.com/apis/site/v2/sports/soccer/arg.1/scoreboard?dates=20260822', timeout=20)
-print('status:', r.status_code)
-print(r.text[:300])
-"
+          python3 -c "import requests; r=requests.get('https://site.api.espn.com/apis/site/v2/sports/soccer/arg.1/scoreboard?dates=20260822', timeout=20); print('status:', r.status_code); print(r.text[:300])"
