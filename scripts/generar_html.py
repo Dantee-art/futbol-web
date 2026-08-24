@@ -23,6 +23,25 @@ def esc(txt):
     return html_lib.escape(str(txt)) if txt is not None else ""
 
 
+def render_top5(top5):
+    if not top5:
+        return '<div class="redactado">⊘ Sin picks con suficiente base estadística hoy para armar un Top 5 confiable.</div>'
+    filas = []
+    for i, p in enumerate(top5, start=1):
+        filas.append(f'''
+        <div class="top5-item">
+          <span class="top5-rank">#{i}</span>
+          <div class="top5-body">
+            <div class="top5-liga">{esc(p["liga_nombre"])}</div>
+            <div class="top5-partido">{esc(p["local"])} vs. {esc(p["visita"])}</div>
+            <div class="top5-mercado">{esc(p["mercado"])}</div>
+            <div class="top5-justif">{esc(p["justificacion"])}</div>
+            <div class="top5-meta">Confianza {esc(p["confianza"])} · base {esc(p["n_min"])} partidos comparables</div>
+          </div>
+        </div>''')
+    return "".join(filas)
+
+
 def render_pick_seguro(pick):
     if not pick or not pick.get("disponible"):
         razon = (pick or {}).get("razon", "Sin datos suficientes.")
@@ -123,12 +142,7 @@ def render_partido(p, idx_global):
           <div class="match-meta">{esc(venue)} · Árbitro: {esc(arbitro)} · {esc(p.get("estado",""))}</div>
         </div>
       </summary>
-      <div class="match-body">
-
-        <div class="section-label">Pick más seguro <span class="sello pendiente">cálculo propio, comparando todos los mercados</span></div>
-        {render_pick_seguro(p.get("pick_mas_seguro"))}
-
-        <div class="section-label" style="margin-top:16px">Mercado principal <span class="sello">verificado · pickcenter</span></div>
+< truncated lines 145-150 >
         {render_cuotas(p.get("cuotas"))}
 
         <div class="section-label" style="margin-top:16px">Historial H2H <span class="sello">verificado · seasonseries</span></div>
@@ -197,6 +211,10 @@ def generar():
   <div class="subtitulo">Todos los datos provienen de la API pública de ESPN. Ningún número es estimado ni inventado; lo que falta se marca como no disponible.</div>
 </header>
 <nav class="indice">{"".join(indice_html)}</nav>
+<section class="top5-section">
+  <div class="section-label" style="font-size:12px">Top 5 picks del día · todas las ligas <span class="sello pendiente">ranking global, cálculo propio</span></div>
+  {render_top5(data.get("top5_dia", []))}
+</section>
 {"".join(cuerpo_html)}
 <footer>
   <b>Metodología:</b> cuotas y mercado principal desde pickcenter (ESPN). H2H desde seasonseries. Tarjetas y goles con jugador/minuto desde keyEvents. Remates por equipo desde boxscore. Promedios de historial calculados sobre los últimos {esc(data.get("historial_n","20"))} partidos jugados de cada equipo, vía teams/schedule. El "pick más seguro" es un cálculo propio que compara la fuerza estadística de varios mercados (doble oportunidad, goles totales, remates) y elige el de mayor desvío respecto a una línea de referencia — no es una recomendación de casa de apuestas. Sin córners ni remates por jugador individual: no existen en esta fuente. Sin bajas/lesiones: endpoint sin datos cargados. Análisis narrativo generado con plantillas condicionales en Python, sin IA ni costo de API.
@@ -256,6 +274,15 @@ h1{font-family:'Special Elite',monospace;font-size:26px;margin-bottom:6px;}
 .stat-val{font-family:'JetBrains Mono',monospace;font-size:14px;font-weight:700;color:var(--verified-teal);}
 .analisis-parrafo{font-size:12.5px;line-height:1.6;}
 footer{padding:18px 20px 30px;font-family:'JetBrains Mono',monospace;font-size:9.5px;color:var(--pencil);line-height:1.7;}
+.top5-section{padding:16px 20px 20px;border-bottom:3px double var(--ink);background:rgba(47,94,82,0.05);}
+.top5-item{display:flex;gap:12px;padding:12px 0;border-bottom:1px dashed var(--rule);}
+.top5-item:last-child{border-bottom:none;}
+.top5-rank{font-family:'Special Elite',monospace;font-size:22px;color:var(--verified-teal);width:36px;flex-shrink:0;}
+.top5-liga{font-family:'JetBrains Mono',monospace;font-size:9px;text-transform:uppercase;letter-spacing:1px;color:var(--pencil);}
+.top5-partido{font-family:'Special Elite',monospace;font-size:14px;margin:2px 0;}
+.top5-mercado{font-size:13px;font-weight:600;color:var(--verified-teal);}
+.top5-justif{font-size:11.5px;color:var(--ink-soft);margin-top:2px;}
+.top5-meta{font-family:'JetBrains Mono',monospace;font-size:9px;color:var(--pencil);margin-top:4px;}
 """
 
 if __name__ == "__main__":
