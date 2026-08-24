@@ -252,11 +252,14 @@ def pick_mas_seguro(local: HistorialEquipo, visitante: HistorialEquipo) -> dict:
 
     mejor = candidatos[0]
     alternativas = candidatos[1:3]  # hasta 2 alternativas de respaldo
+    n_min = min(local.partidos_evaluados, visitante.partidos_evaluados)
     return {
         "disponible": True,
         "mercado": mejor["mercado"],
         "justificacion": mejor["justificacion"],
         "confianza": mejor["confianza"],
+        "score": mejor["score"],
+        "n_min": n_min,
         "alternativas": alternativas,
     }
 
