@@ -137,6 +137,7 @@ def main():
                         "justificacion": pick["justificacion"],
                         "confianza": pick["confianza"],
                         "score": pick["score"],
+                        "probabilidad": pick["probabilidad"],
                         "n_min": pick["n_min"],
                     })
             except Exception as e:
@@ -161,3 +162,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+    
