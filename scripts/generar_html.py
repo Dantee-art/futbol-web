@@ -4,23 +4,40 @@ Lee datos/picks_hoy.json (armado por actualizar_datos.py) y genera
 index.html: el expediente completo del dia, agrupado por liga.
 Si un dato puntual no vino de ESPN, se muestra como "no disponible"
 en vez de inventarlo.
+
+Incluye una calculadora de EV+ (valor esperado) en JavaScript puro,
+sin backend: el usuario carga la cuota decimal que ve en su casa de
+apuestas y la pagina calcula al instante si tiene valor, usando la
+probabilidad empirica real que ya viene calculada desde Python.
 """
 
 import json
 import html as html_lib
-import os  # <-- Importamos os para manejar las rutas
+import os
 
-# --- CORRECCIÓN DE RUTAS ABSOLUTAS ---
 DIRECTORIO_SCRIPT = os.path.dirname(os.path.abspath(__file__))
 DIRECTORIO_RAIZ = os.path.dirname(DIRECTORIO_SCRIPT)
 
 INPUT_PATH = os.path.join(DIRECTORIO_RAIZ, "datos", "picks_hoy.json")
 OUTPUT_PATH = os.path.join(DIRECTORIO_RAIZ, "index.html")
-# -------------------------------------
 
 
 def esc(txt):
     return html_lib.escape(str(txt)) if txt is not None else ""
+
+
+def render_ev_calc(probabilidad):
+    """Calculadora de EV+ en JS puro. probabilidad viene 0-100 desde Python."""
+    if probabilidad is None:
+        return ""
+    return f'''
+    <div class="ev-calc" data-prob="{esc(probabilidad)}">
+      <label class="ev-label">¿Qué cuota ves en tu casa? (probabilidad propia: {esc(probabilidad)}%)</label>
+      <div class="ev-row">
+        <input type="number" step="0.01" min="1.01" placeholder="ej: 1.85" class="ev-input" oninput="calcularEV(this)">
+        <span class="ev-resultado">—</span>
+      </div>
+    </div>'''
 
 
 def render_top5(top5):
@@ -36,7 +53,8 @@ def render_top5(top5):
             <div class="top5-partido">{esc(p["local"])} vs. {esc(p["visita"])}</div>
             <div class="top5-mercado">{esc(p["mercado"])}</div>
             <div class="top5-justif">{esc(p["justificacion"])}</div>
-            <div class="top5-meta">Confianza {esc(p["confianza"])} · base {esc(p["n_min"])} partidos comparables</div>
+            <div class="top5-meta">Confianza {esc(p["confianza"])} · probabilidad propia {esc(p.get("probabilidad",""))}% · base {esc(p["n_min"])} partidos comparables</div>
+            {render_ev_calc(p.get("probabilidad"))}
           </div>
         </div>''')
     return "".join(filas)
@@ -49,14 +67,15 @@ def render_pick_seguro(pick):
     alternativas = pick.get("alternativas", [])
     alt_html = ""
     if alternativas:
-        items = "".join(f'<li>{esc(a["mercado"])}</li>' for a in alternativas)
+        items = "".join(f'<li>{esc(a["mercado"])} — {esc(a.get("probabilidad",""))}%</li>' for a in alternativas)
         alt_html = f'<div class="fundamento" style="margin-top:6px">Alternativas de respaldo: <ul style="margin-left:16px">{items}</ul></div>'
     return f'''
     <div class="pick-destacado" style="background:var(--verified-teal)">
-      <span class="tag" style="color:#e8dcae">Pick más seguro · confianza {esc(pick.get("confianza",""))}</span>
+      <span class="tag" style="color:#e8dcae">Pick más seguro · confianza {esc(pick.get("confianza",""))} · probabilidad propia {esc(pick.get("probabilidad",""))}%</span>
       <div class="valor">{esc(pick["mercado"])}</div>
       <div class="fundamento">{esc(pick["justificacion"])}</div>
       {alt_html}
+      {render_ev_calc(pick.get("probabilidad"))}
     </div>'''
 
 
@@ -142,7 +161,12 @@ def render_partido(p, idx_global):
           <div class="match-meta">{esc(venue)} · Árbitro: {esc(arbitro)} · {esc(p.get("estado",""))}</div>
         </div>
       </summary>
-< truncated lines 145-150 >
+      <div class="match-body">
+
+        <div class="section-label">Pick más seguro <span class="sello pendiente">cálculo propio, comparando todos los mercados</span></div>
+        {render_pick_seguro(p.get("pick_mas_seguro"))}
+
+        <div class="section-label" style="margin-top:16px">Mercado principal <span class="sello">verificado · pickcenter</span></div>
         {render_cuotas(p.get("cuotas"))}
 
         <div class="section-label" style="margin-top:16px">Historial H2H <span class="sello">verificado · seasonseries</span></div>
@@ -208,7 +232,7 @@ def generar():
 <span class="folder-tab">EXPEDIENTE DIARIO · ACTUALIZADO {esc(generado)}</span>
 <header>
   <h1>Picks del día</h1>
-  <div class="subtitulo">Todos los datos provienen de la API pública de ESPN. Ningún número es estimado ni inventado; lo que falta se marca como no disponible.</div>
+  <div class="subtitulo">Todos los datos provienen de la API pública de ESPN. Ningún número es estimado ni inventado; lo que falta se marca como no disponible. La probabilidad de cada pick es empírica (cuántos partidos reales superaron esa línea), no una suposición.</div>
 </header>
 <nav class="indice">{"".join(indice_html)}</nav>
 <section class="top5-section">
@@ -217,8 +241,26 @@ def generar():
 </section>
 {"".join(cuerpo_html)}
 <footer>
-  <b>Metodología:</b> cuotas y mercado principal desde pickcenter (ESPN). H2H desde seasonseries. Tarjetas y goles con jugador/minuto desde keyEvents. Remates por equipo desde boxscore. Promedios de historial calculados sobre los últimos {esc(data.get("historial_n","20"))} partidos jugados de cada equipo, vía teams/schedule. El "pick más seguro" es un cálculo propio que compara la fuerza estadística de varios mercados (doble oportunidad, goles totales, remates) y elige el de mayor desvío respecto a una línea de referencia — no es una recomendación de casa de apuestas. Sin córners ni remates por jugador individual: no existen en esta fuente. Sin bajas/lesiones: endpoint sin datos cargados. Análisis narrativo generado con plantillas condicionales en Python, sin IA ni costo de API.
+  <b>Metodología:</b> cuotas y mercado principal desde pickcenter (ESPN). H2H desde seasonseries. Tarjetas y goles con jugador/minuto desde keyEvents. Remates por equipo desde boxscore. El "pick más seguro" evalúa TODOS los mercados posibles (doble oportunidad, goles totales y por equipo en varias líneas, tarjetas totales en varias líneas, remates totales en varias líneas, ambos anotan) usando la probabilidad empírica real de los últimos partidos jugados de cada equipo, y elige la línea con mayor desvío del 50/50. La calculadora de EV+ es JavaScript puro en tu navegador: cargás la cuota decimal que ves en tu casa de apuestas y calcula al instante si hay valor esperado positivo contra la probabilidad propia calculada arriba — no se envía ningún dato a ningún servidor. Sin córners ni remates por jugador individual: no existen en esta fuente. Sin bajas/lesiones: endpoint sin datos cargados. Análisis narrativo generado con plantillas condicionales en Python, sin IA ni costo de API.
 </footer>
+<script>
+function calcularEV(input) {{
+  var contenedor = input.closest('.ev-calc');
+  var prob = parseFloat(contenedor.dataset.prob) / 100;
+  var cuota = parseFloat(input.value);
+  var resultado = contenedor.querySelector('.ev-resultado');
+  if (!cuota || cuota <= 1 || isNaN(cuota)) {{
+    resultado.textContent = '—';
+    resultado.style.color = '';
+    return;
+  }}
+  var ev = (prob * cuota - 1) * 100;
+  var signo = ev >= 0 ? '+' : '';
+  resultado.textContent = signo + ev.toFixed(1) + '% EV';
+  resultado.style.color = ev >= 0 ? '#2f5e52' : '#a23324';
+  resultado.style.fontWeight = '700';
+}}
+</script>
 </body>
 </html>'''
 
@@ -283,7 +325,14 @@ footer{padding:18px 20px 30px;font-family:'JetBrains Mono',monospace;font-size:9
 .top5-mercado{font-size:13px;font-weight:600;color:var(--verified-teal);}
 .top5-justif{font-size:11.5px;color:var(--ink-soft);margin-top:2px;}
 .top5-meta{font-family:'JetBrains Mono',monospace;font-size:9px;color:var(--pencil);margin-top:4px;}
+.ev-calc{margin-top:10px;background:rgba(255,255,255,0.06);border:1px dashed rgba(255,255,255,0.25);border-radius:4px;padding:8px 10px;}
+.top5-item .ev-calc{background:rgba(47,94,82,0.06);border:1px dashed var(--rule);}
+.ev-label{font-family:'JetBrains Mono',monospace;font-size:9px;display:block;margin-bottom:5px;opacity:0.85;}
+.ev-row{display:flex;align-items:center;gap:8px;}
+.ev-input{width:70px;padding:4px 6px;border-radius:3px;border:1px solid var(--rule);font-family:'JetBrains Mono',monospace;font-size:12px;background:var(--paper);color:var(--ink);}
+.ev-resultado{font-family:'JetBrains Mono',monospace;font-size:12px;font-weight:700;}
 """
 
 if __name__ == "__main__":
     generar()
+    
