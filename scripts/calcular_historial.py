@@ -91,4 +91,9 @@ def construir_historial(liga_slug, team_id, nombre_equipo, n=20):
         remates_totales_prom=round(prom("remates_totales"), 2),
         remates_arco_prom=round(prom("remates_arco"), 2),
         partidos_ambos_anotan_pct=round(pct_btts, 1),
-    )
+        goles_favor_lista=[a["goles_favor"] for a in acumulado],
+        goles_contra_lista=[a["goles_contra"] for a in acumulado],
+        tarjetas_lista=[a["tarjetas"] for a in acumulado],
+        remates_totales_lista=[a["remates_totales"] for a in acumulado],
+        )
+        
