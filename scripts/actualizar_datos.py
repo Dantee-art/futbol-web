@@ -103,7 +103,10 @@ def main():
     resultado = {
         "generado": datetime.now(timezone.utc).isoformat(),
         "ligas": [],
+        "top5_dia": [],
     }
+
+    picks_del_dia = []  # aca vamos juntando el mejor pick de cada partido, de todas las ligas
 
     for slug, nombre in ligas:
         try:
@@ -118,10 +121,24 @@ def main():
             continue  # esta liga no juega hoy, seguimos con la próxima
 
         partidos_procesados = []
-        for ev in eventos:
+        for idx_liga, ev in enumerate(eventos):
             print(f"Procesando {slug}: {ev.get('shortName', ev.get('id'))}")
             try:
-                partidos_procesados.append(procesar_partido(slug, nombre, ev))
+                p = procesar_partido(slug, nombre, ev)
+                partidos_procesados.append(p)
+                pick = p.get("pick_mas_seguro") or {}
+                if pick.get("disponible") and pick.get("n_min", 0) >= 10:
+                    picks_del_dia.append({
+                        "liga_nombre": nombre,
+                        "liga_slug": slug,
+                        "local": p["local"]["nombre"],
+                        "visita": p["visita"]["nombre"],
+                        "mercado": pick["mercado"],
+                        "justificacion": pick["justificacion"],
+                        "confianza": pick["confianza"],
+                        "score": pick["score"],
+                        "n_min": pick["n_min"],
+                    })
             except Exception as e:
                 print(f"[AVISO] Partido {ev.get('id')} de {slug} falló: {e}")
 
@@ -131,6 +148,9 @@ def main():
                 "nombre": nombre,
                 "partidos": partidos_procesados,
             })
+
+    picks_del_dia.sort(key=lambda p: p["score"], reverse=True)
+    resultado["top5_dia"] = picks_del_dia[:5]
 
     os.makedirs(os.path.dirname(OUTPUT_PATH), exist_ok=True)
     with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
