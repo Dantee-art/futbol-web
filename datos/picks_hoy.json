@@ -1,5 +1,5 @@
 {
-  "generado": "2026-08-25T17:31:44.599779+00:00",
+  "generado": "2026-08-25T17:42:53.347350+00:00",
   "fecha": "20260825",
   "ligas": [
     {
@@ -11,7 +11,7 @@
           "liga_slug": "uefa.champions_qual",
           "liga_nombre": "Champions League - Clasificacion",
           "fecha": "2026-08-25T16:45Z",
-          "estado": "First Half",
+          "estado": "Halftime",
           "local": {
             "id": "21922",
             "nombre": "Sabah FK"
@@ -569,7 +569,31 @@
                     "odds": "-125"
                   },
                   "live": {
-                    "odds": "OFF"
+                    "odds": "+115",
+                    "link": {
+                      "language": "en-US",
+                      "rel": [
+                        "home",
+                        "desktop",
+                        "bets",
+                        "draftkings---live-odds"
+                      ],
+                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34547613%3Foutcomes%3D0ML85951334_1",
+                      "text": "Home Bet",
+                      "shortText": "Home Bet",
+                      "isExternal": true,
+                      "isPremium": false,
+                      "tracking": {
+                        "campaign": "betting-integrations",
+                        "tags": {
+                          "league": "uefa.champions_qual",
+                          "sport": "soccer",
+                          "gameId": 401909192,
+                          "betSide": "home",
+                          "betType": "straight"
+                        }
+                      }
+                    }
                   }
                 },
                 "away": {
@@ -604,7 +628,7 @@
                     "odds": "+275"
                   },
                   "live": {
-                    "odds": "+285",
+                    "odds": "+290",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -663,7 +687,7 @@
                     "odds": "+290"
                   },
                   "live": {
-                    "odds": "+185",
+                    "odds": "+190",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -728,8 +752,32 @@
                     "odds": "-140"
                   },
                   "live": {
-                    "line": "OFF",
-                    "odds": "OFF"
+                    "line": "-0.5",
+                    "odds": "+105",
+                    "link": {
+                      "language": "en-US",
+                      "rel": [
+                        "homeSpread",
+                        "desktop",
+                        "bets"
+                      ],
+                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34547613%3Foutcomes%3D0HC85951340N50_1",
+                      "text": "Home Point Spread",
+                      "shortText": "Home Point Spread",
+                      "isExternal": true,
+                      "isPremium": false,
+                      "tracking": {
+                        "campaign": "betting-integrations",
+                        "tags": {
+                          "league": "uefa.champions_qual",
+                          "sport": "soccer",
+                          "gameId": 401909192,
+                          "betSide": "none",
+                          "betType": "straight",
+                          "betDetails": "Spread:SAB-0.5"
+                        }
+                      }
+                    }
                   }
                 },
                 "away": {
@@ -766,8 +814,8 @@
                     "odds": "-110"
                   },
                   "live": {
-                    "line": "OFF",
-                    "odds": "-165",
+                    "line": "+0.5",
+                    "odds": "-155",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -788,7 +836,7 @@
                           "gameId": 401909192,
                           "betSide": "none",
                           "betType": "straight",
-                          "betDetails": "Spread:HBEOFF"
+                          "betDetails": "Spread:HBE+0.5"
                         }
                       }
                     }
@@ -833,7 +881,7 @@
                   },
                   "live": {
                     "line": "o3.5",
-                    "odds": "-133",
+                    "odds": "-137",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -895,7 +943,7 @@
                   },
                   "live": {
                     "line": "u3.5",
-                    "odds": "-107",
+                    "odds": "-104",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -1154,8 +1202,8 @@
                 "number": 1
               },
               "clock": {
-                "value": 263.0,
-                "displayValue": "5'"
+                "value": 143.0,
+                "displayValue": "3'"
               },
               "scoringPlay": false,
               "team": {
@@ -1166,7 +1214,7 @@
                 "id": "38",
                 "description": "SA.ENVOY"
               },
-              "wallclock": "2026-08-25T16:50:13Z",
+              "wallclock": "2026-08-25T16:48:13Z",
               "shootout": false
             },
             {
@@ -1180,8 +1228,8 @@
                 "number": 1
               },
               "clock": {
-                "value": 290.0,
-                "displayValue": "5'"
+                "value": 145.0,
+                "displayValue": "3'"
               },
               "scoringPlay": false,
               "team": {
@@ -1192,7 +1240,7 @@
                 "id": "38",
                 "description": "SA.ENVOY"
               },
-              "wallclock": "2026-08-25T16:50:41Z",
+              "wallclock": "2026-08-25T16:48:16Z",
               "shootout": false
             },
             {
@@ -1228,7 +1276,7 @@
                 "id": "38",
                 "description": "SA.ENVOY"
               },
-              "wallclock": "2026-08-25T16:54:58Z",
+              "wallclock": "2026-08-25T16:54:57Z",
               "shootout": false,
               "goalPositionY": 51.0,
               "fieldPositionX": 84.5,
@@ -1523,7 +1571,7 @@
                 "id": "38",
                 "description": "SA.ENVOY"
               },
-              "wallclock": "2026-08-25T17:20:20Z",
+              "wallclock": "2026-08-25T17:20:19Z",
               "shootout": false
             },
             {
@@ -1617,6 +1665,135 @@
                 "description": "SA.ENVOY"
               },
               "wallclock": "2026-08-25T17:25:00Z",
+              "shootout": false
+            },
+            {
+              "id": "51419535",
+              "type": {
+                "id": "129",
+                "text": "Start Delay",
+                "type": "start-delay"
+              },
+              "text": "Delay in match because of an injury Miguel Vítor (Hapoel Be'er Sheva).",
+              "period": {
+                "number": 1
+              },
+              "clock": {
+                "value": 2700.0,
+                "displayValue": "45'+1'"
+              },
+              "scoringPlay": false,
+              "team": {
+                "id": "13083",
+                "displayName": "Hapoel Be'er"
+              },
+              "source": {
+                "id": "38",
+                "description": "SA.ENVOY"
+              },
+              "wallclock": "2026-08-25T17:31:39Z",
+              "shootout": false
+            },
+            {
+              "id": "51419536",
+              "type": {
+                "id": "129",
+                "text": "Start Delay",
+                "type": "start-delay"
+              },
+              "period": {
+                "number": 1
+              },
+              "clock": {
+                "value": 2700.0,
+                "displayValue": "45'+1'"
+              },
+              "scoringPlay": false,
+              "team": {
+                "id": "21922",
+                "displayName": "Sabah FK"
+              },
+              "source": {
+                "id": "38",
+                "description": "SA.ENVOY"
+              },
+              "wallclock": "2026-08-25T17:31:40Z",
+              "shootout": false
+            },
+            {
+              "id": "51419539",
+              "type": {
+                "id": "130",
+                "text": "End Delay",
+                "type": "end-delay"
+              },
+              "text": "Delay over. They are ready to continue.",
+              "period": {
+                "number": 1
+              },
+              "clock": {
+                "value": 2700.0,
+                "displayValue": "45'+3'"
+              },
+              "scoringPlay": false,
+              "team": {
+                "id": "13083",
+                "displayName": "Hapoel Be'er"
+              },
+              "source": {
+                "id": "38",
+                "description": "SA.ENVOY"
+              },
+              "wallclock": "2026-08-25T17:32:58Z",
+              "shootout": false
+            },
+            {
+              "id": "51419537",
+              "type": {
+                "id": "130",
+                "text": "End Delay",
+                "type": "end-delay"
+              },
+              "period": {
+                "number": 1
+              },
+              "clock": {
+                "value": 2700.0,
+                "displayValue": "45'+3'"
+              },
+              "scoringPlay": false,
+              "team": {
+                "id": "21922",
+                "displayName": "Sabah FK"
+              },
+              "source": {
+                "id": "38",
+                "description": "SA.ENVOY"
+              },
+              "wallclock": "2026-08-25T17:32:59Z",
+              "shootout": false
+            },
+            {
+              "id": "51419564",
+              "type": {
+                "id": "81",
+                "text": "Halftime",
+                "type": "halftime"
+              },
+              "text": "First Half ends, Sabah 1, Hapoel Be'er Sheva 1.",
+              "period": {
+                "number": 1
+              },
+              "clock": {
+                "value": 2700.0,
+                "displayValue": "45'+4'"
+              },
+              "scoringPlay": false,
+              "source": {
+                "id": "38",
+                "description": "SA.ENVOY"
+              },
+              "wallclock": "2026-08-25T17:34:40Z",
               "shootout": false
             }
           ],
@@ -7660,8 +7837,8 @@
               "details": "CRU +100",
               "overUnder": 2.5,
               "spread": -0.5,
-              "overOdds": 115.0,
-              "underOdds": -155.0,
+              "overOdds": 120.0,
+              "underOdds": -160.0,
               "awayTeamOdds": {
                 "favorite": false,
                 "underdog": true,
@@ -8318,7 +8495,7 @@
                 "over": {
                   "close": {
                     "line": "o2.5",
-                    "odds": "+115",
+                    "odds": "+120",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -8352,7 +8529,7 @@
                 "under": {
                   "close": {
                     "line": "u2.5",
-                    "odds": "-155",
+                    "odds": "-160",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -24363,7 +24540,7 @@
               "details": "NOR +135",
               "overUnder": 3.5,
               "spread": 0.5,
-              "overOdds": 130.0,
+              "overOdds": 135.0,
               "underOdds": -170.0,
               "awayTeamOdds": {
                 "favorite": true,
@@ -25021,7 +25198,7 @@
                 "over": {
                   "close": {
                     "line": "o3.5",
-                    "odds": "+130",
+                    "odds": "+135",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -26242,7 +26419,7 @@
                   }
                 ]
               },
-              "details": "LCN +110",
+              "details": "LCN +120",
               "overUnder": 2.5,
               "spread": 0.5,
               "overOdds": -130.0,
@@ -26250,8 +26427,8 @@
               "awayTeamOdds": {
                 "favorite": true,
                 "underdog": false,
-                "moneyLine": 110,
-                "spreadOdds": 105.0,
+                "moneyLine": 120,
+                "spreadOdds": 115.0,
                 "team": {
                   "id": "314",
                   "uid": "s:600~t:314",
@@ -26391,8 +26568,8 @@
               "homeTeamOdds": {
                 "favorite": false,
                 "underdog": true,
-                "moneyLine": 215,
-                "spreadOdds": -150.0,
+                "moneyLine": 205,
+                "spreadOdds": -160.0,
                 "team": {
                   "id": "346",
                   "uid": "s:600~t:346",
@@ -26530,7 +26707,7 @@
                 "favoriteAtOpen": false
               },
               "drawOdds": {
-                "moneyLine": 245.0
+                "moneyLine": 240.0
               },
               "links": [
                 {
@@ -26730,7 +26907,7 @@
                 "shortDisplayName": "ML",
                 "home": {
                   "close": {
-                    "odds": "+215",
+                    "odds": "+205",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -26762,7 +26939,7 @@
                 },
                 "away": {
                   "close": {
-                    "odds": "+110",
+                    "odds": "+120",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -26794,7 +26971,7 @@
                 },
                 "draw": {
                   "close": {
-                    "odds": "+245",
+                    "odds": "+240",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -26831,7 +27008,7 @@
                 "home": {
                   "close": {
                     "line": "+0.5",
-                    "odds": "-150",
+                    "odds": "-160",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -26865,7 +27042,7 @@
                 "away": {
                   "close": {
                     "line": "-0.5",
-                    "odds": "+105",
+                    "odds": "+115",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -29775,7 +29952,7 @@
                   }
                 ]
               },
-              "details": "COV -160",
+              "details": "COV -165",
               "overUnder": 2.5,
               "spread": 0.5,
               "overOdds": -160.0,
@@ -29783,8 +29960,8 @@
               "awayTeamOdds": {
                 "favorite": true,
                 "underdog": false,
-                "moneyLine": -160,
-                "spreadOdds": -170.0,
+                "moneyLine": -165,
+                "spreadOdds": -175.0,
                 "team": {
                   "id": "388",
                   "uid": "s:600~t:388",
@@ -29924,8 +30101,8 @@
               "homeTeamOdds": {
                 "favorite": false,
                 "underdog": true,
-                "moneyLine": 360,
-                "spreadOdds": 120.0,
+                "moneyLine": 370,
+                "spreadOdds": 125.0,
                 "team": {
                   "id": "307",
                   "uid": "s:600~t:307",
@@ -30063,7 +30240,7 @@
                 "favoriteAtOpen": false
               },
               "drawOdds": {
-                "moneyLine": 300.0
+                "moneyLine": 310.0
               },
               "links": [
                 {
@@ -30263,7 +30440,7 @@
                 "shortDisplayName": "ML",
                 "home": {
                   "close": {
-                    "odds": "+360",
+                    "odds": "+370",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -30295,7 +30472,7 @@
                 },
                 "away": {
                   "close": {
-                    "odds": "-160",
+                    "odds": "-165",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -30327,7 +30504,7 @@
                 },
                 "draw": {
                   "close": {
-                    "odds": "+300",
+                    "odds": "+310",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -30364,7 +30541,7 @@
                 "home": {
                   "close": {
                     "line": "+0.5",
-                    "odds": "+120",
+                    "odds": "+125",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -30398,7 +30575,7 @@
                 "away": {
                   "close": {
                     "line": "-0.5",
-                    "odds": "-170",
+                    "odds": "-175",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -31535,16 +31712,16 @@
                   }
                 ]
               },
-              "details": "WOL -210",
+              "details": "WOL -195",
               "overUnder": 2.5,
               "spread": 1.5,
-              "overOdds": -145.0,
-              "underOdds": 115.0,
+              "overOdds": -140.0,
+              "underOdds": 110.0,
               "awayTeamOdds": {
                 "favorite": true,
                 "underdog": false,
-                "moneyLine": -210,
-                "spreadOdds": 135.0,
+                "moneyLine": -195,
+                "spreadOdds": 145.0,
                 "team": {
                   "id": "380",
                   "uid": "s:600~t:380",
@@ -31684,8 +31861,8 @@
               "homeTeamOdds": {
                 "favorite": false,
                 "underdog": true,
-                "moneyLine": 475,
-                "spreadOdds": -190.0,
+                "moneyLine": 450,
+                "spreadOdds": -200.0,
                 "team": {
                   "id": "399",
                   "uid": "s:600~t:399",
@@ -31823,7 +32000,7 @@
                 "favoriteAtOpen": false
               },
               "drawOdds": {
-                "moneyLine": 340.0
+                "moneyLine": 320.0
               },
               "links": [
                 {
@@ -32023,7 +32200,7 @@
                 "shortDisplayName": "ML",
                 "home": {
                   "close": {
-                    "odds": "+475",
+                    "odds": "+450",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -32055,7 +32232,7 @@
                 },
                 "away": {
                   "close": {
-                    "odds": "-210",
+                    "odds": "-195",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -32087,7 +32264,7 @@
                 },
                 "draw": {
                   "close": {
-                    "odds": "+340",
+                    "odds": "+320",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -32124,7 +32301,7 @@
                 "home": {
                   "close": {
                     "line": "+1.5",
-                    "odds": "-190",
+                    "odds": "-200",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -32158,7 +32335,7 @@
                 "away": {
                   "close": {
                     "line": "-1.5",
-                    "odds": "+135",
+                    "odds": "+145",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -32196,7 +32373,7 @@
                 "over": {
                   "close": {
                     "line": "o2.5",
-                    "odds": "-145",
+                    "odds": "-140",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -32230,7 +32407,7 @@
                 "under": {
                   "close": {
                     "line": "u2.5",
-                    "odds": "+115",
+                    "odds": "+110",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -33397,15 +33574,15 @@
                   }
                 ]
               },
-              "details": "LEY +120",
+              "details": "LEY +115",
               "overUnder": 2.5,
               "spread": 0.5,
-              "overOdds": -115.0,
-              "underOdds": -110.0,
+              "overOdds": -110.0,
+              "underOdds": -115.0,
               "awayTeamOdds": {
                 "favorite": true,
                 "underdog": false,
-                "moneyLine": 120,
+                "moneyLine": 115,
                 "spreadOdds": 110.0,
                 "team": {
                   "id": "309",
@@ -33546,7 +33723,7 @@
               "homeTeamOdds": {
                 "favorite": false,
                 "underdog": true,
-                "moneyLine": 205,
+                "moneyLine": 210,
                 "spreadOdds": -155.0,
                 "team": {
                   "id": "401",
@@ -33885,7 +34062,7 @@
                 "shortDisplayName": "ML",
                 "home": {
                   "close": {
-                    "odds": "+205",
+                    "odds": "+210",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -33917,7 +34094,7 @@
                 },
                 "away": {
                   "close": {
-                    "odds": "+120",
+                    "odds": "+115",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -34058,7 +34235,7 @@
                 "over": {
                   "close": {
                     "line": "o2.5",
-                    "odds": "-115",
+                    "odds": "-110",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -34092,7 +34269,7 @@
                 "under": {
                   "close": {
                     "line": "u2.5",
-                    "odds": "-110",
+                    "odds": "-115",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -35157,7 +35334,7 @@
                   }
                 ]
               },
-              "details": "BRE -120",
+              "details": "BRE -115",
               "overUnder": 2.5,
               "spread": 0.5,
               "overOdds": -135.0,
@@ -35165,7 +35342,7 @@
               "awayTeamOdds": {
                 "favorite": true,
                 "underdog": false,
-                "moneyLine": -120,
+                "moneyLine": -115,
                 "spreadOdds": -125.0,
                 "team": {
                   "id": "337",
@@ -35306,8 +35483,8 @@
               "homeTeamOdds": {
                 "favorite": false,
                 "underdog": true,
-                "moneyLine": 290,
-                "spreadOdds": -110.0,
+                "moneyLine": 280,
+                "spreadOdds": -115.0,
                 "team": {
                   "id": "392",
                   "uid": "s:600~t:392",
@@ -35445,7 +35622,7 @@
                 "favoriteAtOpen": false
               },
               "drawOdds": {
-                "moneyLine": 260.0
+                "moneyLine": 255.0
               },
               "links": [
                 {
@@ -35645,7 +35822,7 @@
                 "shortDisplayName": "ML",
                 "home": {
                   "close": {
-                    "odds": "+290",
+                    "odds": "+280",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -35677,7 +35854,7 @@
                 },
                 "away": {
                   "close": {
-                    "odds": "-120",
+                    "odds": "-115",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -35709,7 +35886,7 @@
                 },
                 "draw": {
                   "close": {
-                    "odds": "+260",
+                    "odds": "+255",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -35746,7 +35923,7 @@
                 "home": {
                   "close": {
                     "line": "+0.5",
-                    "odds": "-110",
+                    "odds": "-115",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -39642,7 +39819,7 @@
                     "odds": "-165"
                   },
                   "live": {
-                    "odds": "+140",
+                    "odds": "+200",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -39701,7 +39878,7 @@
                     "odds": "+400"
                   },
                   "live": {
-                    "odds": "+600",
+                    "odds": "+800",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -39760,7 +39937,7 @@
                     "odds": "+295"
                   },
                   "live": {
-                    "odds": "+100",
+                    "odds": "-165",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -39826,7 +40003,7 @@
                   },
                   "live": {
                     "line": "-0.5",
-                    "odds": "+130",
+                    "odds": "+190",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -39888,7 +40065,7 @@
                   },
                   "live": {
                     "line": "+0.5",
-                    "odds": "-190",
+                    "odds": "-290",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -39954,7 +40131,7 @@
                   },
                   "live": {
                     "line": "o0.5",
-                    "odds": "-180",
+                    "odds": "+110",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -40016,7 +40193,7 @@
                   },
                   "live": {
                     "line": "u0.5",
-                    "odds": "+125",
+                    "odds": "-158",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -41008,6 +41185,252 @@
               },
               "wallclock": "2026-08-25T17:32:52Z",
               "shootout": false
+            },
+            {
+              "id": "51419568",
+              "type": {
+                "id": "94",
+                "text": "Yellow Card",
+                "type": "yellow-card"
+              },
+              "text": "Abdulraouf Al Dakheel (Al Fayha) Yellow Card at 70'",
+              "shortText": "Abdulraouf Al Dakheel Yellow Car",
+              "period": {
+                "number": 2
+              },
+              "clock": {
+                "value": 4174.0,
+                "displayValue": "70'"
+              },
+              "scoringPlay": false,
+              "team": {
+                "id": "21827",
+                "displayName": "Al Fayha"
+              },
+              "participants": [
+                {
+                  "athlete": {
+                    "id": "371413",
+                    "displayName": "Abdulraouf Al Dakheel"
+                  }
+                }
+              ],
+              "source": {
+                "id": "38",
+                "description": "SA.ENVOY"
+              },
+              "wallclock": "2026-08-25T17:37:15Z",
+              "shootout": false
+            },
+            {
+              "id": "51419590",
+              "type": {
+                "id": "76",
+                "text": "Substitution",
+                "type": "substitution"
+              },
+              "text": "Saif Rashad Mohamed (Al Taawoun) Substitution at 73'",
+              "shortText": "Saif Rashad Mohamed Substitution",
+              "period": {
+                "number": 2
+              },
+              "clock": {
+                "value": 4324.0,
+                "displayValue": "73'"
+              },
+              "scoringPlay": false,
+              "team": {
+                "id": "18459",
+                "displayName": "Al Taawoun"
+              },
+              "participants": [
+                {
+                  "athlete": {
+                    "id": "372880",
+                    "displayName": "Saif Rashad Mohamed"
+                  }
+                },
+                {
+                  "athlete": {
+                    "id": "252559",
+                    "displayName": "Nedim Bajrami"
+                  }
+                }
+              ],
+              "source": {
+                "id": "38",
+                "description": "SA.ENVOY"
+              },
+              "wallclock": "2026-08-25T17:39:45Z",
+              "shootout": false
+            },
+            {
+              "id": "51419591",
+              "type": {
+                "id": "76",
+                "text": "Substitution",
+                "type": "substitution"
+              },
+              "text": "Bassem Al-Arini (Al Taawoun) Substitution at 73'",
+              "shortText": "Bassem Al-Arini Substitution",
+              "period": {
+                "number": 2
+              },
+              "clock": {
+                "value": 4335.0,
+                "displayValue": "73'"
+              },
+              "scoringPlay": false,
+              "team": {
+                "id": "18459",
+                "displayName": "Al Taawoun"
+              },
+              "participants": [
+                {
+                  "athlete": {
+                    "id": "391105",
+                    "displayName": "Bassem Al-Arini"
+                  }
+                },
+                {
+                  "athlete": {
+                    "id": "410512",
+                    "displayName": "Younes El Bahraoui"
+                  }
+                }
+              ],
+              "source": {
+                "id": "38",
+                "description": "SA.ENVOY"
+              },
+              "wallclock": "2026-08-25T17:39:57Z",
+              "shootout": false
+            },
+            {
+              "id": "51419571",
+              "type": {
+                "id": "76",
+                "text": "Substitution",
+                "type": "substitution"
+              },
+              "text": "Mohammed Al Dowaish (Al Fayha) Substitution at 73'",
+              "shortText": "Mohammed Al Dowaish Substitution",
+              "period": {
+                "number": 2
+              },
+              "clock": {
+                "value": 4364.0,
+                "displayValue": "73'"
+              },
+              "scoringPlay": false,
+              "team": {
+                "id": "21827",
+                "displayName": "Al Fayha"
+              },
+              "participants": [
+                {
+                  "athlete": {
+                    "id": "371420",
+                    "displayName": "Mohammed Al Dowaish"
+                  }
+                },
+                {
+                  "athlete": {
+                    "id": "3127891",
+                    "displayName": "Fahad Majed Mohammed Alhubayshi"
+                  }
+                }
+              ],
+              "source": {
+                "id": "38",
+                "description": "SA.ENVOY"
+              },
+              "wallclock": "2026-08-25T17:40:25Z",
+              "shootout": false
+            },
+            {
+              "id": "51419574",
+              "type": {
+                "id": "76",
+                "text": "Substitution",
+                "type": "substitution"
+              },
+              "text": "Ahmed Bamasud (Al Fayha) Substitution at 73'",
+              "shortText": "Ahmed Bamasud Substitution",
+              "period": {
+                "number": 2
+              },
+              "clock": {
+                "value": 4379.0,
+                "displayValue": "73'"
+              },
+              "scoringPlay": false,
+              "team": {
+                "id": "21827",
+                "displayName": "Al Fayha"
+              },
+              "participants": [
+                {
+                  "athlete": {
+                    "id": "350707",
+                    "displayName": "Ahmed Bamasud"
+                  }
+                },
+                {
+                  "athlete": {
+                    "id": "289907",
+                    "displayName": "Lázaro"
+                  }
+                }
+              ],
+              "source": {
+                "id": "38",
+                "description": "SA.ENVOY"
+              },
+              "wallclock": "2026-08-25T17:40:40Z",
+              "shootout": false
+            },
+            {
+              "id": "51419608",
+              "type": {
+                "id": "76",
+                "text": "Substitution",
+                "type": "substitution"
+              },
+              "text": "Mansor Faiez Al-Beshe (Al Fayha) Substitution at 78'",
+              "shortText": "Mansor Faiez Al-Beshe Substituti",
+              "period": {
+                "number": 2
+              },
+              "clock": {
+                "value": 4629.0,
+                "displayValue": "78'"
+              },
+              "scoringPlay": false,
+              "team": {
+                "id": "21827",
+                "displayName": "Al Fayha"
+              },
+              "participants": [
+                {
+                  "athlete": {
+                    "id": "288758",
+                    "displayName": "Mansor Faiez Al-Beshe"
+                  }
+                },
+                {
+                  "athlete": {
+                    "id": "349836",
+                    "displayName": "Nawaf Al-Harthi"
+                  }
+                }
+              ],
+              "source": {
+                "id": "38",
+                "description": "SA.ENVOY"
+              },
+              "wallclock": "2026-08-25T17:44:50Z",
+              "shootout": false
             }
           ],
           "historial_local": {
@@ -41357,7 +41780,7 @@
                   }
                 ]
               },
-              "details": "NSR -400",
+              "details": "NSR -425",
               "overUnder": 3.5,
               "spread": 1.5,
               "overOdds": -135.0,
@@ -41365,7 +41788,7 @@
               "awayTeamOdds": {
                 "favorite": true,
                 "underdog": false,
-                "moneyLine": -400,
+                "moneyLine": -425,
                 "spreadOdds": -155.0,
                 "team": {
                   "id": "817",
@@ -41533,7 +41956,7 @@
               "homeTeamOdds": {
                 "favorite": false,
                 "underdog": true,
-                "moneyLine": 800,
+                "moneyLine": 850,
                 "spreadOdds": 110.0,
                 "team": {
                   "id": "8363",
@@ -41899,7 +42322,7 @@
                 "shortDisplayName": "ML",
                 "home": {
                   "close": {
-                    "odds": "+800",
+                    "odds": "+850",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -41931,7 +42354,7 @@
                 },
                 "away": {
                   "close": {
-                    "odds": "-400",
+                    "odds": "-425",
                     "link": {
                       "language": "en-US",
                       "rel": [
