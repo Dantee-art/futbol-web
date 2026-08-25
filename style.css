@@ -1,0 +1,215 @@
+/* RESET Y CONFIGURACIÓN GENERAL OSCURA */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+    padding-bottom: 70px; /* Espacio para el menú inferior */
+}
+
+/* BARRA SUPERIOR DE MERCADOS (Desplazable horizontalmente) */
+.top-markets {
+    display: flex;
+    overflow-x: auto;
+    background-color: #181818;
+    padding: 12px 10px;
+    gap: 10px;
+    border-bottom: 1px solid #2a2a2a;
+    white-space: nowrap;
+}
+
+.market-btn {
+    background: transparent;
+    border: none;
+    color: #888;
+    font-size: 0.9rem;
+    font-weight: 600;
+    padding: 6px 12px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.market-btn.active {
+    color: #fff;
+    background-color: #2e7d32; /* Verde estilo scouter */
+}
+
+/* CONTENEDOR PRINCIPAL */
+.container {
+    padding: 15px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* SECCIÓN DE LIGA */
+.league-section {
+    margin-bottom: 20px;
+}
+
+.league-title-bar {
+    background-color: #1e1e1e;
+    padding: 10px 15px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 10px;
+    border-left: 4px solid #4caf50;
+}
+
+.toggle-arrow {
+    font-size: 0.8rem;
+    color: #aaa;
+    transition: transform 0.3s;
+}
+
+/* TARJETA DE PARTIDO */
+.match-card {
+    background-color: #1a1a1a;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    border: 1px solid #2a2a2a;
+    overflow: hidden;
+}
+
+/* ETIQUETA SUPERIOR DE PREDICCIÓN */
+.prediction-banner {
+    background-color: #2d5a27; /* Verde oscuro */
+    color: #fff;
+    text-align: center;
+    font-size: 0.75rem;
+    font-weight: bold;
+    padding: 4px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.prediction-banner.local-bg {
+    background-color: #2d5a27;
+}
+
+/* CUERPO DEL PARTIDO (Equipos y Cuotas) */
+.match-body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+}
+
+.team-side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 35%;
+    text-align: center;
+    gap: 6px;
+}
+
+.team-text {
+    font-size: 0.85rem;
+    font-weight: 500;
+}
+
+.odd-box {
+    background-color: #262626;
+    color: #fff;
+    padding: 6px 14px;
+    border-radius: 4px;
+    font-size: 0.85rem;
+    font-weight: bold;
+    border: 1px solid #333;
+}
+
+.center-status {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    gap: 2px;
+}
+
+.score-box {
+    background-color: #2a2a2a;
+    color: #4caf50;
+    font-weight: bold;
+    font-size: 0.9rem;
+    padding: 2px 8px;
+    border-radius: 4px;
+}
+
+.date-text {
+    font-size: 0.65rem;
+    color: #888;
+}
+
+/* BARRAS DE PROBABILIDAD INTERNAS */
+.stats-collapse-content {
+    background-color: #141414;
+    padding: 10px 15px;
+    border-top: 1px solid #222;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.prob-row {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.prob-label {
+    font-size: 0.75rem;
+    color: #aaa;
+}
+
+.bar-container {
+    background-color: #262626;
+    height: 6px;
+    border-radius: 3px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.bar-fill {
+    height: 100%;
+    border-radius: 3px;
+}
+
+.bar-fill.visit { background-color: #e53935; } /* Rojo/Rosa de visitante */
+.bar-fill.goal { background-color: #4caf50; }  /* Verde de goles */
+.bar-fill.local { background-color: #4caf50; }
+
+/* MENÚ INFERIOR FIJO */
+.bottom-nav {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #181818;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    border-top: 1px solid #2a2a2a;
+    z-index: 1000;
+}
+
+.nav-item {
+    color: #777;
+    text-decoration: none;
+    font-size: 0.75rem;
+    text-align: center;
+}
+
+.nav-item.active {
+    color: #4caf50;
+    font-weight: bold;
+}
+
