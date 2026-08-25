@@ -1,5 +1,5 @@
 {
-  "generado": "2026-08-25T01:27:52.914729+00:00",
+  "generado": "2026-08-25T10:06:07.735316+00:00",
   "fecha": "20260825",
   "ligas": [
     {
@@ -54,8 +54,8 @@
               "details": "SAB -110",
               "overUnder": 2.5,
               "spread": -0.5,
-              "overOdds": -130.0,
-              "underOdds": 100.0,
+              "overOdds": -135.0,
+              "underOdds": 105.0,
               "awayTeamOdds": {
                 "favorite": false,
                 "underdog": true,
@@ -339,7 +339,7 @@
                 "favoriteAtOpen": true
               },
               "drawOdds": {
-                "moneyLine": 275.0
+                "moneyLine": 280.0
               },
               "links": [
                 {
@@ -603,7 +603,7 @@
                 },
                 "draw": {
                   "close": {
-                    "odds": "+275",
+                    "odds": "+280",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -712,7 +712,7 @@
                 "over": {
                   "close": {
                     "line": "o2.5",
-                    "odds": "-130",
+                    "odds": "-135",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -746,7 +746,7 @@
                 "under": {
                   "close": {
                     "line": "u2.5",
-                    "odds": "+100",
+                    "odds": "+105",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -1241,16 +1241,16 @@
                   }
                 ]
               },
-              "details": "IDV -180",
+              "details": "IDV -170",
               "overUnder": 2.5,
               "spread": -0.5,
-              "overOdds": 110.0,
+              "overOdds": 115.0,
               "underOdds": -155.0,
               "awayTeamOdds": {
                 "favorite": false,
                 "underdog": true,
                 "moneyLine": 500,
-                "spreadOdds": 140.0,
+                "spreadOdds": 130.0,
                 "team": {
                   "id": "5489",
                   "uid": "s:600~t:5489",
@@ -1417,8 +1417,8 @@
               "homeTeamOdds": {
                 "favorite": true,
                 "underdog": false,
-                "moneyLine": -180,
-                "spreadOdds": -195.0,
+                "moneyLine": -170,
+                "spreadOdds": -185.0,
                 "team": {
                   "id": "17086",
                   "uid": "s:600~t:17086",
@@ -1583,7 +1583,7 @@
                 "favoriteAtOpen": true
               },
               "drawOdds": {
-                "moneyLine": 295.0
+                "moneyLine": 285.0
               },
               "links": [
                 {
@@ -1783,7 +1783,7 @@
                 "shortDisplayName": "ML",
                 "home": {
                   "close": {
-                    "odds": "-180",
+                    "odds": "-170",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -1847,7 +1847,7 @@
                 },
                 "draw": {
                   "close": {
-                    "odds": "+295",
+                    "odds": "+285",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -1884,7 +1884,7 @@
                 "home": {
                   "close": {
                     "line": "-0.5",
-                    "odds": "-195",
+                    "odds": "-185",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -1918,7 +1918,7 @@
                 "away": {
                   "close": {
                     "line": "+0.5",
-                    "odds": "+140",
+                    "odds": "+130",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -1956,7 +1956,7 @@
                 "over": {
                   "close": {
                     "line": "o2.5",
-                    "odds": "+110",
+                    "odds": "+115",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -2925,7 +2925,7 @@
                   }
                 ]
               },
-              "details": "AGO +110",
+              "details": "AGO +115",
               "overUnder": 2.5,
               "spread": -0.5,
               "overOdds": 145.0,
@@ -2933,7 +2933,7 @@
               "awayTeamOdds": {
                 "favorite": false,
                 "underdog": true,
-                "moneyLine": 275,
+                "moneyLine": 265,
                 "spreadOdds": -145.0,
                 "team": {
                   "id": "10281",
@@ -3101,7 +3101,7 @@
               "homeTeamOdds": {
                 "favorite": true,
                 "underdog": false,
-                "moneyLine": 110,
+                "moneyLine": 115,
                 "spreadOdds": 105.0,
                 "team": {
                   "id": "10357",
@@ -3267,7 +3267,7 @@
                 "favoriteAtOpen": true
               },
               "drawOdds": {
-                "moneyLine": 210.0
+                "moneyLine": 215.0
               },
               "links": [
                 {
@@ -3467,7 +3467,7 @@
                 "shortDisplayName": "ML",
                 "home": {
                   "close": {
-                    "odds": "+110",
+                    "odds": "+115",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -3499,7 +3499,7 @@
                 },
                 "away": {
                   "close": {
-                    "odds": "+275",
+                    "odds": "+265",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -3531,7 +3531,7 @@
                 },
                 "draw": {
                   "close": {
-                    "odds": "+210",
+                    "odds": "+215",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -4967,8 +4967,8 @@
               "details": "JUV +105",
               "overUnder": 2.5,
               "spread": -0.5,
-              "overOdds": 135.0,
-              "underOdds": -185.0,
+              "overOdds": 140.0,
+              "underOdds": -190.0,
               "awayTeamOdds": {
                 "favorite": false,
                 "underdog": true,
@@ -5679,7 +5679,7 @@
                 "over": {
                   "close": {
                     "line": "o2.5",
-                    "odds": "+135",
+                    "odds": "+140",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -5713,7 +5713,7 @@
                 "under": {
                   "close": {
                     "line": "u2.5",
-                    "odds": "-185",
+                    "odds": "-190",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -7016,11 +7016,11 @@
               "overUnder": 2.5,
               "spread": -0.5,
               "overOdds": 115.0,
-              "underOdds": -155.0,
+              "underOdds": -150.0,
               "awayTeamOdds": {
                 "favorite": false,
                 "underdog": true,
-                "moneyLine": 300,
+                "moneyLine": 290,
                 "spreadOdds": -130.0,
                 "team": {
                   "id": "7632",
@@ -7300,7 +7300,7 @@
                 "favoriteAtOpen": true
               },
               "drawOdds": {
-                "moneyLine": 220.0
+                "moneyLine": 225.0
               },
               "links": [
                 {
@@ -7532,7 +7532,7 @@
                 },
                 "away": {
                   "close": {
-                    "odds": "+300",
+                    "odds": "+290",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -7564,7 +7564,7 @@
                 },
                 "draw": {
                   "close": {
-                    "odds": "+220",
+                    "odds": "+225",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -7707,7 +7707,7 @@
                 "under": {
                   "close": {
                     "line": "u2.5",
-                    "odds": "-155",
+                    "odds": "-150",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -11652,7 +11652,7 @@
               "awayTeamOdds": {
                 "favorite": false,
                 "underdog": true,
-                "moneyLine": 235,
+                "moneyLine": 225,
                 "spreadOdds": -155.0,
                 "team": {
                   "id": "9761",
@@ -11986,7 +11986,7 @@
                 "favoriteAtOpen": true
               },
               "drawOdds": {
-                "moneyLine": 205.0
+                "moneyLine": 220.0
               },
               "links": [
                 {
@@ -12218,7 +12218,7 @@
                 },
                 "away": {
                   "close": {
-                    "odds": "+235",
+                    "odds": "+225",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -12250,7 +12250,7 @@
                 },
                 "draw": {
                   "close": {
-                    "odds": "+205",
+                    "odds": "+220",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -15185,16 +15185,16 @@
                   }
                 ]
               },
-              "details": "GUA +145",
+              "details": "GUA +160",
               "overUnder": 2.5,
               "spread": 0.5,
-              "overOdds": 130.0,
-              "underOdds": -210.0,
+              "overOdds": 140.0,
+              "underOdds": -205.0,
               "awayTeamOdds": {
                 "favorite": true,
                 "underdog": false,
-                "moneyLine": 145,
-                "spreadOdds": 140.0,
+                "moneyLine": 160,
+                "spreadOdds": 150.0,
                 "team": {
                   "id": "7385",
                   "uid": "s:600~t:7385",
@@ -15361,8 +15361,8 @@
               "homeTeamOdds": {
                 "favorite": false,
                 "underdog": true,
-                "moneyLine": 175,
-                "spreadOdds": -215.0,
+                "moneyLine": 170,
+                "spreadOdds": -220.0,
                 "team": {
                   "id": "6097",
                   "uid": "s:600~t:6097",
@@ -15527,7 +15527,7 @@
                 "favoriteAtOpen": false
               },
               "drawOdds": {
-                "moneyLine": 200.0
+                "moneyLine": 195.0
               },
               "links": [
                 {
@@ -15727,7 +15727,7 @@
                 "shortDisplayName": "ML",
                 "home": {
                   "close": {
-                    "odds": "+175",
+                    "odds": "+170",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -15759,7 +15759,7 @@
                 },
                 "away": {
                   "close": {
-                    "odds": "+145",
+                    "odds": "+160",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -15791,7 +15791,7 @@
                 },
                 "draw": {
                   "close": {
-                    "odds": "+200",
+                    "odds": "+195",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -15828,7 +15828,7 @@
                 "home": {
                   "close": {
                     "line": "+0.5",
-                    "odds": "-215",
+                    "odds": "-220",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -15862,7 +15862,7 @@
                 "away": {
                   "close": {
                     "line": "-0.5",
-                    "odds": "+140",
+                    "odds": "+150",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -15900,7 +15900,7 @@
                 "over": {
                   "close": {
                     "line": "o2.5",
-                    "odds": "+130",
+                    "odds": "+140",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -15934,7 +15934,7 @@
                 "under": {
                   "close": {
                     "line": "u2.5",
-                    "odds": "-210",
+                    "odds": "-205",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -17260,16 +17260,16 @@
                   }
                 ]
               },
-              "details": "GVSJ -115",
+              "details": "GVSJ -120",
               "overUnder": 3.5,
               "spread": -0.5,
               "overOdds": 115.0,
-              "underOdds": -165.0,
+              "underOdds": -160.0,
               "awayTeamOdds": {
                 "favorite": false,
                 "underdog": true,
-                "moneyLine": 240,
-                "spreadOdds": -125.0,
+                "moneyLine": 250,
+                "spreadOdds": -115.0,
                 "team": {
                   "id": "2682",
                   "uid": "s:600~t:2682",
@@ -17436,8 +17436,8 @@
               "homeTeamOdds": {
                 "favorite": true,
                 "underdog": false,
-                "moneyLine": -115,
-                "spreadOdds": -120.0,
+                "moneyLine": -120,
+                "spreadOdds": -125.0,
                 "team": {
                   "id": "22174",
                   "uid": "s:600~t:22174",
@@ -17602,7 +17602,7 @@
                 "favoriteAtOpen": true
               },
               "drawOdds": {
-                "moneyLine": 275.0
+                "moneyLine": 285.0
               },
               "links": [
                 {
@@ -17802,7 +17802,7 @@
                 "shortDisplayName": "ML",
                 "home": {
                   "close": {
-                    "odds": "-115",
+                    "odds": "-120",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -17834,7 +17834,7 @@
                 },
                 "away": {
                   "close": {
-                    "odds": "+240",
+                    "odds": "+250",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -17866,7 +17866,7 @@
                 },
                 "draw": {
                   "close": {
-                    "odds": "+275",
+                    "odds": "+285",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -17903,7 +17903,7 @@
                 "home": {
                   "close": {
                     "line": "-0.5",
-                    "odds": "-120",
+                    "odds": "-125",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -17937,7 +17937,7 @@
                 "away": {
                   "close": {
                     "line": "+0.5",
-                    "odds": "-125",
+                    "odds": "-115",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -18009,7 +18009,7 @@
                 "under": {
                   "close": {
                     "line": "u3.5",
-                    "odds": "-165",
+                    "odds": "-160",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -19281,7 +19281,845 @@
             },
             "images": []
           },
-          "cuotas": [],
+          "cuotas": [
+            {
+              "provider": {
+                "id": "100",
+                "name": "DraftKings",
+                "priority": 1,
+                "logos": [
+                  {
+                    "href": "https://a.espncdn.com/i/betting/Draftkings_Light.svg",
+                    "rel": [
+                      "light"
+                    ]
+                  },
+                  {
+                    "href": "https://a.espncdn.com/i/betting/Draftkings_Dark.svg",
+                    "rel": [
+                      "dark"
+                    ]
+                  }
+                ]
+              },
+              "details": "UDV +120",
+              "overUnder": 2.5,
+              "spread": -0.5,
+              "overOdds": -170.0,
+              "underOdds": 120.0,
+              "awayTeamOdds": {
+                "favorite": false,
+                "underdog": true,
+                "moneyLine": 185,
+                "spreadOdds": -165.0,
+                "team": {
+                  "id": "10311",
+                  "uid": "s:600~t:10311",
+                  "location": "Nacional Potosí",
+                  "name": "Nacional Potosí",
+                  "abbreviation": "POT",
+                  "displayName": "Nacional Potosí",
+                  "shortDisplayName": "N Potosí",
+                  "color": "212121",
+                  "isActive": true,
+                  "links": [
+                    {
+                      "language": "en-US",
+                      "rel": [
+                        "clubhouse",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/soccer/club/_/id/10311/nacional-potosi",
+                      "text": "Clubhouse",
+                      "shortText": "Clubhouse",
+                      "isExternal": false,
+                      "isPremium": false
+                    },
+                    {
+                      "language": "en-US",
+                      "rel": [
+                        "stats",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/soccer/team/stats/_/id/10311/nacional-potosi",
+                      "text": "Stats",
+                      "shortText": "Stats",
+                      "isExternal": false,
+                      "isPremium": false
+                    },
+                    {
+                      "language": "en-US",
+                      "rel": [
+                        "stats",
+                        "sportscenter",
+                        "app",
+                        "team"
+                      ],
+                      "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:10311&section=stats",
+                      "text": "Stats",
+                      "shortText": "Stats",
+                      "isExternal": false,
+                      "isPremium": false
+                    },
+                    {
+                      "language": "en-US",
+                      "rel": [
+                        "schedule",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/soccer/team/fixtures/_/id/10311/nacional-potosi",
+                      "text": "Fixtures",
+                      "shortText": "Fixtures",
+                      "isExternal": false,
+                      "isPremium": false
+                    },
+                    {
+                      "language": "en-US",
+                      "rel": [
+                        "schedule",
+                        "sportscenter",
+                        "app",
+                        "team"
+                      ],
+                      "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:10311&section=scores",
+                      "text": "Fixtures",
+                      "shortText": "Fixtures",
+                      "isExternal": false,
+                      "isPremium": false
+                    },
+                    {
+                      "language": "en-US",
+                      "rel": [
+                        "results",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/soccer/team/results/_/id/10311/nacional-potosi",
+                      "text": "Results",
+                      "shortText": "Results",
+                      "isExternal": false,
+                      "isPremium": false
+                    },
+                    {
+                      "language": "en-US",
+                      "rel": [
+                        "results",
+                        "sportscenter",
+                        "app",
+                        "team"
+                      ],
+                      "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:10311&section=scores",
+                      "text": "Results",
+                      "shortText": "Results",
+                      "isExternal": false,
+                      "isPremium": false
+                    },
+                    {
+                      "language": "en-US",
+                      "rel": [
+                        "standings",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/soccer/standings/_/league/bol.1",
+                      "text": "Standings",
+                      "shortText": "Standings",
+                      "isExternal": false,
+                      "isPremium": false
+                    },
+                    {
+                      "language": "en-US",
+                      "rel": [
+                        "standings",
+                        "sportscenter",
+                        "app",
+                        "team"
+                      ],
+                      "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:10311&section=standings",
+                      "text": "Standings",
+                      "shortText": "Standings",
+                      "isExternal": false,
+                      "isPremium": false
+                    },
+                    {
+                      "language": "en-US",
+                      "rel": [
+                        "squad",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/soccer/team/squad/_/id/10311/nacional-potosi",
+                      "text": "Squad",
+                      "shortText": "Squad",
+                      "isExternal": false,
+                      "isPremium": false
+                    },
+                    {
+                      "language": "en-US",
+                      "rel": [
+                        "squad",
+                        "sportscenter",
+                        "app",
+                        "team"
+                      ],
+                      "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:10311&section=squad",
+                      "text": "Squad",
+                      "shortText": "Squad",
+                      "isExternal": false,
+                      "isPremium": false
+                    }
+                  ]
+                },
+                "favoriteAtOpen": false
+              },
+              "homeTeamOdds": {
+                "favorite": true,
+                "underdog": false,
+                "moneyLine": 120,
+                "spreadOdds": 110.0,
+                "team": {
+                  "id": "21379",
+                  "uid": "s:600~t:21379",
+                  "location": "Universitario de Vinto",
+                  "name": "Universitario de Vinto",
+                  "abbreviation": "UDV",
+                  "displayName": "Universitario de Vinto",
+                  "shortDisplayName": "Univ. de Vinto",
+                  "color": "000000",
+                  "isActive": true,
+                  "links": [
+                    {
+                      "language": "en-US",
+                      "rel": [
+                        "clubhouse",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/soccer/club/_/id/21379/universitario-de-vinto",
+                      "text": "Clubhouse",
+                      "shortText": "Clubhouse",
+                      "isExternal": false,
+                      "isPremium": false
+                    },
+                    {
+                      "language": "en-US",
+                      "rel": [
+                        "stats",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/soccer/team/stats/_/id/21379/universitario-de-vinto",
+                      "text": "Stats",
+                      "shortText": "Stats",
+                      "isExternal": false,
+                      "isPremium": false
+                    },
+                    {
+                      "language": "en-US",
+                      "rel": [
+                        "stats",
+                        "sportscenter",
+                        "app",
+                        "team"
+                      ],
+                      "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:21379&section=stats",
+                      "text": "Stats",
+                      "shortText": "Stats",
+                      "isExternal": false,
+                      "isPremium": false
+                    },
+                    {
+                      "language": "en-US",
+                      "rel": [
+                        "schedule",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/soccer/team/fixtures/_/id/21379/universitario-de-vinto",
+                      "text": "Fixtures",
+                      "shortText": "Fixtures",
+                      "isExternal": false,
+                      "isPremium": false
+                    },
+                    {
+                      "language": "en-US",
+                      "rel": [
+                        "schedule",
+                        "sportscenter",
+                        "app",
+                        "team"
+                      ],
+                      "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:21379&section=scores",
+                      "text": "Fixtures",
+                      "shortText": "Fixtures",
+                      "isExternal": false,
+                      "isPremium": false
+                    },
+                    {
+                      "language": "en-US",
+                      "rel": [
+                        "results",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/soccer/team/results/_/id/21379/universitario-de-vinto",
+                      "text": "Results",
+                      "shortText": "Results",
+                      "isExternal": false,
+                      "isPremium": false
+                    },
+                    {
+                      "language": "en-US",
+                      "rel": [
+                        "results",
+                        "sportscenter",
+                        "app",
+                        "team"
+                      ],
+                      "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:21379&section=scores",
+                      "text": "Results",
+                      "shortText": "Results",
+                      "isExternal": false,
+                      "isPremium": false
+                    },
+                    {
+                      "language": "en-US",
+                      "rel": [
+                        "standings",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/soccer/standings/_/league/bol.1",
+                      "text": "Standings",
+                      "shortText": "Standings",
+                      "isExternal": false,
+                      "isPremium": false
+                    },
+                    {
+                      "language": "en-US",
+                      "rel": [
+                        "standings",
+                        "sportscenter",
+                        "app",
+                        "team"
+                      ],
+                      "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:21379&section=standings",
+                      "text": "Standings",
+                      "shortText": "Standings",
+                      "isExternal": false,
+                      "isPremium": false
+                    },
+                    {
+                      "language": "en-US",
+                      "rel": [
+                        "squad",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/soccer/team/squad/_/id/21379/universitario-de-vinto",
+                      "text": "Squad",
+                      "shortText": "Squad",
+                      "isExternal": false,
+                      "isPremium": false
+                    },
+                    {
+                      "language": "en-US",
+                      "rel": [
+                        "squad",
+                        "sportscenter",
+                        "app",
+                        "team"
+                      ],
+                      "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:21379&section=squad",
+                      "text": "Squad",
+                      "shortText": "Squad",
+                      "isExternal": false,
+                      "isPremium": false
+                    }
+                  ]
+                },
+                "favoriteAtOpen": true
+              },
+              "drawOdds": {
+                "moneyLine": 245.0
+              },
+              "links": [
+                {
+                  "language": "en-US",
+                  "rel": [
+                    "home",
+                    "desktop",
+                    "bets",
+                    "draftkings"
+                  ],
+                  "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34570421%3Foutcomes%3D0ML86014065_1",
+                  "text": "Home Bet",
+                  "shortText": "Home Bet",
+                  "isExternal": true,
+                  "isPremium": false,
+                  "tracking": {
+                    "campaign": "betting-integrations",
+                    "tags": {
+                      "league": "bol.1",
+                      "sport": "soccer",
+                      "gameId": 401906496,
+                      "betSide": "home",
+                      "betType": "straight"
+                    }
+                  }
+                },
+                {
+                  "language": "en-US",
+                  "rel": [
+                    "away",
+                    "desktop",
+                    "bets",
+                    "draftkings"
+                  ],
+                  "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34570421%3Foutcomes%3D0ML86014065_3",
+                  "text": "Away Bet",
+                  "shortText": "Away Bet",
+                  "isExternal": true,
+                  "isPremium": false,
+                  "tracking": {
+                    "campaign": "betting-integrations",
+                    "tags": {
+                      "league": "bol.1",
+                      "sport": "soccer",
+                      "gameId": 401906496,
+                      "betSide": "away",
+                      "betType": "straight"
+                    }
+                  }
+                },
+                {
+                  "language": "en-US",
+                  "rel": [
+                    "draw",
+                    "desktop",
+                    "bets",
+                    "draftkings"
+                  ],
+                  "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34570421%3Foutcomes%3D0ML86014065_2",
+                  "text": "Draw Bet",
+                  "shortText": "Draw Bet",
+                  "isExternal": true,
+                  "isPremium": false,
+                  "tracking": {
+                    "campaign": "betting-integrations",
+                    "tags": {
+                      "league": "bol.1",
+                      "sport": "soccer",
+                      "gameId": 401906496,
+                      "betSide": "draw",
+                      "betType": "straight"
+                    }
+                  }
+                },
+                {
+                  "language": "en-US",
+                  "rel": [
+                    "homeSpread",
+                    "desktop",
+                    "bets"
+                  ],
+                  "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34570421%3Foutcomes%3D0HC86014071N50_1",
+                  "text": "Home Point Spread",
+                  "shortText": "Home Point Spread",
+                  "isExternal": true,
+                  "isPremium": false,
+                  "tracking": {
+                    "campaign": "betting-integrations",
+                    "tags": {
+                      "league": "bol.1",
+                      "sport": "soccer",
+                      "gameId": 401906496,
+                      "betSide": "none",
+                      "betType": "straight",
+                      "betDetails": "Spread:UDV-0.5"
+                    }
+                  }
+                },
+                {
+                  "language": "en-US",
+                  "rel": [
+                    "awaySpread",
+                    "desktop",
+                    "bets"
+                  ],
+                  "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34570421%3Foutcomes%3D0HC86014071P50_3",
+                  "text": "Away Point Spread",
+                  "shortText": "Away Point Spread",
+                  "isExternal": true,
+                  "isPremium": false,
+                  "tracking": {
+                    "campaign": "betting-integrations",
+                    "tags": {
+                      "league": "bol.1",
+                      "sport": "soccer",
+                      "gameId": 401906496,
+                      "betSide": "none",
+                      "betType": "straight",
+                      "betDetails": "Spread:POT+0.5"
+                    }
+                  }
+                },
+                {
+                  "language": "en-US",
+                  "rel": [
+                    "over",
+                    "desktop",
+                    "bets"
+                  ],
+                  "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34570421%3Foutcomes%3D0OU86014068O250_1",
+                  "text": "Over Odds",
+                  "shortText": "Over Odds",
+                  "isExternal": true,
+                  "isPremium": false,
+                  "tracking": {
+                    "campaign": "betting-integrations",
+                    "tags": {
+                      "league": "bol.1",
+                      "sport": "soccer",
+                      "gameId": 401906496,
+                      "betSide": "over",
+                      "betType": "straight",
+                      "betDetails": "Over:2.5"
+                    }
+                  }
+                },
+                {
+                  "language": "en-US",
+                  "rel": [
+                    "under",
+                    "desktop",
+                    "bets"
+                  ],
+                  "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34570421%3Foutcomes%3D0OU86014068U250_3",
+                  "text": "Under Odds",
+                  "shortText": "Under Odds",
+                  "isExternal": true,
+                  "isPremium": false,
+                  "tracking": {
+                    "campaign": "betting-integrations",
+                    "tags": {
+                      "league": "bol.1",
+                      "sport": "soccer",
+                      "gameId": 401906496,
+                      "betSide": "under",
+                      "betType": "straight",
+                      "betDetails": "Under:2.5"
+                    }
+                  }
+                },
+                {
+                  "language": "en-US",
+                  "rel": [
+                    "game",
+                    "desktop",
+                    "bets"
+                  ],
+                  "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34570421",
+                  "text": "See More Odds",
+                  "shortText": "Game",
+                  "isExternal": true,
+                  "isPremium": false,
+                  "tracking": {
+                    "campaign": "betting-integrations",
+                    "tags": {
+                      "league": "bol.1",
+                      "sport": "soccer",
+                      "gameId": 401906496,
+                      "betSide": "none",
+                      "betType": "straight"
+                    }
+                  }
+                }
+              ],
+              "moneyline": {
+                "displayName": "Moneyline",
+                "shortDisplayName": "ML",
+                "home": {
+                  "close": {
+                    "odds": "+120",
+                    "link": {
+                      "language": "en-US",
+                      "rel": [
+                        "home",
+                        "desktop",
+                        "bets",
+                        "draftkings"
+                      ],
+                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34570421%3Foutcomes%3D0ML86014065_1",
+                      "text": "Home Bet",
+                      "shortText": "Home Bet",
+                      "isExternal": true,
+                      "isPremium": false,
+                      "tracking": {
+                        "campaign": "betting-integrations",
+                        "tags": {
+                          "league": "bol.1",
+                          "sport": "soccer",
+                          "gameId": 401906496,
+                          "betSide": "home",
+                          "betType": "straight"
+                        }
+                      }
+                    }
+                  },
+                  "open": {
+                    "odds": "+115"
+                  }
+                },
+                "away": {
+                  "close": {
+                    "odds": "+185",
+                    "link": {
+                      "language": "en-US",
+                      "rel": [
+                        "away",
+                        "desktop",
+                        "bets",
+                        "draftkings"
+                      ],
+                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34570421%3Foutcomes%3D0ML86014065_3",
+                      "text": "Away Bet",
+                      "shortText": "Away Bet",
+                      "isExternal": true,
+                      "isPremium": false,
+                      "tracking": {
+                        "campaign": "betting-integrations",
+                        "tags": {
+                          "league": "bol.1",
+                          "sport": "soccer",
+                          "gameId": 401906496,
+                          "betSide": "away",
+                          "betType": "straight"
+                        }
+                      }
+                    }
+                  },
+                  "open": {
+                    "odds": "+190"
+                  }
+                },
+                "draw": {
+                  "close": {
+                    "odds": "+245",
+                    "link": {
+                      "language": "en-US",
+                      "rel": [
+                        "draw",
+                        "desktop",
+                        "bets",
+                        "draftkings"
+                      ],
+                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34570421%3Foutcomes%3D0ML86014065_2",
+                      "text": "Draw Bet",
+                      "shortText": "Draw Bet",
+                      "isExternal": true,
+                      "isPremium": false,
+                      "tracking": {
+                        "campaign": "betting-integrations",
+                        "tags": {
+                          "league": "bol.1",
+                          "sport": "soccer",
+                          "gameId": 401906496,
+                          "betSide": "draw",
+                          "betType": "straight"
+                        }
+                      }
+                    }
+                  },
+                  "open": {
+                    "odds": "+240"
+                  }
+                }
+              },
+              "pointSpread": {
+                "displayName": "Spread",
+                "shortDisplayName": "Spread",
+                "home": {
+                  "close": {
+                    "line": "-0.5",
+                    "odds": "+110",
+                    "link": {
+                      "language": "en-US",
+                      "rel": [
+                        "homeSpread",
+                        "desktop",
+                        "bets"
+                      ],
+                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34570421%3Foutcomes%3D0HC86014071N50_1",
+                      "text": "Home Point Spread",
+                      "shortText": "Home Point Spread",
+                      "isExternal": true,
+                      "isPremium": false,
+                      "tracking": {
+                        "campaign": "betting-integrations",
+                        "tags": {
+                          "league": "bol.1",
+                          "sport": "soccer",
+                          "gameId": 401906496,
+                          "betSide": "none",
+                          "betType": "straight",
+                          "betDetails": "Spread:UDV-0.5"
+                        }
+                      }
+                    }
+                  },
+                  "open": {
+                    "line": "-0.5",
+                    "odds": "+110"
+                  }
+                },
+                "away": {
+                  "close": {
+                    "line": "+0.5",
+                    "odds": "-165",
+                    "link": {
+                      "language": "en-US",
+                      "rel": [
+                        "awaySpread",
+                        "desktop",
+                        "bets"
+                      ],
+                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34570421%3Foutcomes%3D0HC86014071P50_3",
+                      "text": "Away Point Spread",
+                      "shortText": "Away Point Spread",
+                      "isExternal": true,
+                      "isPremium": false,
+                      "tracking": {
+                        "campaign": "betting-integrations",
+                        "tags": {
+                          "league": "bol.1",
+                          "sport": "soccer",
+                          "gameId": 401906496,
+                          "betSide": "none",
+                          "betType": "straight",
+                          "betDetails": "Spread:POT+0.5"
+                        }
+                      }
+                    }
+                  },
+                  "open": {
+                    "line": "+0.5",
+                    "odds": "-165"
+                  }
+                }
+              },
+              "total": {
+                "displayName": "Total",
+                "shortDisplayName": "Total",
+                "over": {
+                  "close": {
+                    "line": "o2.5",
+                    "odds": "-170",
+                    "link": {
+                      "language": "en-US",
+                      "rel": [
+                        "over",
+                        "desktop",
+                        "bets"
+                      ],
+                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34570421%3Foutcomes%3D0OU86014068O250_1",
+                      "text": "Over Odds",
+                      "shortText": "Over Odds",
+                      "isExternal": true,
+                      "isPremium": false,
+                      "tracking": {
+                        "campaign": "betting-integrations",
+                        "tags": {
+                          "league": "bol.1",
+                          "sport": "soccer",
+                          "gameId": 401906496,
+                          "betSide": "over",
+                          "betType": "straight",
+                          "betDetails": "Over:2.5"
+                        }
+                      }
+                    }
+                  },
+                  "open": {
+                    "line": "o2.5",
+                    "odds": "-170"
+                  }
+                },
+                "under": {
+                  "close": {
+                    "line": "u2.5",
+                    "odds": "+120",
+                    "link": {
+                      "language": "en-US",
+                      "rel": [
+                        "under",
+                        "desktop",
+                        "bets"
+                      ],
+                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34570421%3Foutcomes%3D0OU86014068U250_3",
+                      "text": "Under Odds",
+                      "shortText": "Under Odds",
+                      "isExternal": true,
+                      "isPremium": false,
+                      "tracking": {
+                        "campaign": "betting-integrations",
+                        "tags": {
+                          "league": "bol.1",
+                          "sport": "soccer",
+                          "gameId": 401906496,
+                          "betSide": "under",
+                          "betType": "straight",
+                          "betDetails": "Under:2.5"
+                        }
+                      }
+                    }
+                  },
+                  "open": {
+                    "line": "u2.5",
+                    "odds": "+120"
+                  }
+                }
+              },
+              "link": {
+                "language": "en-US",
+                "rel": [
+                  "game",
+                  "desktop",
+                  "bets"
+                ],
+                "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34570421",
+                "text": "See More Odds",
+                "shortText": "Game",
+                "isExternal": true,
+                "isPremium": false,
+                "tracking": {
+                  "campaign": "betting-integrations",
+                  "tags": {
+                    "league": "bol.1",
+                    "sport": "soccer",
+                    "gameId": 401906496,
+                    "betSide": "none",
+                    "betType": "straight"
+                  }
+                }
+              },
+              "header": {
+                "logo": {
+                  "dark": "https://a.espncdn.com/i/espnbet/dark/espn-bet-square-off.svg",
+                  "light": "https://a.espncdn.com/i/espnbet/espn-bet-square-off.svg",
+                  "exclusivesLogoDark": "https://a.espncdn.com/i/espnbet/espn-bet-square-mint.svg",
+                  "exclusivesLogoLight": "https://a.espncdn.com/i/espnbet/espn-bet-square-mint.svg"
+                },
+                "text": "Game Odds"
+              },
+              "footer": {
+                "disclaimer": "GAMBLING PROBLEM? CALL 1-800-GAMBLER or 1-800-MY-RESET, (800) 327-5050 or visit gamblinghelplinema.org (MA). Call 877-8-HOPENY/text HOPENY (467369) (NY). Call 888-789-7777/visit ccpg.org (CT), or visit www.mdgamblinghelp.org (MD), 1-800-981-0023 (PR). 21+ and present in most states. (18+ DC/KY/NH/PR/WY). Void in ONT. Eligibility restrictions apply. Terms: draftkings.com/sportsbook. On behalf of Boot Hill Casino (KS). Pass-thru of per wager tax may apply in IL."
+              }
+            }
+          ],
           "h2h": [
             {
               "type": "head-to-head",
@@ -20511,16 +21349,16 @@
                   }
                 ]
               },
-              "details": "CHI +130",
+              "details": "CHI +125",
               "overUnder": 2.5,
               "spread": 0.5,
-              "overOdds": -165.0,
-              "underOdds": 130.0,
+              "overOdds": -170.0,
+              "underOdds": 135.0,
               "awayTeamOdds": {
                 "favorite": true,
                 "underdog": false,
-                "moneyLine": 130,
-                "spreadOdds": 125.0,
+                "moneyLine": 125,
+                "spreadOdds": 120.0,
                 "team": {
                   "id": "182",
                   "uid": "s:600~t:182",
@@ -20687,8 +21525,8 @@
               "homeTeamOdds": {
                 "favorite": false,
                 "underdog": true,
-                "moneyLine": 160,
-                "spreadOdds": -175.0,
+                "moneyLine": 175,
+                "spreadOdds": -165.0,
                 "team": {
                   "id": "220",
                   "uid": "s:600~t:220",
@@ -20853,7 +21691,7 @@
                 "favoriteAtOpen": false
               },
               "drawOdds": {
-                "moneyLine": 275.0
+                "moneyLine": 265.0
               },
               "links": [
                 {
@@ -21053,7 +21891,7 @@
                 "shortDisplayName": "ML",
                 "home": {
                   "close": {
-                    "odds": "+160",
+                    "odds": "+175",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -21085,7 +21923,7 @@
                 },
                 "away": {
                   "close": {
-                    "odds": "+130",
+                    "odds": "+125",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -21117,7 +21955,7 @@
                 },
                 "draw": {
                   "close": {
-                    "odds": "+275",
+                    "odds": "+265",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -21154,7 +21992,7 @@
                 "home": {
                   "close": {
                     "line": "+0.5",
-                    "odds": "-175",
+                    "odds": "-165",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -21188,7 +22026,7 @@
                 "away": {
                   "close": {
                     "line": "-0.5",
-                    "odds": "+125",
+                    "odds": "+120",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -21226,7 +22064,7 @@
                 "over": {
                   "close": {
                     "line": "o2.5",
-                    "odds": "-165",
+                    "odds": "-170",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -21260,7 +22098,7 @@
                 "under": {
                   "close": {
                     "line": "u2.5",
-                    "odds": "+130",
+                    "odds": "+135",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -21597,13 +22435,13 @@
               "details": "RSL +115",
               "overUnder": 2.5,
               "spread": 0.5,
-              "overOdds": -150.0,
+              "overOdds": -155.0,
               "underOdds": 120.0,
               "awayTeamOdds": {
                 "favorite": true,
                 "underdog": false,
                 "moneyLine": 115,
-                "spreadOdds": 110.0,
+                "spreadOdds": 105.0,
                 "team": {
                   "id": "4771",
                   "uid": "s:600~t:4771",
@@ -21770,8 +22608,8 @@
               "homeTeamOdds": {
                 "favorite": false,
                 "underdog": true,
-                "moneyLine": 210,
-                "spreadOdds": -155.0,
+                "moneyLine": 200,
+                "spreadOdds": -150.0,
                 "team": {
                   "id": "228",
                   "uid": "s:600~t:228",
@@ -21936,7 +22774,7 @@
                 "favoriteAtOpen": false
               },
               "drawOdds": {
-                "moneyLine": 245.0
+                "moneyLine": 255.0
               },
               "links": [
                 {
@@ -22136,7 +22974,7 @@
                 "shortDisplayName": "ML",
                 "home": {
                   "close": {
-                    "odds": "+210",
+                    "odds": "+200",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -22200,7 +23038,7 @@
                 },
                 "draw": {
                   "close": {
-                    "odds": "+245",
+                    "odds": "+255",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -22237,7 +23075,7 @@
                 "home": {
                   "close": {
                     "line": "+0.5",
-                    "odds": "-155",
+                    "odds": "-150",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -22271,7 +23109,7 @@
                 "away": {
                   "close": {
                     "line": "-0.5",
-                    "odds": "+110",
+                    "odds": "+105",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -22309,7 +23147,7 @@
                 "over": {
                   "close": {
                     "line": "o2.5",
-                    "odds": "-150",
+                    "odds": "-155",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -22877,16 +23715,16 @@
                   }
                 ]
               },
-              "details": "NOR +120",
+              "details": "NOR +130",
               "overUnder": 2.5,
               "spread": 0.5,
-              "overOdds": -140.0,
-              "underOdds": 110.0,
+              "overOdds": -145.0,
+              "underOdds": 115.0,
               "awayTeamOdds": {
                 "favorite": true,
                 "underdog": false,
-                "moneyLine": 120,
-                "spreadOdds": 115.0,
+                "moneyLine": 130,
+                "spreadOdds": 125.0,
                 "team": {
                   "id": "381",
                   "uid": "s:600~t:381",
@@ -23026,8 +23864,8 @@
               "homeTeamOdds": {
                 "favorite": false,
                 "underdog": true,
-                "moneyLine": 185,
-                "spreadOdds": -160.0,
+                "moneyLine": 175,
+                "spreadOdds": -170.0,
                 "team": {
                   "id": "347",
                   "uid": "s:600~t:347",
@@ -23365,7 +24203,7 @@
                 "shortDisplayName": "ML",
                 "home": {
                   "close": {
-                    "odds": "+185",
+                    "odds": "+175",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -23397,7 +24235,7 @@
                 },
                 "away": {
                   "close": {
-                    "odds": "+120",
+                    "odds": "+130",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -23466,7 +24304,7 @@
                 "home": {
                   "close": {
                     "line": "+0.5",
-                    "odds": "-160",
+                    "odds": "-170",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -23500,7 +24338,7 @@
                 "away": {
                   "close": {
                     "line": "-0.5",
-                    "odds": "+115",
+                    "odds": "+125",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -23538,7 +24376,7 @@
                 "over": {
                   "close": {
                     "line": "o2.5",
-                    "odds": "-140",
+                    "odds": "-145",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -23572,7 +24410,7 @@
                 "under": {
                   "close": {
                     "line": "u2.5",
-                    "odds": "+110",
+                    "odds": "+115",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -24763,7 +25601,7 @@
               "overUnder": 2.5,
               "spread": 0.5,
               "overOdds": -130.0,
-              "underOdds": 105.0,
+              "underOdds": 100.0,
               "awayTeamOdds": {
                 "favorite": true,
                 "underdog": false,
@@ -25454,7 +26292,7 @@
                 "under": {
                   "close": {
                     "line": "u2.5",
-                    "odds": "+105",
+                    "odds": "+100",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -26630,16 +27468,16 @@
                   }
                 ]
               },
-              "details": "MIL +110",
+              "details": "MIL +120",
               "overUnder": 2.5,
               "spread": 0.5,
-              "overOdds": -105.0,
+              "overOdds": 100.0,
               "underOdds": -125.0,
               "awayTeamOdds": {
                 "favorite": true,
                 "underdog": false,
-                "moneyLine": 110,
-                "spreadOdds": 105.0,
+                "moneyLine": 120,
+                "spreadOdds": 110.0,
                 "team": {
                   "id": "391",
                   "uid": "s:600~t:391",
@@ -26779,8 +27617,8 @@
               "homeTeamOdds": {
                 "favorite": false,
                 "underdog": true,
-                "moneyLine": 230,
-                "spreadOdds": -145.0,
+                "moneyLine": 215,
+                "spreadOdds": -155.0,
                 "team": {
                   "id": "351",
                   "uid": "s:600~t:351",
@@ -27118,7 +27956,7 @@
                 "shortDisplayName": "ML",
                 "home": {
                   "close": {
-                    "odds": "+230",
+                    "odds": "+215",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -27150,7 +27988,7 @@
                 },
                 "away": {
                   "close": {
-                    "odds": "+110",
+                    "odds": "+120",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -27219,7 +28057,7 @@
                 "home": {
                   "close": {
                     "line": "+0.5",
-                    "odds": "-145",
+                    "odds": "-155",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -27253,7 +28091,7 @@
                 "away": {
                   "close": {
                     "line": "-0.5",
-                    "odds": "+105",
+                    "odds": "+110",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -27291,7 +28129,7 @@
                 "over": {
                   "close": {
                     "line": "o2.5",
-                    "odds": "-105",
+                    "odds": "+100",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -28292,15 +29130,15 @@
                   }
                 ]
               },
-              "details": "COV -140",
+              "details": "COV -145",
               "overUnder": 2.5,
               "spread": 0.5,
-              "overOdds": -145.0,
-              "underOdds": 115.0,
+              "overOdds": -150.0,
+              "underOdds": 120.0,
               "awayTeamOdds": {
                 "favorite": true,
                 "underdog": false,
-                "moneyLine": -140,
+                "moneyLine": -145,
                 "spreadOdds": -150.0,
                 "team": {
                   "id": "388",
@@ -28812,7 +29650,7 @@
                 },
                 "away": {
                   "close": {
-                    "odds": "-140",
+                    "odds": "-145",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -28953,7 +29791,7 @@
                 "over": {
                   "close": {
                     "line": "o2.5",
-                    "odds": "-145",
+                    "odds": "-150",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -28987,7 +29825,7 @@
                 "under": {
                   "close": {
                     "line": "u2.5",
-                    "odds": "+115",
+                    "odds": "+120",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -30056,7 +30894,7 @@
               "overUnder": 2.5,
               "spread": 0.5,
               "overOdds": -125.0,
-              "underOdds": -105.0,
+              "underOdds": 100.0,
               "awayTeamOdds": {
                 "favorite": true,
                 "underdog": false,
@@ -30201,8 +31039,8 @@
               "homeTeamOdds": {
                 "favorite": false,
                 "underdog": true,
-                "moneyLine": 390,
-                "spreadOdds": 120.0,
+                "moneyLine": 425,
+                "spreadOdds": 125.0,
                 "team": {
                   "id": "399",
                   "uid": "s:600~t:399",
@@ -30540,7 +31378,7 @@
                 "shortDisplayName": "ML",
                 "home": {
                   "close": {
-                    "odds": "+390",
+                    "odds": "+425",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -30641,7 +31479,7 @@
                 "home": {
                   "close": {
                     "line": "+0.5",
-                    "odds": "+120",
+                    "odds": "+125",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -30747,7 +31585,7 @@
                 "under": {
                   "close": {
                     "line": "u2.5",
-                    "odds": "-105",
+                    "odds": "+100",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -31914,7 +32752,7 @@
                   }
                 ]
               },
-              "details": "LEY +115",
+              "details": "LEY +120",
               "overUnder": 2.5,
               "spread": 0.5,
               "overOdds": -130.0,
@@ -31922,7 +32760,7 @@
               "awayTeamOdds": {
                 "favorite": true,
                 "underdog": false,
-                "moneyLine": 115,
+                "moneyLine": 120,
                 "spreadOdds": 110.0,
                 "team": {
                   "id": "309",
@@ -32063,8 +32901,8 @@
               "homeTeamOdds": {
                 "favorite": false,
                 "underdog": true,
-                "moneyLine": 200,
-                "spreadOdds": -150.0,
+                "moneyLine": 205,
+                "spreadOdds": -155.0,
                 "team": {
                   "id": "401",
                   "uid": "s:600~t:401",
@@ -32202,7 +33040,7 @@
                 "favoriteAtOpen": false
               },
               "drawOdds": {
-                "moneyLine": 255.0
+                "moneyLine": 240.0
               },
               "links": [
                 {
@@ -32402,7 +33240,7 @@
                 "shortDisplayName": "ML",
                 "home": {
                   "close": {
-                    "odds": "+200",
+                    "odds": "+205",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -32434,7 +33272,7 @@
                 },
                 "away": {
                   "close": {
-                    "odds": "+115",
+                    "odds": "+120",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -32466,7 +33304,7 @@
                 },
                 "draw": {
                   "close": {
-                    "odds": "+255",
+                    "odds": "+240",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -32503,7 +33341,7 @@
                 "home": {
                   "close": {
                     "line": "+0.5",
-                    "odds": "-150",
+                    "odds": "-155",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -33674,7 +34512,7 @@
                   }
                 ]
               },
-              "details": "BRE -115",
+              "details": "BRE -125",
               "overUnder": 2.5,
               "spread": 0.5,
               "overOdds": -145.0,
@@ -33682,8 +34520,8 @@
               "awayTeamOdds": {
                 "favorite": true,
                 "underdog": false,
-                "moneyLine": -115,
-                "spreadOdds": -120.0,
+                "moneyLine": -125,
+                "spreadOdds": -130.0,
                 "team": {
                   "id": "337",
                   "uid": "s:600~t:337",
@@ -33823,8 +34661,8 @@
               "homeTeamOdds": {
                 "favorite": false,
                 "underdog": true,
-                "moneyLine": 270,
-                "spreadOdds": -115.0,
+                "moneyLine": 290,
+                "spreadOdds": -105.0,
                 "team": {
                   "id": "392",
                   "uid": "s:600~t:392",
@@ -33962,7 +34800,7 @@
                 "favoriteAtOpen": false
               },
               "drawOdds": {
-                "moneyLine": 260.0
+                "moneyLine": 275.0
               },
               "links": [
                 {
@@ -34162,7 +35000,7 @@
                 "shortDisplayName": "ML",
                 "home": {
                   "close": {
-                    "odds": "+270",
+                    "odds": "+290",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -34194,7 +35032,7 @@
                 },
                 "away": {
                   "close": {
-                    "odds": "-115",
+                    "odds": "-125",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -34226,7 +35064,7 @@
                 },
                 "draw": {
                   "close": {
-                    "odds": "+260",
+                    "odds": "+275",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -34263,7 +35101,7 @@
                 "home": {
                   "close": {
                     "line": "+0.5",
-                    "odds": "-115",
+                    "odds": "-105",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -34297,7 +35135,7 @@
                 "away": {
                   "close": {
                     "line": "-0.5",
-                    "odds": "-120",
+                    "odds": "-130",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -35562,16 +36400,16 @@
                   }
                 ]
               },
-              "details": "BET +155",
+              "details": "BET +160",
               "overUnder": 2.5,
               "spread": 0.5,
-              "overOdds": 100.0,
-              "underOdds": -120.0,
+              "overOdds": 110.0,
+              "underOdds": -135.0,
               "awayTeamOdds": {
                 "favorite": true,
                 "underdog": false,
-                "moneyLine": 155,
-                "spreadOdds": 140.0,
+                "moneyLine": 160,
+                "spreadOdds": 145.0,
                 "team": {
                   "id": "244",
                   "uid": "s:600~t:244",
@@ -35739,7 +36577,7 @@
                 "favorite": false,
                 "underdog": true,
                 "moneyLine": 180,
-                "spreadOdds": -200.0,
+                "spreadOdds": -205.0,
                 "team": {
                   "id": "94",
                   "uid": "s:600~t:94",
@@ -35904,7 +36742,7 @@
                 "favoriteAtOpen": true
               },
               "drawOdds": {
-                "moneyLine": 235.0
+                "moneyLine": 230.0
               },
               "links": [
                 {
@@ -36126,7 +36964,7 @@
                 },
                 "away": {
                   "close": {
-                    "odds": "+155",
+                    "odds": "+160",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -36158,7 +36996,7 @@
                 },
                 "draw": {
                   "close": {
-                    "odds": "+235",
+                    "odds": "+230",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -36195,7 +37033,7 @@
                 "home": {
                   "close": {
                     "line": "+0.5",
-                    "odds": "-200",
+                    "odds": "-205",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -36229,7 +37067,7 @@
                 "away": {
                   "close": {
                     "line": "-0.5",
-                    "odds": "+140",
+                    "odds": "+145",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -36267,7 +37105,7 @@
                 "over": {
                   "close": {
                     "line": "o2.5",
-                    "odds": "+100",
+                    "odds": "+110",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -36301,7 +37139,7 @@
                 "under": {
                   "close": {
                     "line": "u2.5",
-                    "odds": "-120",
+                    "odds": "-135",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -37596,7 +38434,7 @@
                 "favorite": false,
                 "underdog": true,
                 "moneyLine": 320,
-                "spreadOdds": -105.0,
+                "spreadOdds": 100.0,
                 "team": {
                   "id": "21827",
                   "uid": "s:600~t:21827",
@@ -37764,7 +38602,7 @@
                 "favorite": true,
                 "underdog": false,
                 "moneyLine": -125,
-                "spreadOdds": -135.0,
+                "spreadOdds": -140.0,
                 "team": {
                   "id": "18459",
                   "uid": "s:600~t:18459",
@@ -38230,7 +39068,7 @@
                 "home": {
                   "close": {
                     "line": "-0.5",
-                    "odds": "-135",
+                    "odds": "-140",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -38264,7 +39102,7 @@
                 "away": {
                   "close": {
                     "line": "+0.5",
-                    "odds": "-105",
+                    "odds": "+100",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -39602,16 +40440,16 @@
                   }
                 ]
               },
-              "details": "NSR -360",
+              "details": "NSR -370",
               "overUnder": 3.5,
               "spread": 1.5,
-              "overOdds": -125.0,
-              "underOdds": -105.0,
+              "overOdds": -130.0,
+              "underOdds": 100.0,
               "awayTeamOdds": {
                 "favorite": true,
                 "underdog": false,
-                "moneyLine": -360,
-                "spreadOdds": -135.0,
+                "moneyLine": -370,
+                "spreadOdds": -150.0,
                 "team": {
                   "id": "817",
                   "uid": "s:600~t:817",
@@ -39778,8 +40616,8 @@
               "homeTeamOdds": {
                 "favorite": false,
                 "underdog": true,
-                "moneyLine": 700,
-                "spreadOdds": 100.0,
+                "moneyLine": 750,
+                "spreadOdds": 110.0,
                 "team": {
                   "id": "8363",
                   "uid": "s:600~t:8363",
@@ -40144,7 +40982,7 @@
                 "shortDisplayName": "ML",
                 "home": {
                   "close": {
-                    "odds": "+700",
+                    "odds": "+750",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -40176,7 +41014,7 @@
                 },
                 "away": {
                   "close": {
-                    "odds": "-360",
+                    "odds": "-370",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -40245,7 +41083,7 @@
                 "home": {
                   "close": {
                     "line": "+1.5",
-                    "odds": "+100",
+                    "odds": "+110",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -40279,7 +41117,7 @@
                 "away": {
                   "close": {
                     "line": "-1.5",
-                    "odds": "-135",
+                    "odds": "-150",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -40317,7 +41155,7 @@
                 "over": {
                   "close": {
                     "line": "o3.5",
-                    "odds": "-125",
+                    "odds": "-130",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -40351,7 +41189,7 @@
                 "under": {
                   "close": {
                     "line": "u3.5",
-                    "odds": "-105",
+                    "odds": "+100",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -41642,16 +42480,16 @@
                   }
                 ]
               },
-              "details": "SHA -135",
+              "details": "SHA -140",
               "overUnder": 2.5,
               "spread": -0.5,
-              "overOdds": -165.0,
+              "overOdds": -170.0,
               "underOdds": 125.0,
               "awayTeamOdds": {
                 "favorite": false,
                 "underdog": true,
-                "moneyLine": 320,
-                "spreadOdds": 100.0,
+                "moneyLine": 330,
+                "spreadOdds": 110.0,
                 "team": {
                   "id": "21965",
                   "uid": "s:600~t:21965",
@@ -41818,8 +42656,8 @@
               "homeTeamOdds": {
                 "favorite": true,
                 "underdog": false,
-                "moneyLine": -135,
-                "spreadOdds": -140.0,
+                "moneyLine": -140,
+                "spreadOdds": -155.0,
                 "team": {
                   "id": "793",
                   "uid": "s:600~t:793",
@@ -41984,7 +42822,7 @@
                 "favoriteAtOpen": true
               },
               "drawOdds": {
-                "moneyLine": 300.0
+                "moneyLine": 310.0
               },
               "links": [
                 {
@@ -42184,7 +43022,7 @@
                 "shortDisplayName": "ML",
                 "home": {
                   "close": {
-                    "odds": "-135",
+                    "odds": "-140",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -42216,7 +43054,7 @@
                 },
                 "away": {
                   "close": {
-                    "odds": "+320",
+                    "odds": "+330",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -42248,7 +43086,7 @@
                 },
                 "draw": {
                   "close": {
-                    "odds": "+300",
+                    "odds": "+310",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -42285,7 +43123,7 @@
                 "home": {
                   "close": {
                     "line": "-0.5",
-                    "odds": "-140",
+                    "odds": "-155",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -42319,7 +43157,7 @@
                 "away": {
                   "close": {
                     "line": "+0.5",
-                    "odds": "+100",
+                    "odds": "+110",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -42357,7 +43195,7 @@
                 "over": {
                   "close": {
                     "line": "o2.5",
-                    "odds": "-165",
+                    "odds": "-170",
                     "link": {
                       "language": "en-US",
                       "rel": [
