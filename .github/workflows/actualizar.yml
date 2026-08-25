@@ -2,8 +2,8 @@ name: Actualizar Picks Diarios
 
 on:
   schedule:
-    - cron: '0 9 * * *'   # 9am UTC = 6am Argentina, ajustalo si queres otro horario
-  workflow_dispatch:        # tambien lo podes correr a mano
+    - cron: '0 9 * * *'   # 9am UTC = 6am Argentina
+  workflow_dispatch:
 
 jobs:
   actualizar:
@@ -19,20 +19,12 @@ jobs:
       - name: Instalar dependencias
         run: pip install requests
 
-      - name: Actualizar datos (trae partidos + historial de todas las ligas)
+      - name: Actualizar datos de partidos y picks
         working-directory: scripts
         run: python actualizar_datos.py
 
-      - name: Generar HTML base
-        working-directory: scripts
-        run: python generar_html.py
-
-      - name: Aplicar interfaz SCOUTER
-        working-directory: scripts
-        run: python scouter_skin.py
-
-      - name: Commitear cambios (datos, cache e index.html)
+      - name: Commitear datos actualizados
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Actualizacion automatica de picks diarios"
-          file_pattern: "index.html datos/**"
+          file_pattern: "datos/**"
