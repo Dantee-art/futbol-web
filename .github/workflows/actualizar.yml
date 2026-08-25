@@ -8,7 +8,7 @@ on:
 jobs:
   actualizar:
     runs-on: ubuntu-latest
-    timeout-minutes: 340   # la primera corrida con TODAS las ligas puede tardar bastante
+    timeout-minutes: 340
     steps:
       - uses: actions/checkout@v4
 
@@ -23,13 +23,16 @@ jobs:
         working-directory: scripts
         run: python actualizar_datos.py
 
-      - name: Generar HTML final
+      - name: Generar HTML base
         working-directory: scripts
         run: python generar_html.py
+
+      - name: Aplicar interfaz SCOUTER
+        working-directory: scripts
+        run: python scouter_skin.py
 
       - name: Commitear cambios (datos, cache e index.html)
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Actualizacion automatica de picks diarios"
           file_pattern: "index.html datos/**"
-          
