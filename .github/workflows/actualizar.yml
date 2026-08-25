@@ -1,34 +1,35 @@
-name: Actualizar Picks Diarios
+name: Actualizar arbitrajes
 
 on:
   schedule:
-    - cron: '0 9 * * *'
+    - cron: '*/15 * * * *'
   workflow_dispatch:
   push:
     paths:
-      - 'scripts/**'
-      - 'config/**'
-      - 'simulador/**'
+      - 'app.py'
+      - 'arbitrage/**'
+      - 'requirements.txt'
+      - '.github/workflows/actualizar.yml'
 
 jobs:
-  actualizar:
+  arbitrage:
     runs-on: ubuntu-latest
-    timeout-minutes: 340
+    timeout-minutes: 10
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
+          python-version: '3.12'
       - name: Instalar dependencias
-        run: pip install requests numpy
-      - name: Regenerar partidos y predicciones
-        working-directory: scripts
-        run: python actualizar_datos.py
-      - name: Generar simulaciones Monte Carlo
-        working-directory: simulador
-        run: python generate_daily.py
-      - name: Guardar datos nuevos
-        uses: stefanzweifel/git-auto-commit-action@v5
+        run: pip install -r requirements.txt
+      - name: Buscar oportunidades
+        env:
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+        run: python app.py --refresh
+      - name: Publicar resultados
+        uses: stefanzweifel/git-auto-commit-action@v7
         with:
-          commit_message: "Actualizar picks y simulaciones Monte Carlo"
-          file_pattern: "datos/**"
+          commit_message: "Actualizar oportunidades de arbitraje"
+          file_pattern: "data/**"
