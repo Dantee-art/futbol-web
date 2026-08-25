@@ -8,6 +8,7 @@ on:
     paths:
       - 'scripts/**'
       - 'config/**'
+      - 'simulador/**'
 
 jobs:
   actualizar:
@@ -19,12 +20,15 @@ jobs:
         with:
           python-version: '3.11'
       - name: Instalar dependencias
-        run: pip install requests
+        run: pip install requests numpy
       - name: Regenerar partidos y predicciones
         working-directory: scripts
         run: python actualizar_datos.py
+      - name: Generar simulaciones Monte Carlo
+        working-directory: simulador
+        run: python generate_daily.py
       - name: Guardar datos nuevos
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "Actualizar partidos y predicciones"
+          commit_message: "Actualizar picks y simulaciones Monte Carlo"
           file_pattern: "datos/**"
