@@ -1,5 +1,6 @@
 {
-  "generado": "2026-08-25T00:17:11.603010+00:00",
+  "generado": "2026-08-25T01:07:37.386166+00:00",
+  "fecha": "20260825",
   "ligas": [
     {
       "slug": "uefa.champions_qual",
@@ -1061,30 +1062,109 @@
           },
           "pick_mas_seguro": {
             "disponible": true,
-            "mercado": "Goles recibidos por Sabah FK: Menos de 2.5",
-            "justificacion": "Sabah FK recibió menos de 2.5 goles en 100% de sus últimos 7 partidos.",
+            "mercado": "Más de 0.5 goles",
+            "justificacion": "La combinación de los historiales goleadores supera 0.5 goles en 100% de los escenarios históricos.",
             "confianza": "baja",
-            "score": 0.35,
+            "score": 0.775,
             "probabilidad": 100.0,
             "n_min": 5,
-            "alternativas": [
+            "recomendaciones": [
               {
-                "mercado": "Goles propios de Sabah FK: Menos de 2.5",
-                "score": 0.25,
-                "probabilidad": 85.7,
-                "justificacion": "Sabah FK tuvo menos de 2.5 goles propios en 86% de sus últimos 7 partidos.",
-                "confianza": "baja"
+                "mercado": "Más de 0.5 goles",
+                "probabilidad": 100.0,
+                "score": 0.775,
+                "confianza": "baja",
+                "familia": "goles",
+                "justificacion": "La combinación de los historiales goleadores supera 0.5 goles en 100% de los escenarios históricos."
               },
               {
-                "mercado": "Goles propios de Hapoel Be'er: Más de 0.5",
-                "score": 0.25,
-                "probabilidad": 100.0,
-                "justificacion": "Hapoel Be'er tuvo más de 0.5 goles propios en 100% de sus últimos 5 partidos.",
-                "confianza": "baja"
+                "mercado": "Ambos anotan: No",
+                "probabilidad": 75.7,
+                "score": 0.757,
+                "confianza": "baja",
+                "familia": "btts",
+                "justificacion": "La tendencia combinada indica que ambos equipos no marcan en una proporción alta de sus partidos recientes."
+              },
+              {
+                "mercado": "Menos de 6.5 tarjetas",
+                "probabilidad": 91.4,
+                "score": 0.7086,
+                "confianza": "baja",
+                "familia": "tarjetas",
+                "justificacion": "El historial combinado queda por debajo de 6.5 tarjetas en 91% de los escenarios."
+              },
+              {
+                "mercado": "Menos de 27.5 remates totales",
+                "probabilidad": 82.9,
+                "score": 0.6421,
+                "confianza": "baja",
+                "familia": "remates",
+                "justificacion": "El historial combinado queda por debajo de 27.5 remates en 83% de los escenarios."
+              }
+            ],
+            "alternativas": [
+              {
+                "mercado": "Ambos anotan: No",
+                "probabilidad": 75.7,
+                "score": 0.757,
+                "confianza": "baja",
+                "familia": "btts",
+                "justificacion": "La tendencia combinada indica que ambos equipos no marcan en una proporción alta de sus partidos recientes."
+              },
+              {
+                "mercado": "Menos de 6.5 tarjetas",
+                "probabilidad": 91.4,
+                "score": 0.7086,
+                "confianza": "baja",
+                "familia": "tarjetas",
+                "justificacion": "El historial combinado queda por debajo de 6.5 tarjetas en 91% de los escenarios."
+              },
+              {
+                "mercado": "Menos de 27.5 remates totales",
+                "probabilidad": 82.9,
+                "score": 0.6421,
+                "confianza": "baja",
+                "familia": "remates",
+                "justificacion": "El historial combinado queda por debajo de 27.5 remates en 83% de los escenarios."
               }
             ]
           },
-          "analisis": "En sus últimos 7 partidos con datos disponibles, Sabah FK promedia apenas 1.3 tarjetas por partido, un equipo disciplinado. (confianza baja, base: 7 partidos reales)\nEn sus últimos 5 partidos con datos disponibles, Hapoel Be'er promedia 3.0 tarjetas por partido — una tendencia marcadamente indisciplinada. (confianza baja, base: 5 partidos reales)\nSabah FK remata 7.4 veces por partido, de las cuales 2.7 van al arco (36% de efectividad de puntería).\nHapoel Be'er remata 3.6 veces por partido, de las cuales 1.4 van al arco (39% de efectividad de puntería).\nAmbos anotan (No) — promedio combinado 24%, tendencia baja de goles en ambos arcos."
+          "recomendaciones": [
+            {
+              "mercado": "Más de 0.5 goles",
+              "probabilidad": 100.0,
+              "score": 0.775,
+              "confianza": "baja",
+              "familia": "goles",
+              "justificacion": "La combinación de los historiales goleadores supera 0.5 goles en 100% de los escenarios históricos."
+            },
+            {
+              "mercado": "Ambos anotan: No",
+              "probabilidad": 75.7,
+              "score": 0.757,
+              "confianza": "baja",
+              "familia": "btts",
+              "justificacion": "La tendencia combinada indica que ambos equipos no marcan en una proporción alta de sus partidos recientes."
+            },
+            {
+              "mercado": "Menos de 6.5 tarjetas",
+              "probabilidad": 91.4,
+              "score": 0.7086,
+              "confianza": "baja",
+              "familia": "tarjetas",
+              "justificacion": "El historial combinado queda por debajo de 6.5 tarjetas en 91% de los escenarios."
+            },
+            {
+              "mercado": "Menos de 27.5 remates totales",
+              "probabilidad": 82.9,
+              "score": 0.6421,
+              "confianza": "baja",
+              "familia": "remates",
+              "justificacion": "El historial combinado queda por debajo de 27.5 remates en 83% de los escenarios."
+            }
+          ],
+          "analisis": "Sabah FK promedia 1.3 tarjetas en sus últimos 7 partidos.\nHapoel Be'er promedia 3.0 tarjetas en sus últimos 5 partidos.\nSabah FK promedia 7.4 remates por partido, con 2.7 al arco.\nHapoel Be'er promedia 3.6 remates por partido, con 1.4 al arco.\nTendencia combinada de ambos anotan: 24%.",
+          "datos_completos": true
         },
         {
           "event_id": "401909196",
@@ -2150,9 +2230,12 @@
           },
           "pick_mas_seguro": {
             "disponible": false,
-            "razon": "NEC Nijmegen no tiene partidos jugados registrados en la fuente todavía (probable pretemporada o inicio de temporada) — no hay base real para proyectar nada de este equipo."
+            "razon": "NEC Nijmegen: solo 3 partidos con datos",
+            "recomendaciones": []
           },
-          "analisis": "En sus últimos 5 partidos con datos disponibles, Bodo/Glimt promedia apenas 1.4 tarjetas por partido, un equipo disciplinado. (confianza baja, base: 5 partidos reales)\nEn sus últimos 3 partidos con datos disponibles, NEC Nijmegen promedia apenas 1.7 tarjetas por partido, un equipo disciplinado. (confianza baja, base: 3 partidos reales)\nBodo/Glimt remata 9.6 veces por partido, de las cuales 3.8 van al arco (40% de efectividad de puntería).\nNEC Nijmegen remata 17.0 veces por partido, de las cuales 5.7 van al arco (33% de efectividad de puntería).\nAmbos anotan (Sí) — promedio combinado 73% en los partidos recientes de ambos equipos."
+          "recomendaciones": [],
+          "analisis": "Bodo/Glimt promedia 1.4 tarjetas en sus últimos 5 partidos.\nNEC Nijmegen promedia 1.7 tarjetas en sus últimos 3 partidos.\nBodo/Glimt promedia 9.6 remates por partido, con 3.8 al arco.\nNEC Nijmegen promedia 17.0 remates por partido, con 5.7 al arco.\nTendencia combinada de ambos anotan: 73%.",
+          "datos_completos": false
         },
         {
           "event_id": "401903707",
@@ -3202,9 +3285,12 @@
           },
           "pick_mas_seguro": {
             "disponible": false,
-            "razon": "LASK Linz no tiene partidos jugados registrados en la fuente todavía (probable pretemporada o inicio de temporada) — no hay base real para proyectar nada de este equipo. Celtic no tiene partidos jugados registrados en la fuente todavía (probable pretemporada o inicio de temporada) — no hay base real para proyectar nada de este equipo."
+            "razon": "LASK Linz: solo 1 partidos con datos; Celtic: solo 3 partidos con datos",
+            "recomendaciones": []
           },
-          "analisis": "En sus últimos 1 partidos con datos disponibles, LASK Linz promedia apenas 1.0 tarjetas por partido, un equipo disciplinado. (confianza baja, base: 1 partidos reales)\nEn sus últimos 3 partidos con datos disponibles, Celtic promedia apenas 1.0 tarjetas por partido, un equipo disciplinado. (confianza baja, base: 3 partidos reales)\nLASK Linz remata 20.0 veces por partido, de las cuales 8.0 van al arco (40% de efectividad de puntería).\nCeltic remata 13.0 veces por partido, de las cuales 5.0 van al arco (38% de efectividad de puntería).\nAmbos anotan (No) — promedio combinado 0%, tendencia baja de goles en ambos arcos."
+          "recomendaciones": [],
+          "analisis": "LASK Linz promedia 1.0 tarjetas en sus últimos 1 partidos.\nCeltic promedia 1.0 tarjetas en sus últimos 3 partidos.\nLASK Linz promedia 20.0 remates por partido, con 8.0 al arco.\nCeltic promedia 13.0 remates por partido, con 5.0 al arco.\nTendencia combinada de ambos anotan: 0%.",
+          "datos_completos": false
         }
       ]
     },
@@ -3267,8 +3353,8 @@
               "awayTeamOdds": {
                 "favorite": false,
                 "underdog": true,
-                "moneyLine": 475,
-                "spreadOdds": 135.0,
+                "moneyLine": 500,
+                "spreadOdds": 140.0,
                 "team": {
                   "id": "5489",
                   "uid": "s:600~t:5489",
@@ -3436,7 +3522,7 @@
                 "favorite": true,
                 "underdog": false,
                 "moneyLine": -180,
-                "spreadOdds": -200.0,
+                "spreadOdds": -195.0,
                 "team": {
                   "id": "17086",
                   "uid": "s:600~t:17086",
@@ -3601,7 +3687,7 @@
                 "favoriteAtOpen": true
               },
               "drawOdds": {
-                "moneyLine": 290.0
+                "moneyLine": 295.0
               },
               "links": [
                 {
@@ -3833,7 +3919,7 @@
                 },
                 "away": {
                   "close": {
-                    "odds": "+475",
+                    "odds": "+500",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -3865,7 +3951,7 @@
                 },
                 "draw": {
                   "close": {
-                    "odds": "+290",
+                    "odds": "+295",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -3902,7 +3988,7 @@
                 "home": {
                   "close": {
                     "line": "-0.5",
-                    "odds": "-200",
+                    "odds": "-195",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -3936,7 +4022,7 @@
                 "away": {
                   "close": {
                     "line": "+0.5",
-                    "odds": "+135",
+                    "odds": "+140",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -4739,30 +4825,109 @@
           },
           "pick_mas_seguro": {
             "disponible": true,
-            "mercado": "Goles propios de Deportes Tolima: Menos de 2.5",
-            "justificacion": "Deportes Tolima tuvo menos de 2.5 goles propios en 100% de sus últimos 13 partidos.",
+            "mercado": "Menos de 4.5 goles",
+            "justificacion": "La combinación de los historiales goleadores queda por debajo de 4.5 goles en 98% de los escenarios históricos.",
             "confianza": "media",
-            "score": 0.65,
-            "probabilidad": 100.0,
+            "score": 0.8791,
+            "probabilidad": 98.2,
             "n_min": 13,
-            "alternativas": [
+            "recomendaciones": [
               {
-                "mercado": "Tarjetas de Independiente del Valle: Menos de 3.5",
-                "score": 0.65,
-                "probabilidad": 100.0,
-                "justificacion": "Independiente del Valle tuvo menos de 3.5 tarjetas en 100% de sus últimos 13 partidos.",
-                "confianza": "media"
+                "mercado": "Menos de 4.5 goles",
+                "probabilidad": 98.2,
+                "score": 0.8791,
+                "confianza": "media",
+                "familia": "goles",
+                "justificacion": "La combinación de los historiales goleadores queda por debajo de 4.5 goles en 98% de los escenarios históricos."
               },
               {
-                "mercado": "Goles totales del partido: Menos de 4.5",
-                "score": 0.6269230769230769,
-                "probabilidad": 98.2,
-                "justificacion": "Combinando el historial goleador de ambos equipos, 98% de las combinaciones posibles dan menos de 4.5 goles totales.",
-                "confianza": "media"
+                "mercado": "Ambos anotan: No",
+                "probabilidad": 80.8,
+                "score": 0.8075,
+                "confianza": "media",
+                "familia": "btts",
+                "justificacion": "La tendencia combinada indica que ambos equipos no marcan en una proporción alta de sus partidos recientes."
+              },
+              {
+                "mercado": "Menos de 6.5 tarjetas",
+                "probabilidad": 89.3,
+                "score": 0.7997,
+                "confianza": "media",
+                "familia": "tarjetas",
+                "justificacion": "El historial combinado queda por debajo de 6.5 tarjetas en 89% de los escenarios."
+              },
+              {
+                "mercado": "Menos de 27.5 remates totales",
+                "probabilidad": 67.5,
+                "score": 0.6037,
+                "confianza": "media",
+                "familia": "remates",
+                "justificacion": "El historial combinado queda por debajo de 27.5 remates en 67% de los escenarios."
+              }
+            ],
+            "alternativas": [
+              {
+                "mercado": "Ambos anotan: No",
+                "probabilidad": 80.8,
+                "score": 0.8075,
+                "confianza": "media",
+                "familia": "btts",
+                "justificacion": "La tendencia combinada indica que ambos equipos no marcan en una proporción alta de sus partidos recientes."
+              },
+              {
+                "mercado": "Menos de 6.5 tarjetas",
+                "probabilidad": 89.3,
+                "score": 0.7997,
+                "confianza": "media",
+                "familia": "tarjetas",
+                "justificacion": "El historial combinado queda por debajo de 6.5 tarjetas en 89% de los escenarios."
+              },
+              {
+                "mercado": "Menos de 27.5 remates totales",
+                "probabilidad": 67.5,
+                "score": 0.6037,
+                "confianza": "media",
+                "familia": "remates",
+                "justificacion": "El historial combinado queda por debajo de 27.5 remates en 67% de los escenarios."
               }
             ]
           },
-          "analisis": "En sus últimos 13 partidos con datos disponibles, Independiente del Valle promedia apenas 1.6 tarjetas por partido, un equipo disciplinado. (confianza media, base: 13 partidos reales)\nEn sus últimos 13 partidos con datos disponibles, Deportes Tolima promedia 2.5 tarjetas por partido, un nivel moderado. (confianza media, base: 13 partidos reales)\nIndependiente del Valle remata 10.8 veces por partido, de las cuales 3.5 van al arco (33% de efectividad de puntería).\nDeportes Tolima remata 9.3 veces por partido, de las cuales 3.9 van al arco (41% de efectividad de puntería).\nAmbos anotan (No) — promedio combinado 19%, tendencia baja de goles en ambos arcos."
+          "recomendaciones": [
+            {
+              "mercado": "Menos de 4.5 goles",
+              "probabilidad": 98.2,
+              "score": 0.8791,
+              "confianza": "media",
+              "familia": "goles",
+              "justificacion": "La combinación de los historiales goleadores queda por debajo de 4.5 goles en 98% de los escenarios históricos."
+            },
+            {
+              "mercado": "Ambos anotan: No",
+              "probabilidad": 80.8,
+              "score": 0.8075,
+              "confianza": "media",
+              "familia": "btts",
+              "justificacion": "La tendencia combinada indica que ambos equipos no marcan en una proporción alta de sus partidos recientes."
+            },
+            {
+              "mercado": "Menos de 6.5 tarjetas",
+              "probabilidad": 89.3,
+              "score": 0.7997,
+              "confianza": "media",
+              "familia": "tarjetas",
+              "justificacion": "El historial combinado queda por debajo de 6.5 tarjetas en 89% de los escenarios."
+            },
+            {
+              "mercado": "Menos de 27.5 remates totales",
+              "probabilidad": 67.5,
+              "score": 0.6037,
+              "confianza": "media",
+              "familia": "remates",
+              "justificacion": "El historial combinado queda por debajo de 27.5 remates en 67% de los escenarios."
+            }
+          ],
+          "analisis": "Independiente del Valle promedia 1.6 tarjetas en sus últimos 13 partidos.\nDeportes Tolima promedia 2.5 tarjetas en sus últimos 13 partidos.\nIndependiente del Valle promedia 10.8 remates por partido, con 3.5 al arco.\nDeportes Tolima promedia 9.3 remates por partido, con 3.9 al arco.\nTendencia combinada de ambos anotan: 19%.",
+          "datos_completos": true
         }
       ]
     },
@@ -6683,30 +6848,109 @@
           },
           "pick_mas_seguro": {
             "disponible": true,
-            "mercado": "Goles recibidos por Botafogo-SP: Menos de 2.5",
-            "justificacion": "Botafogo-SP recibió menos de 2.5 goles en 100% de sus últimos 20 partidos.",
+            "mercado": "Menos de 4.5 goles",
+            "justificacion": "La combinación de los historiales goleadores queda por debajo de 4.5 goles en 99% de los escenarios históricos.",
             "confianza": "alta",
-            "score": 1.0,
-            "probabilidad": 100.0,
+            "score": 0.9925,
+            "probabilidad": 99.2,
             "n_min": 20,
-            "alternativas": [
+            "recomendaciones": [
               {
-                "mercado": "Goles totales del partido: Menos de 4.5",
-                "score": 0.985,
+                "mercado": "Menos de 4.5 goles",
                 "probabilidad": 99.2,
-                "justificacion": "Combinando el historial goleador de ambos equipos, 99% de las combinaciones posibles dan menos de 4.5 goles totales.",
-                "confianza": "alta"
+                "score": 0.9925,
+                "confianza": "alta",
+                "familia": "goles",
+                "justificacion": "La combinación de los historiales goleadores queda por debajo de 4.5 goles en 99% de los escenarios históricos."
               },
               {
-                "mercado": "Goles propios de Atlético Goianiense: Menos de 2.5",
-                "score": 0.9,
-                "probabilidad": 95.0,
-                "justificacion": "Atlético Goianiense tuvo menos de 2.5 goles propios en 95% de sus últimos 20 partidos.",
-                "confianza": "alta"
+                "mercado": "Más de 17.5 remates totales",
+                "probabilidad": 89.5,
+                "score": 0.895,
+                "confianza": "alta",
+                "familia": "remates",
+                "justificacion": "El historial combinado supera 17.5 remates en 90% de los escenarios."
+              },
+              {
+                "mercado": "Más de 2.5 tarjetas",
+                "probabilidad": 88.8,
+                "score": 0.8875,
+                "confianza": "alta",
+                "familia": "tarjetas",
+                "justificacion": "El historial combinado supera 2.5 tarjetas en 89% de los escenarios."
+              },
+              {
+                "mercado": "Ambos anotan: No",
+                "probabilidad": 82.5,
+                "score": 0.825,
+                "confianza": "alta",
+                "familia": "btts",
+                "justificacion": "La tendencia combinada indica que ambos equipos no marcan en una proporción alta de sus partidos recientes."
+              }
+            ],
+            "alternativas": [
+              {
+                "mercado": "Más de 17.5 remates totales",
+                "probabilidad": 89.5,
+                "score": 0.895,
+                "confianza": "alta",
+                "familia": "remates",
+                "justificacion": "El historial combinado supera 17.5 remates en 90% de los escenarios."
+              },
+              {
+                "mercado": "Más de 2.5 tarjetas",
+                "probabilidad": 88.8,
+                "score": 0.8875,
+                "confianza": "alta",
+                "familia": "tarjetas",
+                "justificacion": "El historial combinado supera 2.5 tarjetas en 89% de los escenarios."
+              },
+              {
+                "mercado": "Ambos anotan: No",
+                "probabilidad": 82.5,
+                "score": 0.825,
+                "confianza": "alta",
+                "familia": "btts",
+                "justificacion": "La tendencia combinada indica que ambos equipos no marcan en una proporción alta de sus partidos recientes."
               }
             ]
           },
-          "analisis": "En sus últimos 20 partidos con datos disponibles, Atlético Goianiense promedia 2.5 tarjetas por partido, un nivel moderado. (confianza alta, base: 20 partidos reales)\nEn sus últimos 20 partidos con datos disponibles, Botafogo-SP promedia 2.2 tarjetas por partido, un nivel moderado. (confianza alta, base: 20 partidos reales)\nAtlético Goianiense remata 14.4 veces por partido, de las cuales 4.8 van al arco (33% de efectividad de puntería).\nBotafogo-SP remata 12.4 veces por partido, de las cuales 3.6 van al arco (29% de efectividad de puntería).\nAmbos anotan (No) — promedio combinado 18%, tendencia baja de goles en ambos arcos."
+          "recomendaciones": [
+            {
+              "mercado": "Menos de 4.5 goles",
+              "probabilidad": 99.2,
+              "score": 0.9925,
+              "confianza": "alta",
+              "familia": "goles",
+              "justificacion": "La combinación de los historiales goleadores queda por debajo de 4.5 goles en 99% de los escenarios históricos."
+            },
+            {
+              "mercado": "Más de 17.5 remates totales",
+              "probabilidad": 89.5,
+              "score": 0.895,
+              "confianza": "alta",
+              "familia": "remates",
+              "justificacion": "El historial combinado supera 17.5 remates en 90% de los escenarios."
+            },
+            {
+              "mercado": "Más de 2.5 tarjetas",
+              "probabilidad": 88.8,
+              "score": 0.8875,
+              "confianza": "alta",
+              "familia": "tarjetas",
+              "justificacion": "El historial combinado supera 2.5 tarjetas en 89% de los escenarios."
+            },
+            {
+              "mercado": "Ambos anotan: No",
+              "probabilidad": 82.5,
+              "score": 0.825,
+              "confianza": "alta",
+              "familia": "btts",
+              "justificacion": "La tendencia combinada indica que ambos equipos no marcan en una proporción alta de sus partidos recientes."
+            }
+          ],
+          "analisis": "Atlético Goianiense promedia 2.5 tarjetas en sus últimos 20 partidos.\nBotafogo-SP promedia 2.2 tarjetas en sus últimos 20 partidos.\nAtlético Goianiense promedia 14.4 remates por partido, con 4.8 al arco.\nBotafogo-SP promedia 12.4 remates por partido, con 3.6 al arco.\nTendencia combinada de ambos anotan: 18%.",
+          "datos_completos": true
         },
         {
           "event_id": "401860296",
@@ -8622,30 +8866,109 @@
           },
           "pick_mas_seguro": {
             "disponible": true,
-            "mercado": "Goles totales del partido: Menos de 4.5",
-            "justificacion": "Combinando el historial goleador de ambos equipos, 97% de las combinaciones posibles dan menos de 4.5 goles totales.",
+            "mercado": "Más de 17.5 remates totales",
+            "justificacion": "El historial combinado supera 17.5 remates en 98% de los escenarios.",
             "confianza": "alta",
-            "score": 0.945,
-            "probabilidad": 97.2,
+            "score": 0.985,
+            "probabilidad": 98.5,
             "n_min": 20,
-            "alternativas": [
+            "recomendaciones": [
               {
-                "mercado": "Goles propios de CRB: Menos de 2.5",
-                "score": 0.9,
-                "probabilidad": 95.0,
-                "justificacion": "CRB tuvo menos de 2.5 goles propios en 95% de sus últimos 20 partidos.",
-                "confianza": "alta"
+                "mercado": "Más de 17.5 remates totales",
+                "probabilidad": 98.5,
+                "score": 0.985,
+                "confianza": "alta",
+                "familia": "remates",
+                "justificacion": "El historial combinado supera 17.5 remates en 98% de los escenarios."
               },
               {
-                "mercado": "Goles recibidos por Juventude: Menos de 1.5",
-                "score": 0.9,
-                "probabilidad": 95.0,
-                "justificacion": "Juventude recibió menos de 1.5 goles en 95% de sus últimos 20 partidos.",
-                "confianza": "alta"
+                "mercado": "Menos de 4.5 goles",
+                "probabilidad": 97.2,
+                "score": 0.9725,
+                "confianza": "alta",
+                "familia": "goles",
+                "justificacion": "La combinación de los historiales goleadores queda por debajo de 4.5 goles en 97% de los escenarios históricos."
+              },
+              {
+                "mercado": "Más de 2.5 tarjetas",
+                "probabilidad": 84.2,
+                "score": 0.8425,
+                "confianza": "alta",
+                "familia": "tarjetas",
+                "justificacion": "El historial combinado supera 2.5 tarjetas en 84% de los escenarios."
+              },
+              {
+                "mercado": "Ambos anotan: No",
+                "probabilidad": 80.0,
+                "score": 0.8,
+                "confianza": "alta",
+                "familia": "btts",
+                "justificacion": "La tendencia combinada indica que ambos equipos no marcan en una proporción alta de sus partidos recientes."
+              }
+            ],
+            "alternativas": [
+              {
+                "mercado": "Menos de 4.5 goles",
+                "probabilidad": 97.2,
+                "score": 0.9725,
+                "confianza": "alta",
+                "familia": "goles",
+                "justificacion": "La combinación de los historiales goleadores queda por debajo de 4.5 goles en 97% de los escenarios históricos."
+              },
+              {
+                "mercado": "Más de 2.5 tarjetas",
+                "probabilidad": 84.2,
+                "score": 0.8425,
+                "confianza": "alta",
+                "familia": "tarjetas",
+                "justificacion": "El historial combinado supera 2.5 tarjetas en 84% de los escenarios."
+              },
+              {
+                "mercado": "Ambos anotan: No",
+                "probabilidad": 80.0,
+                "score": 0.8,
+                "confianza": "alta",
+                "familia": "btts",
+                "justificacion": "La tendencia combinada indica que ambos equipos no marcan en una proporción alta de sus partidos recientes."
               }
             ]
           },
-          "analisis": "En sus últimos 20 partidos con datos disponibles, Juventude promedia 2.1 tarjetas por partido, un nivel moderado. (confianza alta, base: 20 partidos reales)\nEn sus últimos 20 partidos con datos disponibles, CRB promedia 2.9 tarjetas por partido, un nivel moderado. (confianza alta, base: 20 partidos reales)\nJuventude remata 12.2 veces por partido, de las cuales 4.2 van al arco (35% de efectividad de puntería).\nCRB remata 17.8 veces por partido, de las cuales 6.0 van al arco (33% de efectividad de puntería).\nAmbos anotan (No) — promedio combinado 20%, tendencia baja de goles en ambos arcos."
+          "recomendaciones": [
+            {
+              "mercado": "Más de 17.5 remates totales",
+              "probabilidad": 98.5,
+              "score": 0.985,
+              "confianza": "alta",
+              "familia": "remates",
+              "justificacion": "El historial combinado supera 17.5 remates en 98% de los escenarios."
+            },
+            {
+              "mercado": "Menos de 4.5 goles",
+              "probabilidad": 97.2,
+              "score": 0.9725,
+              "confianza": "alta",
+              "familia": "goles",
+              "justificacion": "La combinación de los historiales goleadores queda por debajo de 4.5 goles en 97% de los escenarios históricos."
+            },
+            {
+              "mercado": "Más de 2.5 tarjetas",
+              "probabilidad": 84.2,
+              "score": 0.8425,
+              "confianza": "alta",
+              "familia": "tarjetas",
+              "justificacion": "El historial combinado supera 2.5 tarjetas en 84% de los escenarios."
+            },
+            {
+              "mercado": "Ambos anotan: No",
+              "probabilidad": 80.0,
+              "score": 0.8,
+              "confianza": "alta",
+              "familia": "btts",
+              "justificacion": "La tendencia combinada indica que ambos equipos no marcan en una proporción alta de sus partidos recientes."
+            }
+          ],
+          "analisis": "Juventude promedia 2.1 tarjetas en sus últimos 20 partidos.\nCRB promedia 2.9 tarjetas en sus últimos 20 partidos.\nJuventude promedia 12.2 remates por partido, con 4.2 al arco.\nCRB promedia 17.8 remates por partido, con 6.0 al arco.\nTendencia combinada de ambos anotan: 20%.",
+          "datos_completos": true
         }
       ]
     },
@@ -10452,30 +10775,109 @@
           },
           "pick_mas_seguro": {
             "disponible": true,
-            "mercado": "Goles propios de Cruzeiro: Menos de 2.5",
-            "justificacion": "Cruzeiro tuvo menos de 2.5 goles propios en 100% de sus últimos 12 partidos.",
+            "mercado": "Ambos anotan: No",
+            "justificacion": "La tendencia combinada indica que ambos equipos no marcan en una proporción alta de sus partidos recientes.",
             "confianza": "media",
-            "score": 0.6,
-            "probabilidad": 100.0,
+            "score": 0.8335,
+            "probabilidad": 83.4,
             "n_min": 12,
-            "alternativas": [
+            "recomendaciones": [
               {
-                "mercado": "Goles recibidos por Cruzeiro: Menos de 2.5",
-                "score": 0.6,
-                "probabilidad": 100.0,
-                "justificacion": "Cruzeiro recibió menos de 2.5 goles en 100% de sus últimos 12 partidos.",
-                "confianza": "media"
+                "mercado": "Ambos anotan: No",
+                "probabilidad": 83.4,
+                "score": 0.8335,
+                "confianza": "media",
+                "familia": "btts",
+                "justificacion": "La tendencia combinada indica que ambos equipos no marcan en una proporción alta de sus partidos recientes."
               },
               {
-                "mercado": "Goles recibidos por Atlético-MG: Menos de 2.5",
-                "score": 0.6,
-                "probabilidad": 100.0,
-                "justificacion": "Atlético-MG recibió menos de 2.5 goles en 100% de sus últimos 12 partidos.",
-                "confianza": "media"
+                "mercado": "Menos de 6.5 tarjetas",
+                "probabilidad": 93.8,
+                "score": 0.825,
+                "confianza": "media",
+                "familia": "tarjetas",
+                "justificacion": "El historial combinado queda por debajo de 6.5 tarjetas en 94% de los escenarios."
+              },
+              {
+                "mercado": "Menos de 17.5 remates totales",
+                "probabilidad": 91.7,
+                "score": 0.8067,
+                "confianza": "media",
+                "familia": "remates",
+                "justificacion": "El historial combinado queda por debajo de 17.5 remates en 92% de los escenarios."
+              },
+              {
+                "mercado": "Menos de 4.5 goles",
+                "probabilidad": 91.0,
+                "score": 0.8006,
+                "confianza": "media",
+                "familia": "goles",
+                "justificacion": "La combinación de los historiales goleadores queda por debajo de 4.5 goles en 91% de los escenarios históricos."
+              }
+            ],
+            "alternativas": [
+              {
+                "mercado": "Menos de 6.5 tarjetas",
+                "probabilidad": 93.8,
+                "score": 0.825,
+                "confianza": "media",
+                "familia": "tarjetas",
+                "justificacion": "El historial combinado queda por debajo de 6.5 tarjetas en 94% de los escenarios."
+              },
+              {
+                "mercado": "Menos de 17.5 remates totales",
+                "probabilidad": 91.7,
+                "score": 0.8067,
+                "confianza": "media",
+                "familia": "remates",
+                "justificacion": "El historial combinado queda por debajo de 17.5 remates en 92% de los escenarios."
+              },
+              {
+                "mercado": "Menos de 4.5 goles",
+                "probabilidad": 91.0,
+                "score": 0.8006,
+                "confianza": "media",
+                "familia": "goles",
+                "justificacion": "La combinación de los historiales goleadores queda por debajo de 4.5 goles en 91% de los escenarios históricos."
               }
             ]
           },
-          "analisis": "En sus últimos 12 partidos con datos disponibles, Cruzeiro promedia 2.2 tarjetas por partido, un nivel moderado. (confianza media, base: 12 partidos reales)\nEn sus últimos 12 partidos con datos disponibles, Atlético-MG promedia 2.0 tarjetas por partido, un nivel moderado. (confianza media, base: 12 partidos reales)\nCruzeiro remata 2.4 veces por partido, de las cuales 0.9 van al arco (38% de efectividad de puntería).\nAtlético-MG remata 0.0 veces por partido, de las cuales 0.0 van al arco (0% de efectividad de puntería).\nAmbos anotan (No) — promedio combinado 17%, tendencia baja de goles en ambos arcos."
+          "recomendaciones": [
+            {
+              "mercado": "Ambos anotan: No",
+              "probabilidad": 83.4,
+              "score": 0.8335,
+              "confianza": "media",
+              "familia": "btts",
+              "justificacion": "La tendencia combinada indica que ambos equipos no marcan en una proporción alta de sus partidos recientes."
+            },
+            {
+              "mercado": "Menos de 6.5 tarjetas",
+              "probabilidad": 93.8,
+              "score": 0.825,
+              "confianza": "media",
+              "familia": "tarjetas",
+              "justificacion": "El historial combinado queda por debajo de 6.5 tarjetas en 94% de los escenarios."
+            },
+            {
+              "mercado": "Menos de 17.5 remates totales",
+              "probabilidad": 91.7,
+              "score": 0.8067,
+              "confianza": "media",
+              "familia": "remates",
+              "justificacion": "El historial combinado queda por debajo de 17.5 remates en 92% de los escenarios."
+            },
+            {
+              "mercado": "Menos de 4.5 goles",
+              "probabilidad": 91.0,
+              "score": 0.8006,
+              "confianza": "media",
+              "familia": "goles",
+              "justificacion": "La combinación de los historiales goleadores queda por debajo de 4.5 goles en 91% de los escenarios históricos."
+            }
+          ],
+          "analisis": "Cruzeiro promedia 2.2 tarjetas en sus últimos 12 partidos.\nAtlético-MG promedia 2.0 tarjetas en sus últimos 12 partidos.\nCruzeiro promedia 2.4 remates por partido, con 0.9 al arco.\nAtlético-MG promedia 0.0 remates por partido, con 0.0 al arco.\nTendencia combinada de ambos anotan: 17%.",
+          "datos_completos": true
         }
       ]
     },
@@ -11553,30 +11955,109 @@
           },
           "pick_mas_seguro": {
             "disponible": true,
-            "mercado": "Goles propios de Deportivo Pereira: Menos de 2.5",
-            "justificacion": "Deportivo Pereira tuvo menos de 2.5 goles propios en 100% de sus últimos 20 partidos.",
+            "mercado": "Menos de 4.5 goles",
+            "justificacion": "La combinación de los historiales goleadores queda por debajo de 4.5 goles en 100% de los escenarios históricos.",
             "confianza": "alta",
             "score": 1.0,
             "probabilidad": 100.0,
             "n_min": 20,
-            "alternativas": [
+            "recomendaciones": [
               {
-                "mercado": "Goles propios de Jaguares de Córdoba: Menos de 2.5",
-                "score": 1.0,
+                "mercado": "Menos de 4.5 goles",
                 "probabilidad": 100.0,
-                "justificacion": "Jaguares de Córdoba tuvo menos de 2.5 goles propios en 100% de sus últimos 20 partidos.",
-                "confianza": "alta"
+                "score": 1.0,
+                "confianza": "alta",
+                "familia": "goles",
+                "justificacion": "La combinación de los historiales goleadores queda por debajo de 4.5 goles en 100% de los escenarios históricos."
               },
               {
-                "mercado": "Goles totales del partido: Menos de 4.5",
-                "score": 1.0,
-                "probabilidad": 100.0,
-                "justificacion": "Combinando el historial goleador de ambos equipos, 100% de las combinaciones posibles dan menos de 4.5 goles totales.",
-                "confianza": "alta"
+                "mercado": "Más de 2.5 tarjetas",
+                "probabilidad": 95.0,
+                "score": 0.95,
+                "confianza": "alta",
+                "familia": "tarjetas",
+                "justificacion": "El historial combinado supera 2.5 tarjetas en 95% de los escenarios."
+              },
+              {
+                "mercado": "Menos de 27.5 remates totales",
+                "probabilidad": 86.2,
+                "score": 0.8625,
+                "confianza": "alta",
+                "familia": "remates",
+                "justificacion": "El historial combinado queda por debajo de 27.5 remates en 86% de los escenarios."
+              },
+              {
+                "mercado": "Ambos anotan: No",
+                "probabilidad": 67.5,
+                "score": 0.675,
+                "confianza": "alta",
+                "familia": "btts",
+                "justificacion": "La tendencia combinada indica que ambos equipos no marcan en una proporción alta de sus partidos recientes."
+              }
+            ],
+            "alternativas": [
+              {
+                "mercado": "Más de 2.5 tarjetas",
+                "probabilidad": 95.0,
+                "score": 0.95,
+                "confianza": "alta",
+                "familia": "tarjetas",
+                "justificacion": "El historial combinado supera 2.5 tarjetas en 95% de los escenarios."
+              },
+              {
+                "mercado": "Menos de 27.5 remates totales",
+                "probabilidad": 86.2,
+                "score": 0.8625,
+                "confianza": "alta",
+                "familia": "remates",
+                "justificacion": "El historial combinado queda por debajo de 27.5 remates en 86% de los escenarios."
+              },
+              {
+                "mercado": "Ambos anotan: No",
+                "probabilidad": 67.5,
+                "score": 0.675,
+                "confianza": "alta",
+                "familia": "btts",
+                "justificacion": "La tendencia combinada indica que ambos equipos no marcan en una proporción alta de sus partidos recientes."
               }
             ]
           },
-          "analisis": "En sus últimos 20 partidos con datos disponibles, Deportivo Pereira promedia 2.6 tarjetas por partido, un nivel moderado. (confianza alta, base: 20 partidos reales)\nEn sus últimos 20 partidos con datos disponibles, Jaguares de Córdoba promedia 3.5 tarjetas por partido — una tendencia marcadamente indisciplinada. (confianza alta, base: 20 partidos reales)\nDeportivo Pereira remata 9.1 veces por partido, de las cuales 3.4 van al arco (37% de efectividad de puntería).\nJaguares de Córdoba remata 11.9 veces por partido, de las cuales 3.8 van al arco (32% de efectividad de puntería).\nAmbos anotan (No) — promedio combinado 32%, tendencia baja de goles en ambos arcos."
+          "recomendaciones": [
+            {
+              "mercado": "Menos de 4.5 goles",
+              "probabilidad": 100.0,
+              "score": 1.0,
+              "confianza": "alta",
+              "familia": "goles",
+              "justificacion": "La combinación de los historiales goleadores queda por debajo de 4.5 goles en 100% de los escenarios históricos."
+            },
+            {
+              "mercado": "Más de 2.5 tarjetas",
+              "probabilidad": 95.0,
+              "score": 0.95,
+              "confianza": "alta",
+              "familia": "tarjetas",
+              "justificacion": "El historial combinado supera 2.5 tarjetas en 95% de los escenarios."
+            },
+            {
+              "mercado": "Menos de 27.5 remates totales",
+              "probabilidad": 86.2,
+              "score": 0.8625,
+              "confianza": "alta",
+              "familia": "remates",
+              "justificacion": "El historial combinado queda por debajo de 27.5 remates en 86% de los escenarios."
+            },
+            {
+              "mercado": "Ambos anotan: No",
+              "probabilidad": 67.5,
+              "score": 0.675,
+              "confianza": "alta",
+              "familia": "btts",
+              "justificacion": "La tendencia combinada indica que ambos equipos no marcan en una proporción alta de sus partidos recientes."
+            }
+          ],
+          "analisis": "Deportivo Pereira promedia 2.6 tarjetas en sus últimos 20 partidos.\nJaguares de Córdoba promedia 3.5 tarjetas en sus últimos 20 partidos.\nDeportivo Pereira promedia 9.1 remates por partido, con 3.4 al arco.\nJaguares de Córdoba promedia 11.9 remates por partido, con 3.8 al arco.\nTendencia combinada de ambos anotan: 32%.",
+          "datos_completos": true
         },
         {
           "event_id": "401877951",
@@ -12919,30 +13400,133 @@
           },
           "pick_mas_seguro": {
             "disponible": true,
-            "mercado": "Goles propios de Águilas Doradas: Menos de 2.5",
-            "justificacion": "Águilas Doradas tuvo menos de 2.5 goles propios en 100% de sus últimos 20 partidos.",
+            "mercado": "Menos de 4.5 goles",
+            "justificacion": "La combinación de los historiales goleadores queda por debajo de 4.5 goles en 100% de los escenarios históricos.",
             "confianza": "alta",
-            "score": 1.0,
-            "probabilidad": 100.0,
+            "score": 0.995,
+            "probabilidad": 99.5,
             "n_min": 20,
-            "alternativas": [
+            "recomendaciones": [
               {
-                "mercado": "Goles recibidos por Atlético Bucaramanga: Menos de 2.5",
-                "score": 1.0,
-                "probabilidad": 100.0,
-                "justificacion": "Atlético Bucaramanga recibió menos de 2.5 goles en 100% de sus últimos 20 partidos.",
-                "confianza": "alta"
+                "mercado": "Menos de 4.5 goles",
+                "probabilidad": 99.5,
+                "score": 0.995,
+                "confianza": "alta",
+                "familia": "goles",
+                "justificacion": "La combinación de los historiales goleadores queda por debajo de 4.5 goles en 100% de los escenarios históricos."
               },
               {
-                "mercado": "Goles totales del partido: Menos de 4.5",
-                "score": 0.99,
-                "probabilidad": 99.5,
-                "justificacion": "Combinando el historial goleador de ambos equipos, 100% de las combinaciones posibles dan menos de 4.5 goles totales.",
-                "confianza": "alta"
+                "mercado": "Más de 2.5 tarjetas",
+                "probabilidad": 93.8,
+                "score": 0.9375,
+                "confianza": "alta",
+                "familia": "tarjetas",
+                "justificacion": "El historial combinado supera 2.5 tarjetas en 94% de los escenarios."
+              },
+              {
+                "mercado": "Más de 17.5 remates totales",
+                "probabilidad": 86.2,
+                "score": 0.8625,
+                "confianza": "alta",
+                "familia": "remates",
+                "justificacion": "El historial combinado supera 17.5 remates en 86% de los escenarios."
+              },
+              {
+                "mercado": "Ambos anotan: No",
+                "probabilidad": 72.5,
+                "score": 0.725,
+                "confianza": "alta",
+                "familia": "btts",
+                "justificacion": "La tendencia combinada indica que ambos equipos no marcan en una proporción alta de sus partidos recientes."
+              },
+              {
+                "mercado": "Doble oportunidad: Atlético Bucaramanga o empate",
+                "probabilidad": 64.6,
+                "score": 0.6456563062257954,
+                "confianza": "alta",
+                "familia": "resultado",
+                "justificacion": "El diferencial goleador reciente favorece a Atlético Bucaramanga sobre una muestra de 20 partidos por equipo."
+              }
+            ],
+            "alternativas": [
+              {
+                "mercado": "Más de 2.5 tarjetas",
+                "probabilidad": 93.8,
+                "score": 0.9375,
+                "confianza": "alta",
+                "familia": "tarjetas",
+                "justificacion": "El historial combinado supera 2.5 tarjetas en 94% de los escenarios."
+              },
+              {
+                "mercado": "Más de 17.5 remates totales",
+                "probabilidad": 86.2,
+                "score": 0.8625,
+                "confianza": "alta",
+                "familia": "remates",
+                "justificacion": "El historial combinado supera 17.5 remates en 86% de los escenarios."
+              },
+              {
+                "mercado": "Ambos anotan: No",
+                "probabilidad": 72.5,
+                "score": 0.725,
+                "confianza": "alta",
+                "familia": "btts",
+                "justificacion": "La tendencia combinada indica que ambos equipos no marcan en una proporción alta de sus partidos recientes."
+              },
+              {
+                "mercado": "Doble oportunidad: Atlético Bucaramanga o empate",
+                "probabilidad": 64.6,
+                "score": 0.6456563062257954,
+                "confianza": "alta",
+                "familia": "resultado",
+                "justificacion": "El diferencial goleador reciente favorece a Atlético Bucaramanga sobre una muestra de 20 partidos por equipo."
               }
             ]
           },
-          "analisis": "En sus últimos 20 partidos con datos disponibles, Atlético Bucaramanga promedia 2.6 tarjetas por partido, un nivel moderado. (confianza alta, base: 20 partidos reales)\nEn sus últimos 20 partidos con datos disponibles, Águilas Doradas promedia 3.0 tarjetas por partido — una tendencia marcadamente indisciplinada. (confianza alta, base: 20 partidos reales)\nAtlético Bucaramanga remata 13.1 veces por partido, de las cuales 3.9 van al arco (30% de efectividad de puntería).\nÁguilas Doradas remata 11.6 veces por partido, de las cuales 3.8 van al arco (32% de efectividad de puntería).\nAmbos anotan (No) — promedio combinado 28%, tendencia baja de goles en ambos arcos."
+          "recomendaciones": [
+            {
+              "mercado": "Menos de 4.5 goles",
+              "probabilidad": 99.5,
+              "score": 0.995,
+              "confianza": "alta",
+              "familia": "goles",
+              "justificacion": "La combinación de los historiales goleadores queda por debajo de 4.5 goles en 100% de los escenarios históricos."
+            },
+            {
+              "mercado": "Más de 2.5 tarjetas",
+              "probabilidad": 93.8,
+              "score": 0.9375,
+              "confianza": "alta",
+              "familia": "tarjetas",
+              "justificacion": "El historial combinado supera 2.5 tarjetas en 94% de los escenarios."
+            },
+            {
+              "mercado": "Más de 17.5 remates totales",
+              "probabilidad": 86.2,
+              "score": 0.8625,
+              "confianza": "alta",
+              "familia": "remates",
+              "justificacion": "El historial combinado supera 17.5 remates en 86% de los escenarios."
+            },
+            {
+              "mercado": "Ambos anotan: No",
+              "probabilidad": 72.5,
+              "score": 0.725,
+              "confianza": "alta",
+              "familia": "btts",
+              "justificacion": "La tendencia combinada indica que ambos equipos no marcan en una proporción alta de sus partidos recientes."
+            },
+            {
+              "mercado": "Doble oportunidad: Atlético Bucaramanga o empate",
+              "probabilidad": 64.6,
+              "score": 0.6456563062257954,
+              "confianza": "alta",
+              "familia": "resultado",
+              "justificacion": "El diferencial goleador reciente favorece a Atlético Bucaramanga sobre una muestra de 20 partidos por equipo."
+            }
+          ],
+          "analisis": "Atlético Bucaramanga promedia 2.6 tarjetas en sus últimos 20 partidos.\nÁguilas Doradas promedia 3.0 tarjetas en sus últimos 20 partidos.\nAtlético Bucaramanga promedia 13.1 remates por partido, con 3.9 al arco.\nÁguilas Doradas promedia 11.6 remates por partido, con 3.8 al arco.\nTendencia combinada de ambos anotan: 28%.",
+          "datos_completos": true
         },
         {
           "event_id": "401878054",
@@ -14861,30 +15445,109 @@
           },
           "pick_mas_seguro": {
             "disponible": true,
-            "mercado": "Goles propios de Cúcuta Deportivo: Menos de 2.5",
-            "justificacion": "Cúcuta Deportivo tuvo menos de 2.5 goles propios en 100% de sus últimos 20 partidos.",
+            "mercado": "Menos de 4.5 goles",
+            "justificacion": "La combinación de los historiales goleadores queda por debajo de 4.5 goles en 100% de los escenarios históricos.",
             "confianza": "alta",
             "score": 1.0,
             "probabilidad": 100.0,
             "n_min": 20,
-            "alternativas": [
+            "recomendaciones": [
               {
-                "mercado": "Goles propios de Alianza FC: Menos de 2.5",
-                "score": 1.0,
+                "mercado": "Menos de 4.5 goles",
                 "probabilidad": 100.0,
-                "justificacion": "Alianza FC tuvo menos de 2.5 goles propios en 100% de sus últimos 20 partidos.",
-                "confianza": "alta"
+                "score": 1.0,
+                "confianza": "alta",
+                "familia": "goles",
+                "justificacion": "La combinación de los historiales goleadores queda por debajo de 4.5 goles en 100% de los escenarios históricos."
               },
               {
-                "mercado": "Goles totales del partido: Menos de 4.5",
-                "score": 1.0,
-                "probabilidad": 100.0,
-                "justificacion": "Combinando el historial goleador de ambos equipos, 100% de las combinaciones posibles dan menos de 4.5 goles totales.",
-                "confianza": "alta"
+                "mercado": "Más de 2.5 tarjetas",
+                "probabilidad": 91.0,
+                "score": 0.91,
+                "confianza": "alta",
+                "familia": "tarjetas",
+                "justificacion": "El historial combinado supera 2.5 tarjetas en 91% de los escenarios."
+              },
+              {
+                "mercado": "Menos de 27.5 remates totales",
+                "probabilidad": 80.5,
+                "score": 0.805,
+                "confianza": "alta",
+                "familia": "remates",
+                "justificacion": "El historial combinado queda por debajo de 27.5 remates en 80% de los escenarios."
+              },
+              {
+                "mercado": "Ambos anotan: No",
+                "probabilidad": 67.5,
+                "score": 0.675,
+                "confianza": "alta",
+                "familia": "btts",
+                "justificacion": "La tendencia combinada indica que ambos equipos no marcan en una proporción alta de sus partidos recientes."
+              }
+            ],
+            "alternativas": [
+              {
+                "mercado": "Más de 2.5 tarjetas",
+                "probabilidad": 91.0,
+                "score": 0.91,
+                "confianza": "alta",
+                "familia": "tarjetas",
+                "justificacion": "El historial combinado supera 2.5 tarjetas en 91% de los escenarios."
+              },
+              {
+                "mercado": "Menos de 27.5 remates totales",
+                "probabilidad": 80.5,
+                "score": 0.805,
+                "confianza": "alta",
+                "familia": "remates",
+                "justificacion": "El historial combinado queda por debajo de 27.5 remates en 80% de los escenarios."
+              },
+              {
+                "mercado": "Ambos anotan: No",
+                "probabilidad": 67.5,
+                "score": 0.675,
+                "confianza": "alta",
+                "familia": "btts",
+                "justificacion": "La tendencia combinada indica que ambos equipos no marcan en una proporción alta de sus partidos recientes."
               }
             ]
           },
-          "analisis": "En sus últimos 20 partidos con datos disponibles, Cúcuta Deportivo promedia 2.8 tarjetas por partido, un nivel moderado. (confianza alta, base: 20 partidos reales)\nEn sus últimos 20 partidos con datos disponibles, Alianza FC promedia 3.1 tarjetas por partido — una tendencia marcadamente indisciplinada. (confianza alta, base: 20 partidos reales)\nCúcuta Deportivo remata 10.7 veces por partido, de las cuales 4.0 van al arco (37% de efectividad de puntería).\nAlianza FC remata 11.8 veces por partido, de las cuales 3.0 van al arco (26% de efectividad de puntería).\nAmbos anotan (No) — promedio combinado 32%, tendencia baja de goles en ambos arcos."
+          "recomendaciones": [
+            {
+              "mercado": "Menos de 4.5 goles",
+              "probabilidad": 100.0,
+              "score": 1.0,
+              "confianza": "alta",
+              "familia": "goles",
+              "justificacion": "La combinación de los historiales goleadores queda por debajo de 4.5 goles en 100% de los escenarios históricos."
+            },
+            {
+              "mercado": "Más de 2.5 tarjetas",
+              "probabilidad": 91.0,
+              "score": 0.91,
+              "confianza": "alta",
+              "familia": "tarjetas",
+              "justificacion": "El historial combinado supera 2.5 tarjetas en 91% de los escenarios."
+            },
+            {
+              "mercado": "Menos de 27.5 remates totales",
+              "probabilidad": 80.5,
+              "score": 0.805,
+              "confianza": "alta",
+              "familia": "remates",
+              "justificacion": "El historial combinado queda por debajo de 27.5 remates en 80% de los escenarios."
+            },
+            {
+              "mercado": "Ambos anotan: No",
+              "probabilidad": 67.5,
+              "score": 0.675,
+              "confianza": "alta",
+              "familia": "btts",
+              "justificacion": "La tendencia combinada indica que ambos equipos no marcan en una proporción alta de sus partidos recientes."
+            }
+          ],
+          "analisis": "Cúcuta Deportivo promedia 2.8 tarjetas en sus últimos 20 partidos.\nAlianza FC promedia 3.1 tarjetas en sus últimos 20 partidos.\nCúcuta Deportivo promedia 10.7 remates por partido, con 4.0 al arco.\nAlianza FC promedia 11.8 remates por partido, con 3.0 al arco.\nTendencia combinada de ambos anotan: 32%.",
+          "datos_completos": true
         },
         {
           "event_id": "401877844",
@@ -16226,30 +16889,133 @@
           },
           "pick_mas_seguro": {
             "disponible": true,
-            "mercado": "Goles propios de Jaguares de Córdoba: Menos de 2.5",
-            "justificacion": "Jaguares de Córdoba tuvo menos de 2.5 goles propios en 100% de sus últimos 20 partidos.",
+            "mercado": "Menos de 4.5 goles",
+            "justificacion": "La combinación de los historiales goleadores queda por debajo de 4.5 goles en 97% de los escenarios históricos.",
             "confianza": "alta",
-            "score": 1.0,
-            "probabilidad": 100.0,
+            "score": 0.97,
+            "probabilidad": 97.0,
             "n_min": 20,
-            "alternativas": [
+            "recomendaciones": [
               {
-                "mercado": "Goles recibidos por Independiente Santa Fe: Menos de 2.5",
-                "score": 1.0,
-                "probabilidad": 100.0,
-                "justificacion": "Independiente Santa Fe recibió menos de 2.5 goles en 100% de sus últimos 20 partidos.",
-                "confianza": "alta"
+                "mercado": "Menos de 4.5 goles",
+                "probabilidad": 97.0,
+                "score": 0.97,
+                "confianza": "alta",
+                "familia": "goles",
+                "justificacion": "La combinación de los historiales goleadores queda por debajo de 4.5 goles en 97% de los escenarios históricos."
               },
               {
-                "mercado": "Goles totales del partido: Menos de 4.5",
-                "score": 0.94,
-                "probabilidad": 97.0,
-                "justificacion": "Combinando el historial goleador de ambos equipos, 97% de las combinaciones posibles dan menos de 4.5 goles totales.",
-                "confianza": "alta"
+                "mercado": "Más de 2.5 tarjetas",
+                "probabilidad": 96.5,
+                "score": 0.965,
+                "confianza": "alta",
+                "familia": "tarjetas",
+                "justificacion": "El historial combinado supera 2.5 tarjetas en 96% de los escenarios."
+              },
+              {
+                "mercado": "Más de 17.5 remates totales",
+                "probabilidad": 85.0,
+                "score": 0.85,
+                "confianza": "alta",
+                "familia": "remates",
+                "justificacion": "El historial combinado supera 17.5 remates en 85% de los escenarios."
+              },
+              {
+                "mercado": "Doble oportunidad: Independiente Santa Fe o empate",
+                "probabilidad": 75.0,
+                "score": 0.7502601055951177,
+                "confianza": "alta",
+                "familia": "resultado",
+                "justificacion": "El diferencial goleador reciente favorece a Independiente Santa Fe sobre una muestra de 20 partidos por equipo."
+              },
+              {
+                "mercado": "Ambos anotan: No",
+                "probabilidad": 62.5,
+                "score": 0.625,
+                "confianza": "alta",
+                "familia": "btts",
+                "justificacion": "La tendencia combinada indica que ambos equipos no marcan en una proporción alta de sus partidos recientes."
+              }
+            ],
+            "alternativas": [
+              {
+                "mercado": "Más de 2.5 tarjetas",
+                "probabilidad": 96.5,
+                "score": 0.965,
+                "confianza": "alta",
+                "familia": "tarjetas",
+                "justificacion": "El historial combinado supera 2.5 tarjetas en 96% de los escenarios."
+              },
+              {
+                "mercado": "Más de 17.5 remates totales",
+                "probabilidad": 85.0,
+                "score": 0.85,
+                "confianza": "alta",
+                "familia": "remates",
+                "justificacion": "El historial combinado supera 17.5 remates en 85% de los escenarios."
+              },
+              {
+                "mercado": "Doble oportunidad: Independiente Santa Fe o empate",
+                "probabilidad": 75.0,
+                "score": 0.7502601055951177,
+                "confianza": "alta",
+                "familia": "resultado",
+                "justificacion": "El diferencial goleador reciente favorece a Independiente Santa Fe sobre una muestra de 20 partidos por equipo."
+              },
+              {
+                "mercado": "Ambos anotan: No",
+                "probabilidad": 62.5,
+                "score": 0.625,
+                "confianza": "alta",
+                "familia": "btts",
+                "justificacion": "La tendencia combinada indica que ambos equipos no marcan en una proporción alta de sus partidos recientes."
               }
             ]
           },
-          "analisis": "En sus últimos 20 partidos con datos disponibles, Independiente Santa Fe promedia 2.5 tarjetas por partido, un nivel moderado. (confianza alta, base: 20 partidos reales)\nEn sus últimos 20 partidos con datos disponibles, Jaguares de Córdoba promedia 3.5 tarjetas por partido — una tendencia marcadamente indisciplinada. (confianza alta, base: 20 partidos reales)\nIndependiente Santa Fe remata 12.1 veces por partido, de las cuales 4.5 van al arco (38% de efectividad de puntería).\nJaguares de Córdoba remata 11.9 veces por partido, de las cuales 3.8 van al arco (32% de efectividad de puntería).\nAmbos anotan — 38% combinado, sin tendencia clara hacia sí o no."
+          "recomendaciones": [
+            {
+              "mercado": "Menos de 4.5 goles",
+              "probabilidad": 97.0,
+              "score": 0.97,
+              "confianza": "alta",
+              "familia": "goles",
+              "justificacion": "La combinación de los historiales goleadores queda por debajo de 4.5 goles en 97% de los escenarios históricos."
+            },
+            {
+              "mercado": "Más de 2.5 tarjetas",
+              "probabilidad": 96.5,
+              "score": 0.965,
+              "confianza": "alta",
+              "familia": "tarjetas",
+              "justificacion": "El historial combinado supera 2.5 tarjetas en 96% de los escenarios."
+            },
+            {
+              "mercado": "Más de 17.5 remates totales",
+              "probabilidad": 85.0,
+              "score": 0.85,
+              "confianza": "alta",
+              "familia": "remates",
+              "justificacion": "El historial combinado supera 17.5 remates en 85% de los escenarios."
+            },
+            {
+              "mercado": "Doble oportunidad: Independiente Santa Fe o empate",
+              "probabilidad": 75.0,
+              "score": 0.7502601055951177,
+              "confianza": "alta",
+              "familia": "resultado",
+              "justificacion": "El diferencial goleador reciente favorece a Independiente Santa Fe sobre una muestra de 20 partidos por equipo."
+            },
+            {
+              "mercado": "Ambos anotan: No",
+              "probabilidad": 62.5,
+              "score": 0.625,
+              "confianza": "alta",
+              "familia": "btts",
+              "justificacion": "La tendencia combinada indica que ambos equipos no marcan en una proporción alta de sus partidos recientes."
+            }
+          ],
+          "analisis": "Independiente Santa Fe promedia 2.5 tarjetas en sus últimos 20 partidos.\nJaguares de Córdoba promedia 3.5 tarjetas en sus últimos 20 partidos.\nIndependiente Santa Fe promedia 12.1 remates por partido, con 4.5 al arco.\nJaguares de Córdoba promedia 11.9 remates por partido, con 3.8 al arco.\nTendencia combinada de ambos anotan: 38%.",
+          "datos_completos": true
         }
       ]
     },
@@ -18174,30 +18940,109 @@
           },
           "pick_mas_seguro": {
             "disponible": true,
-            "mercado": "Goles propios de 2 de Mayo: Menos de 2.5",
-            "justificacion": "2 de Mayo tuvo menos de 2.5 goles propios en 100% de sus últimos 20 partidos.",
+            "mercado": "Menos de 4.5 goles",
+            "justificacion": "La combinación de los historiales goleadores queda por debajo de 4.5 goles en 100% de los escenarios históricos.",
             "confianza": "alta",
             "score": 1.0,
             "probabilidad": 100.0,
             "n_min": 20,
-            "alternativas": [
+            "recomendaciones": [
               {
-                "mercado": "Goles propios de Guaraní: Menos de 2.5",
-                "score": 1.0,
+                "mercado": "Menos de 4.5 goles",
                 "probabilidad": 100.0,
-                "justificacion": "Guaraní tuvo menos de 2.5 goles propios en 100% de sus últimos 20 partidos.",
-                "confianza": "alta"
+                "score": 1.0,
+                "confianza": "alta",
+                "familia": "goles",
+                "justificacion": "La combinación de los historiales goleadores queda por debajo de 4.5 goles en 100% de los escenarios históricos."
               },
               {
-                "mercado": "Goles recibidos por 2 de Mayo: Menos de 1.5",
-                "score": 1.0,
+                "mercado": "Menos de 6.5 tarjetas",
                 "probabilidad": 100.0,
-                "justificacion": "2 de Mayo recibió menos de 1.5 goles en 100% de sus últimos 20 partidos.",
-                "confianza": "alta"
+                "score": 1.0,
+                "confianza": "alta",
+                "familia": "tarjetas",
+                "justificacion": "El historial combinado queda por debajo de 6.5 tarjetas en 100% de los escenarios."
+              },
+              {
+                "mercado": "Menos de 17.5 remates totales",
+                "probabilidad": 100.0,
+                "score": 1.0,
+                "confianza": "alta",
+                "familia": "remates",
+                "justificacion": "El historial combinado queda por debajo de 17.5 remates en 100% de los escenarios."
+              },
+              {
+                "mercado": "Ambos anotan: No",
+                "probabilidad": 87.5,
+                "score": 0.875,
+                "confianza": "alta",
+                "familia": "btts",
+                "justificacion": "La tendencia combinada indica que ambos equipos no marcan en una proporción alta de sus partidos recientes."
+              }
+            ],
+            "alternativas": [
+              {
+                "mercado": "Menos de 6.5 tarjetas",
+                "probabilidad": 100.0,
+                "score": 1.0,
+                "confianza": "alta",
+                "familia": "tarjetas",
+                "justificacion": "El historial combinado queda por debajo de 6.5 tarjetas en 100% de los escenarios."
+              },
+              {
+                "mercado": "Menos de 17.5 remates totales",
+                "probabilidad": 100.0,
+                "score": 1.0,
+                "confianza": "alta",
+                "familia": "remates",
+                "justificacion": "El historial combinado queda por debajo de 17.5 remates en 100% de los escenarios."
+              },
+              {
+                "mercado": "Ambos anotan: No",
+                "probabilidad": 87.5,
+                "score": 0.875,
+                "confianza": "alta",
+                "familia": "btts",
+                "justificacion": "La tendencia combinada indica que ambos equipos no marcan en una proporción alta de sus partidos recientes."
               }
             ]
           },
-          "analisis": "En sus últimos 20 partidos con datos disponibles, 2 de Mayo promedia apenas 0.3 tarjetas por partido, un equipo disciplinado. (confianza alta, base: 20 partidos reales)\nEn sus últimos 20 partidos con datos disponibles, Guaraní promedia apenas 0.5 tarjetas por partido, un equipo disciplinado. (confianza alta, base: 20 partidos reales)\n2 de Mayo remata 0.0 veces por partido, de las cuales 0.0 van al arco (0% de efectividad de puntería).\nGuaraní remata 0.0 veces por partido, de las cuales 0.0 van al arco (0% de efectividad de puntería).\nAmbos anotan (No) — promedio combinado 12%, tendencia baja de goles en ambos arcos."
+          "recomendaciones": [
+            {
+              "mercado": "Menos de 4.5 goles",
+              "probabilidad": 100.0,
+              "score": 1.0,
+              "confianza": "alta",
+              "familia": "goles",
+              "justificacion": "La combinación de los historiales goleadores queda por debajo de 4.5 goles en 100% de los escenarios históricos."
+            },
+            {
+              "mercado": "Menos de 6.5 tarjetas",
+              "probabilidad": 100.0,
+              "score": 1.0,
+              "confianza": "alta",
+              "familia": "tarjetas",
+              "justificacion": "El historial combinado queda por debajo de 6.5 tarjetas en 100% de los escenarios."
+            },
+            {
+              "mercado": "Menos de 17.5 remates totales",
+              "probabilidad": 100.0,
+              "score": 1.0,
+              "confianza": "alta",
+              "familia": "remates",
+              "justificacion": "El historial combinado queda por debajo de 17.5 remates en 100% de los escenarios."
+            },
+            {
+              "mercado": "Ambos anotan: No",
+              "probabilidad": 87.5,
+              "score": 0.875,
+              "confianza": "alta",
+              "familia": "btts",
+              "justificacion": "La tendencia combinada indica que ambos equipos no marcan en una proporción alta de sus partidos recientes."
+            }
+          ],
+          "analisis": "2 de Mayo promedia 0.3 tarjetas en sus últimos 20 partidos.\nGuaraní promedia 0.5 tarjetas en sus últimos 20 partidos.\n2 de Mayo promedia 0.0 remates por partido, con 0.0 al arco.\nGuaraní promedia 0.0 remates por partido, con 0.0 al arco.\nTendencia combinada de ambos anotan: 12%.",
+          "datos_completos": true
         }
       ]
     },
@@ -20120,30 +20965,133 @@
           },
           "pick_mas_seguro": {
             "disponible": true,
-            "mercado": "Goles recibidos por Oriente Petrolero: Menos de 2.5",
-            "justificacion": "Oriente Petrolero recibió menos de 2.5 goles en 100% de sus últimos 20 partidos.",
+            "mercado": "Menos de 4.5 goles",
+            "justificacion": "La combinación de los historiales goleadores queda por debajo de 4.5 goles en 94% de los escenarios históricos.",
             "confianza": "alta",
-            "score": 1.0,
-            "probabilidad": 100.0,
+            "score": 0.9375,
+            "probabilidad": 93.8,
             "n_min": 20,
-            "alternativas": [
+            "recomendaciones": [
               {
-                "mercado": "Goles propios de GV San José: Menos de 2.5",
-                "score": 0.9,
-                "probabilidad": 95.0,
-                "justificacion": "GV San José tuvo menos de 2.5 goles propios en 95% de sus últimos 20 partidos.",
-                "confianza": "alta"
+                "mercado": "Menos de 4.5 goles",
+                "probabilidad": 93.8,
+                "score": 0.9375,
+                "confianza": "alta",
+                "familia": "goles",
+                "justificacion": "La combinación de los historiales goleadores queda por debajo de 4.5 goles en 94% de los escenarios históricos."
               },
               {
-                "mercado": "Goles recibidos por GV San José: Menos de 2.5",
-                "score": 0.9,
-                "probabilidad": 95.0,
-                "justificacion": "GV San José recibió menos de 2.5 goles en 95% de sus últimos 20 partidos.",
-                "confianza": "alta"
+                "mercado": "Menos de 6.5 tarjetas",
+                "probabilidad": 92.0,
+                "score": 0.92,
+                "confianza": "alta",
+                "familia": "tarjetas",
+                "justificacion": "El historial combinado queda por debajo de 6.5 tarjetas en 92% de los escenarios."
+              },
+              {
+                "mercado": "Menos de 27.5 remates totales",
+                "probabilidad": 89.8,
+                "score": 0.8975,
+                "confianza": "alta",
+                "familia": "remates",
+                "justificacion": "El historial combinado queda por debajo de 27.5 remates en 90% de los escenarios."
+              },
+              {
+                "mercado": "Ambos anotan: No",
+                "probabilidad": 77.5,
+                "score": 0.775,
+                "confianza": "alta",
+                "familia": "btts",
+                "justificacion": "La tendencia combinada indica que ambos equipos no marcan en una proporción alta de sus partidos recientes."
+              },
+              {
+                "mercado": "Doble oportunidad: Oriente Petrolero o empate",
+                "probabilidad": 64.6,
+                "score": 0.6456563062257954,
+                "confianza": "alta",
+                "familia": "resultado",
+                "justificacion": "El diferencial goleador reciente favorece a Oriente Petrolero sobre una muestra de 20 partidos por equipo."
+              }
+            ],
+            "alternativas": [
+              {
+                "mercado": "Menos de 6.5 tarjetas",
+                "probabilidad": 92.0,
+                "score": 0.92,
+                "confianza": "alta",
+                "familia": "tarjetas",
+                "justificacion": "El historial combinado queda por debajo de 6.5 tarjetas en 92% de los escenarios."
+              },
+              {
+                "mercado": "Menos de 27.5 remates totales",
+                "probabilidad": 89.8,
+                "score": 0.8975,
+                "confianza": "alta",
+                "familia": "remates",
+                "justificacion": "El historial combinado queda por debajo de 27.5 remates en 90% de los escenarios."
+              },
+              {
+                "mercado": "Ambos anotan: No",
+                "probabilidad": 77.5,
+                "score": 0.775,
+                "confianza": "alta",
+                "familia": "btts",
+                "justificacion": "La tendencia combinada indica que ambos equipos no marcan en una proporción alta de sus partidos recientes."
+              },
+              {
+                "mercado": "Doble oportunidad: Oriente Petrolero o empate",
+                "probabilidad": 64.6,
+                "score": 0.6456563062257954,
+                "confianza": "alta",
+                "familia": "resultado",
+                "justificacion": "El diferencial goleador reciente favorece a Oriente Petrolero sobre una muestra de 20 partidos por equipo."
               }
             ]
           },
-          "analisis": "En sus últimos 20 partidos con datos disponibles, GV San José promedia apenas 1.6 tarjetas por partido, un equipo disciplinado. (confianza alta, base: 20 partidos reales)\nEn sus últimos 20 partidos con datos disponibles, Oriente Petrolero promedia apenas 1.1 tarjetas por partido, un equipo disciplinado. (confianza alta, base: 20 partidos reales)\nGV San José remata 6.3 veces por partido, de las cuales 1.6 van al arco (26% de efectividad de puntería).\nOriente Petrolero remata 6.3 veces por partido, de las cuales 2.6 van al arco (41% de efectividad de puntería).\nAmbos anotan (No) — promedio combinado 22%, tendencia baja de goles en ambos arcos."
+          "recomendaciones": [
+            {
+              "mercado": "Menos de 4.5 goles",
+              "probabilidad": 93.8,
+              "score": 0.9375,
+              "confianza": "alta",
+              "familia": "goles",
+              "justificacion": "La combinación de los historiales goleadores queda por debajo de 4.5 goles en 94% de los escenarios históricos."
+            },
+            {
+              "mercado": "Menos de 6.5 tarjetas",
+              "probabilidad": 92.0,
+              "score": 0.92,
+              "confianza": "alta",
+              "familia": "tarjetas",
+              "justificacion": "El historial combinado queda por debajo de 6.5 tarjetas en 92% de los escenarios."
+            },
+            {
+              "mercado": "Menos de 27.5 remates totales",
+              "probabilidad": 89.8,
+              "score": 0.8975,
+              "confianza": "alta",
+              "familia": "remates",
+              "justificacion": "El historial combinado queda por debajo de 27.5 remates en 90% de los escenarios."
+            },
+            {
+              "mercado": "Ambos anotan: No",
+              "probabilidad": 77.5,
+              "score": 0.775,
+              "confianza": "alta",
+              "familia": "btts",
+              "justificacion": "La tendencia combinada indica que ambos equipos no marcan en una proporción alta de sus partidos recientes."
+            },
+            {
+              "mercado": "Doble oportunidad: Oriente Petrolero o empate",
+              "probabilidad": 64.6,
+              "score": 0.6456563062257954,
+              "confianza": "alta",
+              "familia": "resultado",
+              "justificacion": "El diferencial goleador reciente favorece a Oriente Petrolero sobre una muestra de 20 partidos por equipo."
+            }
+          ],
+          "analisis": "GV San José promedia 1.6 tarjetas en sus últimos 20 partidos.\nOriente Petrolero promedia 1.1 tarjetas en sus últimos 20 partidos.\nGV San José promedia 6.3 remates por partido, con 1.6 al arco.\nOriente Petrolero promedia 6.3 remates por partido, con 2.6 al arco.\nTendencia combinada de ambos anotan: 22%.",
+          "datos_completos": true
         },
         {
           "event_id": "401906496",
@@ -21222,30 +22170,133 @@
           },
           "pick_mas_seguro": {
             "disponible": true,
-            "mercado": "Tarjetas totales del partido: Menos de 6.5",
-            "justificacion": "Combinando el historial de tarjetas de ambos equipos, 98% de las combinaciones posibles dan menos de 6.5 tarjetas totales.",
+            "mercado": "Menos de 6.5 tarjetas",
+            "justificacion": "El historial combinado queda por debajo de 6.5 tarjetas en 98% de los escenarios.",
             "confianza": "alta",
-            "score": 0.965,
+            "score": 0.9825,
             "probabilidad": 98.2,
             "n_min": 20,
-            "alternativas": [
+            "recomendaciones": [
               {
-                "mercado": "Goles totales del partido: Menos de 4.5",
-                "score": 0.96,
-                "probabilidad": 98.0,
-                "justificacion": "Combinando el historial goleador de ambos equipos, 98% de las combinaciones posibles dan menos de 4.5 goles totales.",
-                "confianza": "alta"
+                "mercado": "Menos de 6.5 tarjetas",
+                "probabilidad": 98.2,
+                "score": 0.9825,
+                "confianza": "alta",
+                "familia": "tarjetas",
+                "justificacion": "El historial combinado queda por debajo de 6.5 tarjetas en 98% de los escenarios."
               },
               {
-                "mercado": "Goles propios de Universitario de Vinto: Menos de 1.5",
-                "score": 0.9,
-                "probabilidad": 95.0,
-                "justificacion": "Universitario de Vinto tuvo menos de 1.5 goles propios en 95% de sus últimos 20 partidos.",
-                "confianza": "alta"
+                "mercado": "Menos de 4.5 goles",
+                "probabilidad": 98.0,
+                "score": 0.98,
+                "confianza": "alta",
+                "familia": "goles",
+                "justificacion": "La combinación de los historiales goleadores queda por debajo de 4.5 goles en 98% de los escenarios históricos."
+              },
+              {
+                "mercado": "Menos de 27.5 remates totales",
+                "probabilidad": 90.2,
+                "score": 0.9025,
+                "confianza": "alta",
+                "familia": "remates",
+                "justificacion": "El historial combinado queda por debajo de 27.5 remates en 90% de los escenarios."
+              },
+              {
+                "mercado": "Ambos anotan: No",
+                "probabilidad": 80.0,
+                "score": 0.8,
+                "confianza": "alta",
+                "familia": "btts",
+                "justificacion": "La tendencia combinada indica que ambos equipos no marcan en una proporción alta de sus partidos recientes."
+              },
+              {
+                "mercado": "Doble oportunidad: Nacional Potosí o empate",
+                "probabilidad": 72.1,
+                "score": 0.7211151780228631,
+                "confianza": "alta",
+                "familia": "resultado",
+                "justificacion": "El diferencial goleador reciente favorece a Nacional Potosí sobre una muestra de 20 partidos por equipo."
+              }
+            ],
+            "alternativas": [
+              {
+                "mercado": "Menos de 4.5 goles",
+                "probabilidad": 98.0,
+                "score": 0.98,
+                "confianza": "alta",
+                "familia": "goles",
+                "justificacion": "La combinación de los historiales goleadores queda por debajo de 4.5 goles en 98% de los escenarios históricos."
+              },
+              {
+                "mercado": "Menos de 27.5 remates totales",
+                "probabilidad": 90.2,
+                "score": 0.9025,
+                "confianza": "alta",
+                "familia": "remates",
+                "justificacion": "El historial combinado queda por debajo de 27.5 remates en 90% de los escenarios."
+              },
+              {
+                "mercado": "Ambos anotan: No",
+                "probabilidad": 80.0,
+                "score": 0.8,
+                "confianza": "alta",
+                "familia": "btts",
+                "justificacion": "La tendencia combinada indica que ambos equipos no marcan en una proporción alta de sus partidos recientes."
+              },
+              {
+                "mercado": "Doble oportunidad: Nacional Potosí o empate",
+                "probabilidad": 72.1,
+                "score": 0.7211151780228631,
+                "confianza": "alta",
+                "familia": "resultado",
+                "justificacion": "El diferencial goleador reciente favorece a Nacional Potosí sobre una muestra de 20 partidos por equipo."
               }
             ]
           },
-          "analisis": "En sus últimos 20 partidos con datos disponibles, Universitario de Vinto promedia apenas 0.8 tarjetas por partido, un equipo disciplinado. (confianza alta, base: 20 partidos reales)\nEn sus últimos 20 partidos con datos disponibles, Nacional Potosí promedia apenas 0.9 tarjetas por partido, un equipo disciplinado. (confianza alta, base: 20 partidos reales)\nUniversitario de Vinto remata 6.2 veces por partido, de las cuales 1.6 van al arco (27% de efectividad de puntería).\nNacional Potosí remata 5.8 veces por partido, de las cuales 2.0 van al arco (35% de efectividad de puntería).\nAmbos anotan (No) — promedio combinado 20%, tendencia baja de goles en ambos arcos."
+          "recomendaciones": [
+            {
+              "mercado": "Menos de 6.5 tarjetas",
+              "probabilidad": 98.2,
+              "score": 0.9825,
+              "confianza": "alta",
+              "familia": "tarjetas",
+              "justificacion": "El historial combinado queda por debajo de 6.5 tarjetas en 98% de los escenarios."
+            },
+            {
+              "mercado": "Menos de 4.5 goles",
+              "probabilidad": 98.0,
+              "score": 0.98,
+              "confianza": "alta",
+              "familia": "goles",
+              "justificacion": "La combinación de los historiales goleadores queda por debajo de 4.5 goles en 98% de los escenarios históricos."
+            },
+            {
+              "mercado": "Menos de 27.5 remates totales",
+              "probabilidad": 90.2,
+              "score": 0.9025,
+              "confianza": "alta",
+              "familia": "remates",
+              "justificacion": "El historial combinado queda por debajo de 27.5 remates en 90% de los escenarios."
+            },
+            {
+              "mercado": "Ambos anotan: No",
+              "probabilidad": 80.0,
+              "score": 0.8,
+              "confianza": "alta",
+              "familia": "btts",
+              "justificacion": "La tendencia combinada indica que ambos equipos no marcan en una proporción alta de sus partidos recientes."
+            },
+            {
+              "mercado": "Doble oportunidad: Nacional Potosí o empate",
+              "probabilidad": 72.1,
+              "score": 0.7211151780228631,
+              "confianza": "alta",
+              "familia": "resultado",
+              "justificacion": "El diferencial goleador reciente favorece a Nacional Potosí sobre una muestra de 20 partidos por equipo."
+            }
+          ],
+          "analisis": "Universitario de Vinto promedia 0.8 tarjetas en sus últimos 20 partidos.\nNacional Potosí promedia 0.9 tarjetas en sus últimos 20 partidos.\nUniversitario de Vinto promedia 6.2 remates por partido, con 1.6 al arco.\nNacional Potosí promedia 5.8 remates por partido, con 2.0 al arco.\nTendencia combinada de ambos anotan: 20%.",
+          "datos_completos": true
         }
       ]
     },
@@ -22193,9 +23244,12 @@
           },
           "pick_mas_seguro": {
             "disponible": false,
-            "razon": "Chicago Fire FC no tiene partidos jugados registrados en la fuente todavía (probable pretemporada o inicio de temporada) — no hay base real para proyectar nada de este equipo."
+            "razon": "Chicago Fire FC: solo 3 partidos con datos",
+            "recomendaciones": []
           },
-          "analisis": "En sus últimos 6 partidos con datos disponibles, Monterrey promedia 2.2 tarjetas por partido, un nivel moderado. (confianza baja, base: 6 partidos reales)\nEn sus últimos 3 partidos con datos disponibles, Chicago Fire FC promedia apenas 1.3 tarjetas por partido, un equipo disciplinado. (confianza baja, base: 3 partidos reales)\nMonterrey remata 15.3 veces por partido, de las cuales 5.2 van al arco (34% de efectividad de puntería).\nChicago Fire FC remata 18.7 veces por partido, de las cuales 6.3 van al arco (34% de efectividad de puntería).\nAmbos anotan (Sí) — promedio combinado 67% en los partidos recientes de ambos equipos."
+          "recomendaciones": [],
+          "analisis": "Monterrey promedia 2.2 tarjetas en sus últimos 6 partidos.\nChicago Fire FC promedia 1.3 tarjetas en sus últimos 3 partidos.\nMonterrey promedia 15.3 remates por partido, con 5.2 al arco.\nChicago Fire FC promedia 18.7 remates por partido, con 6.3 al arco.\nTendencia combinada de ambos anotan: 67%.",
+          "datos_completos": false
         },
         {
           "event_id": "401911272",
@@ -23330,30 +24384,133 @@
           },
           "pick_mas_seguro": {
             "disponible": true,
-            "mercado": "Goles propios de Real Salt Lake: Más de 0.5",
-            "justificacion": "Real Salt Lake tuvo más de 0.5 goles propios en 100% de sus últimos 6 partidos.",
+            "mercado": "Doble oportunidad: Real Salt Lake o empate",
+            "justificacion": "El diferencial goleador reciente favorece a Real Salt Lake sobre una muestra de 6 partidos por equipo.",
             "confianza": "baja",
-            "score": 0.3,
-            "probabilidad": 100.0,
+            "score": 0.8629487074245403,
+            "probabilidad": 86.3,
             "n_min": 6,
-            "alternativas": [
+            "recomendaciones": [
               {
-                "mercado": "Goles recibidos por León: Menos de 2.5",
-                "score": 0.3,
-                "probabilidad": 100.0,
-                "justificacion": "León recibió menos de 2.5 goles en 100% de sus últimos 6 partidos.",
-                "confianza": "baja"
+                "mercado": "Doble oportunidad: Real Salt Lake o empate",
+                "probabilidad": 86.3,
+                "score": 0.8629487074245403,
+                "confianza": "baja",
+                "familia": "resultado",
+                "justificacion": "El diferencial goleador reciente favorece a Real Salt Lake sobre una muestra de 6 partidos por equipo."
               },
               {
-                "mercado": "Goles recibidos por Real Salt Lake: Menos de 1.5",
-                "score": 0.3,
+                "mercado": "Más de 0.5 goles",
                 "probabilidad": 100.0,
-                "justificacion": "Real Salt Lake recibió menos de 1.5 goles en 100% de sus últimos 6 partidos.",
-                "confianza": "baja"
+                "score": 0.79,
+                "confianza": "baja",
+                "familia": "goles",
+                "justificacion": "La combinación de los historiales goleadores supera 0.5 goles en 100% de los escenarios históricos."
+              },
+              {
+                "mercado": "Menos de 6.5 tarjetas",
+                "probabilidad": 91.7,
+                "score": 0.7242,
+                "confianza": "baja",
+                "familia": "tarjetas",
+                "justificacion": "El historial combinado queda por debajo de 6.5 tarjetas en 92% de los escenarios."
+              },
+              {
+                "mercado": "Ambos anotan: No",
+                "probabilidad": 66.7,
+                "score": 0.667,
+                "confianza": "baja",
+                "familia": "btts",
+                "justificacion": "La tendencia combinada indica que ambos equipos no marcan en una proporción alta de sus partidos recientes."
+              },
+              {
+                "mercado": "Más de 17.5 remates totales",
+                "probabilidad": 80.6,
+                "score": 0.6364,
+                "confianza": "baja",
+                "familia": "remates",
+                "justificacion": "El historial combinado supera 17.5 remates en 81% de los escenarios."
+              }
+            ],
+            "alternativas": [
+              {
+                "mercado": "Más de 0.5 goles",
+                "probabilidad": 100.0,
+                "score": 0.79,
+                "confianza": "baja",
+                "familia": "goles",
+                "justificacion": "La combinación de los historiales goleadores supera 0.5 goles en 100% de los escenarios históricos."
+              },
+              {
+                "mercado": "Menos de 6.5 tarjetas",
+                "probabilidad": 91.7,
+                "score": 0.7242,
+                "confianza": "baja",
+                "familia": "tarjetas",
+                "justificacion": "El historial combinado queda por debajo de 6.5 tarjetas en 92% de los escenarios."
+              },
+              {
+                "mercado": "Ambos anotan: No",
+                "probabilidad": 66.7,
+                "score": 0.667,
+                "confianza": "baja",
+                "familia": "btts",
+                "justificacion": "La tendencia combinada indica que ambos equipos no marcan en una proporción alta de sus partidos recientes."
+              },
+              {
+                "mercado": "Más de 17.5 remates totales",
+                "probabilidad": 80.6,
+                "score": 0.6364,
+                "confianza": "baja",
+                "familia": "remates",
+                "justificacion": "El historial combinado supera 17.5 remates en 81% de los escenarios."
               }
             ]
           },
-          "analisis": "En sus últimos 6 partidos con datos disponibles, León promedia 2.7 tarjetas por partido, un nivel moderado. (confianza baja, base: 6 partidos reales)\nEn sus últimos 6 partidos con datos disponibles, Real Salt Lake promedia apenas 1.5 tarjetas por partido, un equipo disciplinado. (confianza baja, base: 6 partidos reales)\nLeón remata 10.0 veces por partido, de las cuales 4.8 van al arco (48% de efectividad de puntería).\nReal Salt Lake remata 12.8 veces por partido, de las cuales 5.3 van al arco (42% de efectividad de puntería).\nAmbos anotan (No) — promedio combinado 33%, tendencia baja de goles en ambos arcos."
+          "recomendaciones": [
+            {
+              "mercado": "Doble oportunidad: Real Salt Lake o empate",
+              "probabilidad": 86.3,
+              "score": 0.8629487074245403,
+              "confianza": "baja",
+              "familia": "resultado",
+              "justificacion": "El diferencial goleador reciente favorece a Real Salt Lake sobre una muestra de 6 partidos por equipo."
+            },
+            {
+              "mercado": "Más de 0.5 goles",
+              "probabilidad": 100.0,
+              "score": 0.79,
+              "confianza": "baja",
+              "familia": "goles",
+              "justificacion": "La combinación de los historiales goleadores supera 0.5 goles en 100% de los escenarios históricos."
+            },
+            {
+              "mercado": "Menos de 6.5 tarjetas",
+              "probabilidad": 91.7,
+              "score": 0.7242,
+              "confianza": "baja",
+              "familia": "tarjetas",
+              "justificacion": "El historial combinado queda por debajo de 6.5 tarjetas en 92% de los escenarios."
+            },
+            {
+              "mercado": "Ambos anotan: No",
+              "probabilidad": 66.7,
+              "score": 0.667,
+              "confianza": "baja",
+              "familia": "btts",
+              "justificacion": "La tendencia combinada indica que ambos equipos no marcan en una proporción alta de sus partidos recientes."
+            },
+            {
+              "mercado": "Más de 17.5 remates totales",
+              "probabilidad": 80.6,
+              "score": 0.6364,
+              "confianza": "baja",
+              "familia": "remates",
+              "justificacion": "El historial combinado supera 17.5 remates en 81% de los escenarios."
+            }
+          ],
+          "analisis": "León promedia 2.7 tarjetas en sus últimos 6 partidos.\nReal Salt Lake promedia 1.5 tarjetas en sus últimos 6 partidos.\nLeón promedia 10.0 remates por partido, con 4.8 al arco.\nReal Salt Lake promedia 12.8 remates por partido, con 5.3 al arco.\nTendencia combinada de ambos anotan: 33%.",
+          "datos_completos": true
         }
       ]
     },
@@ -25101,9 +26258,12 @@
           },
           "pick_mas_seguro": {
             "disponible": false,
-            "razon": "Norwich City no tiene partidos jugados registrados en la fuente todavía (probable pretemporada o inicio de temporada) — no hay base real para proyectar nada de este equipo."
+            "razon": "Norwich City: solo 3 partidos con datos",
+            "recomendaciones": []
           },
-          "analisis": "En sus últimos 6 partidos con datos disponibles, Cardiff City promedia apenas 1.7 tarjetas por partido, un equipo disciplinado. (confianza baja, base: 6 partidos reales)\nEn sus últimos 3 partidos con datos disponibles, Norwich City promedia apenas 1.7 tarjetas por partido, un equipo disciplinado. (confianza baja, base: 3 partidos reales)\nCardiff City remata 2.5 veces por partido, de las cuales 0.7 van al arco (27% de efectividad de puntería).\nNorwich City remata 8.3 veces por partido, de las cuales 2.3 van al arco (28% de efectividad de puntería).\nAmbos anotan — 42% combinado, sin tendencia clara hacia sí o no."
+          "recomendaciones": [],
+          "analisis": "Cardiff City promedia 1.7 tarjetas en sus últimos 6 partidos.\nNorwich City promedia 1.7 tarjetas en sus últimos 3 partidos.\nCardiff City promedia 2.5 remates por partido, con 0.7 al arco.\nNorwich City promedia 8.3 remates por partido, con 2.3 al arco.\nTendencia combinada de ambos anotan: 42%.",
+          "datos_completos": false
         },
         {
           "event_id": "401908124",
@@ -26775,9 +27935,12 @@
           },
           "pick_mas_seguro": {
             "disponible": false,
-            "razon": "Doncaster Rovers no tiene partidos jugados registrados en la fuente todavía (probable pretemporada o inicio de temporada) — no hay base real para proyectar nada de este equipo. Middlesbrough no tiene partidos jugados registrados en la fuente todavía (probable pretemporada o inicio de temporada) — no hay base real para proyectar nada de este equipo."
+            "razon": "Doncaster Rovers: solo 4 partidos con datos; Middlesbrough: solo 2 partidos con datos",
+            "recomendaciones": []
           },
-          "analisis": "En sus últimos 4 partidos con datos disponibles, Doncaster Rovers promedia apenas 1.2 tarjetas por partido, un equipo disciplinado. (confianza baja, base: 4 partidos reales)\nEn sus últimos 2 partidos con datos disponibles, Middlesbrough promedia apenas 1.0 tarjetas por partido, un equipo disciplinado. (confianza baja, base: 2 partidos reales)\nDoncaster Rovers remata 2.0 veces por partido, de las cuales 0.2 van al arco (12% de efectividad de puntería).\nMiddlesbrough remata 6.5 veces por partido, de las cuales 1.5 van al arco (23% de efectividad de puntería).\nAmbos anotan (No) — promedio combinado 0%, tendencia baja de goles en ambos arcos."
+          "recomendaciones": [],
+          "analisis": "Doncaster Rovers promedia 1.2 tarjetas en sus últimos 4 partidos.\nMiddlesbrough promedia 1.0 tarjetas en sus últimos 2 partidos.\nDoncaster Rovers promedia 2.0 remates por partido, con 0.2 al arco.\nMiddlesbrough promedia 6.5 remates por partido, con 1.5 al arco.\nTendencia combinada de ambos anotan: 0%.",
+          "datos_completos": false
         },
         {
           "event_id": "401908137",
@@ -28452,9 +29615,12 @@
           },
           "pick_mas_seguro": {
             "disponible": false,
-            "razon": "Barnsley no tiene partidos jugados registrados en la fuente todavía (probable pretemporada o inicio de temporada) — no hay base real para proyectar nada de este equipo. Crewe Alexandra no tiene partidos jugados registrados en la fuente todavía (probable pretemporada o inicio de temporada) — no hay base real para proyectar nada de este equipo."
+            "razon": "Barnsley: solo 4 partidos con datos; Crewe Alexandra: solo 2 partidos con datos",
+            "recomendaciones": []
           },
-          "analisis": "En sus últimos 4 partidos con datos disponibles, Barnsley promedia apenas 1.0 tarjetas por partido, un equipo disciplinado. (confianza baja, base: 4 partidos reales)\nEn sus últimos 2 partidos con datos disponibles, Crewe Alexandra promedia apenas 0.0 tarjetas por partido, un equipo disciplinado. (confianza baja, base: 2 partidos reales)\nBarnsley remata 2.8 veces por partido, de las cuales 1.0 van al arco (36% de efectividad de puntería).\nCrewe Alexandra remata 7.5 veces por partido, de las cuales 1.5 van al arco (20% de efectividad de puntería).\nAmbos anotan (No) — promedio combinado 25%, tendencia baja de goles en ambos arcos."
+          "recomendaciones": [],
+          "analisis": "Barnsley promedia 1.0 tarjetas en sus últimos 4 partidos.\nCrewe Alexandra promedia 0.0 tarjetas en sus últimos 2 partidos.\nBarnsley promedia 2.8 remates por partido, con 1.0 al arco.\nCrewe Alexandra promedia 7.5 remates por partido, con 1.5 al arco.\nTendencia combinada de ambos anotan: 25%.",
+          "datos_completos": false
         },
         {
           "event_id": "401908139",
@@ -30175,9 +31341,12 @@
           },
           "pick_mas_seguro": {
             "disponible": false,
-            "razon": "Blackburn Rovers no tiene partidos jugados registrados en la fuente todavía (probable pretemporada o inicio de temporada) — no hay base real para proyectar nada de este equipo. Sheffield United no tiene partidos jugados registrados en la fuente todavía (probable pretemporada o inicio de temporada) — no hay base real para proyectar nada de este equipo."
+            "razon": "Blackburn Rovers: solo 2 partidos con datos; Sheffield United: solo 2 partidos con datos",
+            "recomendaciones": []
           },
-          "analisis": "En sus últimos 2 partidos con datos disponibles, Blackburn Rovers promedia 2.0 tarjetas por partido, un nivel moderado. (confianza baja, base: 2 partidos reales)\nEn sus últimos 2 partidos con datos disponibles, Sheffield United promedia apenas 1.5 tarjetas por partido, un equipo disciplinado. (confianza baja, base: 2 partidos reales)\nBlackburn Rovers remata 13.5 veces por partido, de las cuales 3.5 van al arco (26% de efectividad de puntería).\nSheffield United remata 10.0 veces por partido, de las cuales 2.0 van al arco (20% de efectividad de puntería).\nAmbos anotan (Sí) — promedio combinado 75% en los partidos recientes de ambos equipos."
+          "recomendaciones": [],
+          "analisis": "Blackburn Rovers promedia 2.0 tarjetas en sus últimos 2 partidos.\nSheffield United promedia 1.5 tarjetas en sus últimos 2 partidos.\nBlackburn Rovers promedia 13.5 remates por partido, con 3.5 al arco.\nSheffield United promedia 10.0 remates por partido, con 2.0 al arco.\nTendencia combinada de ambos anotan: 75%.",
+          "datos_completos": false
         },
         {
           "event_id": "401908122",
@@ -31906,9 +33075,12 @@
           },
           "pick_mas_seguro": {
             "disponible": false,
-            "razon": "Blackpool no tiene partidos jugados registrados en la fuente todavía (probable pretemporada o inicio de temporada) — no hay base real para proyectar nada de este equipo. Lincoln City no tiene partidos jugados registrados en la fuente todavía (probable pretemporada o inicio de temporada) — no hay base real para proyectar nada de este equipo."
+            "razon": "Blackpool: solo 2 partidos con datos; Lincoln City: solo 4 partidos con datos",
+            "recomendaciones": []
           },
-          "analisis": "En sus últimos 2 partidos con datos disponibles, Blackpool promedia apenas 1.5 tarjetas por partido, un equipo disciplinado. (confianza baja, base: 2 partidos reales)\nEn sus últimos 4 partidos con datos disponibles, Lincoln City promedia 2.0 tarjetas por partido, un nivel moderado. (confianza baja, base: 4 partidos reales)\nBlackpool remata 5.0 veces por partido, de las cuales 2.0 van al arco (40% de efectividad de puntería).\nLincoln City remata 3.5 veces por partido, de las cuales 1.0 van al arco (29% de efectividad de puntería).\nAmbos anotan — 50% combinado, sin tendencia clara hacia sí o no."
+          "recomendaciones": [],
+          "analisis": "Blackpool promedia 1.5 tarjetas en sus últimos 2 partidos.\nLincoln City promedia 2.0 tarjetas en sus últimos 4 partidos.\nBlackpool promedia 5.0 remates por partido, con 2.0 al arco.\nLincoln City promedia 3.5 remates por partido, con 1.0 al arco.\nTendencia combinada de ambos anotan: 50%.",
+          "datos_completos": false
         },
         {
           "event_id": "401907952",
@@ -33434,9 +34606,12 @@
           },
           "pick_mas_seguro": {
             "disponible": false,
-            "razon": "Cambridge United no tiene partidos jugados registrados en la fuente todavía (probable pretemporada o inicio de temporada) — no hay base real para proyectar nada de este equipo. Millwall no tiene partidos jugados registrados en la fuente todavía (probable pretemporada o inicio de temporada) — no hay base real para proyectar nada de este equipo."
+            "razon": "Cambridge United: solo 4 partidos con datos; Millwall: solo 4 partidos con datos",
+            "recomendaciones": []
           },
-          "analisis": "En sus últimos 4 partidos con datos disponibles, Cambridge United promedia apenas 0.8 tarjetas por partido, un equipo disciplinado. (confianza baja, base: 4 partidos reales)\nEn sus últimos 4 partidos con datos disponibles, Millwall promedia 2.0 tarjetas por partido, un nivel moderado. (confianza baja, base: 4 partidos reales)\nCambridge United remata 3.2 veces por partido, de las cuales 1.8 van al arco (54% de efectividad de puntería).\nMillwall remata 1.2 veces por partido, de las cuales 0.5 van al arco (40% de efectividad de puntería).\nAmbos anotan (No) — promedio combinado 25%, tendencia baja de goles en ambos arcos."
+          "recomendaciones": [],
+          "analisis": "Cambridge United promedia 0.8 tarjetas en sus últimos 4 partidos.\nMillwall promedia 2.0 tarjetas en sus últimos 4 partidos.\nCambridge United promedia 3.2 remates por partido, con 1.8 al arco.\nMillwall promedia 1.2 remates por partido, con 0.5 al arco.\nTendencia combinada de ambos anotan: 25%.",
+          "datos_completos": false
         },
         {
           "event_id": "401908135",
@@ -35048,9 +36223,12 @@
           },
           "pick_mas_seguro": {
             "disponible": false,
-            "razon": "Fleetwood Town no tiene partidos jugados registrados en la fuente todavía (probable pretemporada o inicio de temporada) — no hay base real para proyectar nada de este equipo. Shrewsbury Town no tiene partidos jugados registrados en la fuente todavía (probable pretemporada o inicio de temporada) — no hay base real para proyectar nada de este equipo."
+            "razon": "Fleetwood Town: solo 2 partidos con datos; Shrewsbury Town: solo 2 partidos con datos",
+            "recomendaciones": []
           },
-          "analisis": "En sus últimos 2 partidos con datos disponibles, Fleetwood Town promedia apenas 1.5 tarjetas por partido, un equipo disciplinado. (confianza baja, base: 2 partidos reales)\nEn sus últimos 2 partidos con datos disponibles, Shrewsbury Town promedia 4.0 tarjetas por partido — una tendencia marcadamente indisciplinada. (confianza baja, base: 2 partidos reales)\nFleetwood Town remata 2.5 veces por partido, de las cuales 1.0 van al arco (40% de efectividad de puntería).\nShrewsbury Town remata 5.5 veces por partido, de las cuales 1.5 van al arco (27% de efectividad de puntería).\nAmbos anotan — 50% combinado, sin tendencia clara hacia sí o no."
+          "recomendaciones": [],
+          "analisis": "Fleetwood Town promedia 1.5 tarjetas en sus últimos 2 partidos.\nShrewsbury Town promedia 4.0 tarjetas en sus últimos 2 partidos.\nFleetwood Town promedia 2.5 remates por partido, con 1.0 al arco.\nShrewsbury Town promedia 5.5 remates por partido, con 1.5 al arco.\nTendencia combinada de ambos anotan: 50%.",
+          "datos_completos": false
         },
         {
           "event_id": "401907954",
@@ -36765,9 +37943,12 @@
           },
           "pick_mas_seguro": {
             "disponible": false,
-            "razon": "Ipswich Town no tiene partidos jugados registrados en la fuente todavía (probable pretemporada o inicio de temporada) — no hay base real para proyectar nada de este equipo. Leicester City no tiene partidos jugados registrados en la fuente todavía (probable pretemporada o inicio de temporada) — no hay base real para proyectar nada de este equipo."
+            "razon": "Ipswich Town: solo 1 partidos con datos; Leicester City: solo 2 partidos con datos",
+            "recomendaciones": []
           },
-          "analisis": "En sus últimos 1 partidos con datos disponibles, Ipswich Town promedia apenas 0.0 tarjetas por partido, un equipo disciplinado. (confianza baja, base: 1 partidos reales)\nEn sus últimos 2 partidos con datos disponibles, Leicester City promedia 2.5 tarjetas por partido, un nivel moderado. (confianza baja, base: 2 partidos reales)\nIpswich Town remata 0.0 veces por partido, de las cuales 0.0 van al arco (0% de efectividad de puntería).\nLeicester City remata 4.0 veces por partido, de las cuales 1.5 van al arco (38% de efectividad de puntería).\nAmbos anotan (No) — promedio combinado 25%, tendencia baja de goles en ambos arcos."
+          "recomendaciones": [],
+          "analisis": "Ipswich Town promedia 0.0 tarjetas en sus últimos 1 partidos.\nLeicester City promedia 2.5 tarjetas en sus últimos 2 partidos.\nIpswich Town promedia 0.0 remates por partido, con 0.0 al arco.\nLeicester City promedia 4.0 remates por partido, con 1.5 al arco.\nTendencia combinada de ambos anotan: 25%.",
+          "datos_completos": false
         },
         {
           "event_id": "401908416",
@@ -38382,9 +39563,12 @@
           },
           "pick_mas_seguro": {
             "disponible": false,
-            "razon": "Plymouth Argyle no tiene partidos jugados registrados en la fuente todavía (probable pretemporada o inicio de temporada) — no hay base real para proyectar nada de este equipo. Coventry City no tiene partidos jugados registrados en la fuente todavía (probable pretemporada o inicio de temporada) — no hay base real para proyectar nada de este equipo."
+            "razon": "Plymouth Argyle: solo 3 partidos con datos; Coventry City: solo 2 partidos con datos",
+            "recomendaciones": []
           },
-          "analisis": "En sus últimos 3 partidos con datos disponibles, Plymouth Argyle promedia apenas 0.3 tarjetas por partido, un equipo disciplinado. (confianza baja, base: 3 partidos reales)\nEn sus últimos 2 partidos con datos disponibles, Coventry City promedia apenas 1.0 tarjetas por partido, un equipo disciplinado. (confianza baja, base: 2 partidos reales)\nPlymouth Argyle remata 7.0 veces por partido, de las cuales 2.0 van al arco (29% de efectividad de puntería).\nCoventry City remata 0.0 veces por partido, de las cuales 0.0 van al arco (0% de efectividad de puntería).\nAmbos anotan (No) — promedio combinado 17%, tendencia baja de goles en ambos arcos."
+          "recomendaciones": [],
+          "analisis": "Plymouth Argyle promedia 0.3 tarjetas en sus últimos 3 partidos.\nCoventry City promedia 1.0 tarjetas en sus últimos 2 partidos.\nPlymouth Argyle promedia 7.0 remates por partido, con 2.0 al arco.\nCoventry City promedia 0.0 remates por partido, con 0.0 al arco.\nTendencia combinada de ambos anotan: 17%.",
+          "datos_completos": false
         },
         {
           "event_id": "401908121",
@@ -38436,12 +39620,12 @@
               "overUnder": 2.5,
               "spread": 0.5,
               "overOdds": -125.0,
-              "underOdds": 100.0,
+              "underOdds": -105.0,
               "awayTeamOdds": {
                 "favorite": true,
                 "underdog": false,
                 "moneyLine": -165,
-                "spreadOdds": -165.0,
+                "spreadOdds": -170.0,
                 "team": {
                   "id": "380",
                   "uid": "s:600~t:380",
@@ -39055,7 +40239,7 @@
                 "away": {
                   "close": {
                     "line": "-0.5",
-                    "odds": "-165",
+                    "odds": "-170",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -39127,7 +40311,7 @@
                 "under": {
                   "close": {
                     "line": "u2.5",
-                    "odds": "+100",
+                    "odds": "-105",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -40121,9 +41305,12 @@
           },
           "pick_mas_seguro": {
             "disponible": false,
-            "razon": "Sheffield Wednesday no tiene partidos jugados registrados en la fuente todavía (probable pretemporada o inicio de temporada) — no hay base real para proyectar nada de este equipo. Wolverhampton Wanderers no tiene partidos jugados registrados en la fuente todavía (probable pretemporada o inicio de temporada) — no hay base real para proyectar nada de este equipo."
+            "razon": "Sheffield Wednesday: solo 4 partidos con datos; Wolverhampton Wanderers: solo 4 partidos con datos",
+            "recomendaciones": []
           },
-          "analisis": "En sus últimos 4 partidos con datos disponibles, Sheffield Wednesday promedia apenas 1.2 tarjetas por partido, un equipo disciplinado. (confianza baja, base: 4 partidos reales)\nEn sus últimos 4 partidos con datos disponibles, Wolverhampton Wanderers promedia 2.0 tarjetas por partido, un nivel moderado. (confianza baja, base: 4 partidos reales)\nSheffield Wednesday remata 3.2 veces por partido, de las cuales 0.8 van al arco (23% de efectividad de puntería).\nWolverhampton Wanderers remata 4.0 veces por partido, de las cuales 1.8 van al arco (44% de efectividad de puntería).\nAmbos anotan — 38% combinado, sin tendencia clara hacia sí o no."
+          "recomendaciones": [],
+          "analisis": "Sheffield Wednesday promedia 1.2 tarjetas en sus últimos 4 partidos.\nWolverhampton Wanderers promedia 2.0 tarjetas en sus últimos 4 partidos.\nSheffield Wednesday promedia 3.2 remates por partido, con 0.8 al arco.\nWolverhampton Wanderers promedia 4.0 remates por partido, con 1.8 al arco.\nTendencia combinada de ambos anotan: 38%.",
+          "datos_completos": false
         },
         {
           "event_id": "401907950",
@@ -41848,9 +43035,12 @@
           },
           "pick_mas_seguro": {
             "disponible": false,
-            "razon": "Southampton no tiene partidos jugados registrados en la fuente todavía (probable pretemporada o inicio de temporada) — no hay base real para proyectar nada de este equipo. West Ham United no tiene partidos jugados registrados en la fuente todavía (probable pretemporada o inicio de temporada) — no hay base real para proyectar nada de este equipo."
+            "razon": "Southampton: solo 4 partidos con datos; West Ham United: solo 2 partidos con datos",
+            "recomendaciones": []
           },
-          "analisis": "En sus últimos 4 partidos con datos disponibles, Southampton promedia apenas 1.8 tarjetas por partido, un equipo disciplinado. (confianza baja, base: 4 partidos reales)\nEn sus últimos 2 partidos con datos disponibles, West Ham United promedia apenas 1.0 tarjetas por partido, un equipo disciplinado. (confianza baja, base: 2 partidos reales)\nSouthampton remata 6.2 veces por partido, de las cuales 1.2 van al arco (20% de efectividad de puntería).\nWest Ham United remata 6.0 veces por partido, de las cuales 3.5 van al arco (58% de efectividad de puntería).\nAmbos anotan — 38% combinado, sin tendencia clara hacia sí o no."
+          "recomendaciones": [],
+          "analisis": "Southampton promedia 1.8 tarjetas en sus últimos 4 partidos.\nWest Ham United promedia 1.0 tarjetas en sus últimos 2 partidos.\nSouthampton promedia 6.2 remates por partido, con 1.2 al arco.\nWest Ham United promedia 6.0 remates por partido, con 3.5 al arco.\nTendencia combinada de ambos anotan: 38%.",
+          "datos_completos": false
         },
         {
           "event_id": "401907953",
@@ -43580,9 +44770,12 @@
           },
           "pick_mas_seguro": {
             "disponible": false,
-            "razon": "Stevenage no tiene partidos jugados registrados en la fuente todavía (probable pretemporada o inicio de temporada) — no hay base real para proyectar nada de este equipo. Reading no tiene partidos jugados registrados en la fuente todavía (probable pretemporada o inicio de temporada) — no hay base real para proyectar nada de este equipo."
+            "razon": "Stevenage: solo 2 partidos con datos; Reading: solo 4 partidos con datos",
+            "recomendaciones": []
           },
-          "analisis": "En sus últimos 2 partidos con datos disponibles, Stevenage promedia 2.0 tarjetas por partido, un nivel moderado. (confianza baja, base: 2 partidos reales)\nEn sus últimos 4 partidos con datos disponibles, Reading promedia apenas 0.8 tarjetas por partido, un equipo disciplinado. (confianza baja, base: 4 partidos reales)\nStevenage remata 6.5 veces por partido, de las cuales 2.5 van al arco (38% de efectividad de puntería).\nReading remata 6.8 veces por partido, de las cuales 2.8 van al arco (41% de efectividad de puntería).\nAmbos anotan — 38% combinado, sin tendencia clara hacia sí o no."
+          "recomendaciones": [],
+          "analisis": "Stevenage promedia 2.0 tarjetas en sus últimos 2 partidos.\nReading promedia 0.8 tarjetas en sus últimos 4 partidos.\nStevenage promedia 6.5 remates por partido, con 2.5 al arco.\nReading promedia 6.8 remates por partido, con 2.8 al arco.\nTendencia combinada de ambos anotan: 38%.",
+          "datos_completos": false
         },
         {
           "event_id": "401908126",
@@ -45304,9 +46497,12 @@
           },
           "pick_mas_seguro": {
             "disponible": false,
-            "razon": "Stoke City no tiene partidos jugados registrados en la fuente todavía (probable pretemporada o inicio de temporada) — no hay base real para proyectar nada de este equipo. Hull City no tiene partidos jugados registrados en la fuente todavía (probable pretemporada o inicio de temporada) — no hay base real para proyectar nada de este equipo."
+            "razon": "Stoke City: solo 3 partidos con datos; Hull City: solo 1 partidos con datos",
+            "recomendaciones": []
           },
-          "analisis": "En sus últimos 3 partidos con datos disponibles, Stoke City promedia apenas 1.3 tarjetas por partido, un equipo disciplinado. (confianza baja, base: 3 partidos reales)\nEn sus últimos 1 partidos con datos disponibles, Hull City promedia 3.0 tarjetas por partido — una tendencia marcadamente indisciplinada. (confianza baja, base: 1 partidos reales)\nStoke City remata 3.7 veces por partido, de las cuales 1.0 van al arco (27% de efectividad de puntería).\nHull City remata 14.0 veces por partido, de las cuales 6.0 van al arco (43% de efectividad de puntería).\nAmbos anotan — 50% combinado, sin tendencia clara hacia sí o no."
+          "recomendaciones": [],
+          "analisis": "Stoke City promedia 1.3 tarjetas en sus últimos 3 partidos.\nHull City promedia 3.0 tarjetas en sus últimos 1 partidos.\nStoke City promedia 3.7 remates por partido, con 1.0 al arco.\nHull City promedia 14.0 remates por partido, con 6.0 al arco.\nTendencia combinada de ambos anotan: 50%.",
+          "datos_completos": false
         },
         {
           "event_id": "401908120",
@@ -46917,9 +48113,12 @@
           },
           "pick_mas_seguro": {
             "disponible": false,
-            "razon": "Walsall no tiene partidos jugados registrados en la fuente todavía (probable pretemporada o inicio de temporada) — no hay base real para proyectar nada de este equipo. Leyton Orient no tiene partidos jugados registrados en la fuente todavía (probable pretemporada o inicio de temporada) — no hay base real para proyectar nada de este equipo."
+            "razon": "Walsall: solo 2 partidos con datos; Leyton Orient: solo 2 partidos con datos",
+            "recomendaciones": []
           },
-          "analisis": "En sus últimos 2 partidos con datos disponibles, Walsall promedia 2.0 tarjetas por partido, un nivel moderado. (confianza baja, base: 2 partidos reales)\nEn sus últimos 2 partidos con datos disponibles, Leyton Orient promedia apenas 1.0 tarjetas por partido, un equipo disciplinado. (confianza baja, base: 2 partidos reales)\nWalsall remata 4.5 veces por partido, de las cuales 2.5 van al arco (56% de efectividad de puntería).\nLeyton Orient remata 6.0 veces por partido, de las cuales 1.5 van al arco (25% de efectividad de puntería).\nAmbos anotan (No) — promedio combinado 0%, tendencia baja de goles en ambos arcos."
+          "recomendaciones": [],
+          "analisis": "Walsall promedia 2.0 tarjetas en sus últimos 2 partidos.\nLeyton Orient promedia 1.0 tarjetas en sus últimos 2 partidos.\nWalsall promedia 4.5 remates por partido, con 2.5 al arco.\nLeyton Orient promedia 6.0 remates por partido, con 1.5 al arco.\nTendencia combinada de ambos anotan: 0%.",
+          "datos_completos": false
         },
         {
           "event_id": "401907949",
@@ -46968,16 +48167,16 @@
                   }
                 ]
               },
-              "details": "WAT -180",
+              "details": "WAT -170",
               "overUnder": 2.5,
               "spread": -0.5,
-              "overOdds": -180.0,
-              "underOdds": 140.0,
+              "overOdds": -170.0,
+              "underOdds": 135.0,
               "awayTeamOdds": {
                 "favorite": false,
                 "underdog": true,
-                "moneyLine": 400,
-                "spreadOdds": 135.0,
+                "moneyLine": 380,
+                "spreadOdds": 125.0,
                 "team": {
                   "id": "342",
                   "uid": "s:600~t:342",
@@ -47117,8 +48316,8 @@
               "homeTeamOdds": {
                 "favorite": true,
                 "underdog": false,
-                "moneyLine": -180,
-                "spreadOdds": -190.0,
+                "moneyLine": -170,
+                "spreadOdds": -175.0,
                 "team": {
                   "id": "395",
                   "uid": "s:600~t:395",
@@ -47256,7 +48455,7 @@
                 "favoriteAtOpen": true
               },
               "drawOdds": {
-                "moneyLine": 320.0
+                "moneyLine": 310.0
               },
               "links": [
                 {
@@ -47456,7 +48655,7 @@
                 "shortDisplayName": "ML",
                 "home": {
                   "close": {
-                    "odds": "-180",
+                    "odds": "-170",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -47488,7 +48687,7 @@
                 },
                 "away": {
                   "close": {
-                    "odds": "+400",
+                    "odds": "+380",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -47520,7 +48719,7 @@
                 },
                 "draw": {
                   "close": {
-                    "odds": "+320",
+                    "odds": "+310",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -47557,7 +48756,7 @@
                 "home": {
                   "close": {
                     "line": "-0.5",
-                    "odds": "-190",
+                    "odds": "-175",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -47591,7 +48790,7 @@
                 "away": {
                   "close": {
                     "line": "+0.5",
-                    "odds": "+135",
+                    "odds": "+125",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -47629,7 +48828,7 @@
                 "over": {
                   "close": {
                     "line": "o2.5",
-                    "odds": "-180",
+                    "odds": "-170",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -47663,7 +48862,7 @@
                 "under": {
                   "close": {
                     "line": "u2.5",
-                    "odds": "+140",
+                    "odds": "+135",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -48641,9 +49840,12 @@
           },
           "pick_mas_seguro": {
             "disponible": false,
-            "razon": "Watford no tiene partidos jugados registrados en la fuente todavía (probable pretemporada o inicio de temporada) — no hay base real para proyectar nada de este equipo. Peterborough United no tiene partidos jugados registrados en la fuente todavía (probable pretemporada o inicio de temporada) — no hay base real para proyectar nada de este equipo."
+            "razon": "Watford: solo 2 partidos con datos; Peterborough United: solo 2 partidos con datos",
+            "recomendaciones": []
           },
-          "analisis": "En sus últimos 2 partidos con datos disponibles, Watford promedia apenas 1.5 tarjetas por partido, un equipo disciplinado. (confianza baja, base: 2 partidos reales)\nEn sus últimos 2 partidos con datos disponibles, Peterborough United promedia 2.5 tarjetas por partido, un nivel moderado. (confianza baja, base: 2 partidos reales)\nWatford remata 18.0 veces por partido, de las cuales 5.5 van al arco (31% de efectividad de puntería).\nPeterborough United remata 4.5 veces por partido, de las cuales 1.5 van al arco (33% de efectividad de puntería).\nAmbos anotan (No) — promedio combinado 25%, tendencia baja de goles en ambos arcos."
+          "recomendaciones": [],
+          "analisis": "Watford promedia 1.5 tarjetas en sus últimos 2 partidos.\nPeterborough United promedia 2.5 tarjetas en sus últimos 2 partidos.\nWatford promedia 18.0 remates por partido, con 5.5 al arco.\nPeterborough United promedia 4.5 remates por partido, con 1.5 al arco.\nTendencia combinada de ambos anotan: 25%.",
+          "datos_completos": false
         },
         {
           "event_id": "401907951",
@@ -50376,9 +51578,12 @@
           },
           "pick_mas_seguro": {
             "disponible": false,
-            "razon": "Birmingham City no tiene partidos jugados registrados en la fuente todavía (probable pretemporada o inicio de temporada) — no hay base real para proyectar nada de este equipo. Brentford no tiene partidos jugados registrados en la fuente todavía (probable pretemporada o inicio de temporada) — no hay base real para proyectar nada de este equipo."
+            "razon": "Birmingham City: solo 3 partidos con datos; Brentford: solo 4 partidos con datos",
+            "recomendaciones": []
           },
-          "analisis": "En sus últimos 3 partidos con datos disponibles, Birmingham City promedia apenas 1.7 tarjetas por partido, un equipo disciplinado. (confianza baja, base: 3 partidos reales)\nEn sus últimos 4 partidos con datos disponibles, Brentford promedia apenas 0.8 tarjetas por partido, un equipo disciplinado. (confianza baja, base: 4 partidos reales)\nBirmingham City remata 2.0 veces por partido, de las cuales 0.3 van al arco (16% de efectividad de puntería).\nBrentford remata 0.0 veces por partido, de las cuales 0.0 van al arco (0% de efectividad de puntería).\nAmbos anotan (No) — promedio combinado 29%, tendencia baja de goles en ambos arcos."
+          "recomendaciones": [],
+          "analisis": "Birmingham City promedia 1.7 tarjetas en sus últimos 3 partidos.\nBrentford promedia 0.8 tarjetas en sus últimos 4 partidos.\nBirmingham City promedia 2.0 remates por partido, con 0.3 al arco.\nBrentford promedia 0.0 remates por partido, con 0.0 al arco.\nTendencia combinada de ambos anotan: 29%.",
+          "datos_completos": false
         },
         {
           "event_id": "401908138",
@@ -52087,9 +53292,12 @@
           },
           "pick_mas_seguro": {
             "disponible": false,
-            "razon": "Nottingham Forest no tiene partidos jugados registrados en la fuente todavía (probable pretemporada o inicio de temporada) — no hay base real para proyectar nada de este equipo. Leeds United no tiene partidos jugados registrados en la fuente todavía (probable pretemporada o inicio de temporada) — no hay base real para proyectar nada de este equipo."
+            "razon": "Nottingham Forest: solo 1 partidos con datos; Leeds United: solo 1 partidos con datos",
+            "recomendaciones": []
           },
-          "analisis": "En sus últimos 1 partidos con datos disponibles, Nottingham Forest promedia 2.0 tarjetas por partido, un nivel moderado. (confianza baja, base: 1 partidos reales)\nEn sus últimos 1 partidos con datos disponibles, Leeds United promedia apenas 0.0 tarjetas por partido, un equipo disciplinado. (confianza baja, base: 1 partidos reales)\nNottingham Forest remata 0.0 veces por partido, de las cuales 0.0 van al arco (0% de efectividad de puntería).\nLeeds United remata 0.0 veces por partido, de las cuales 0.0 van al arco (0% de efectividad de puntería).\nAmbos anotan (Sí) — promedio combinado 100% en los partidos recientes de ambos equipos."
+          "recomendaciones": [],
+          "analisis": "Nottingham Forest promedia 2.0 tarjetas en sus últimos 1 partidos.\nLeeds United promedia 0.0 tarjetas en sus últimos 1 partidos.\nNottingham Forest promedia 0.0 remates por partido, con 0.0 al arco.\nLeeds United promedia 0.0 remates por partido, con 0.0 al arco.\nTendencia combinada de ambos anotan: 100%.",
+          "datos_completos": false
         }
       ]
     },
@@ -53989,30 +55197,133 @@
           },
           "pick_mas_seguro": {
             "disponible": true,
-            "mercado": "Goles recibidos por Real Betis: Menos de 2.5",
-            "justificacion": "Real Betis recibió menos de 2.5 goles en 100% de sus últimos 20 partidos.",
+            "mercado": "Menos de 4.5 goles",
+            "justificacion": "La combinación de los historiales goleadores queda por debajo de 4.5 goles en 98% de los escenarios históricos.",
             "confianza": "alta",
-            "score": 1.0,
-            "probabilidad": 100.0,
+            "score": 0.975,
+            "probabilidad": 97.5,
             "n_min": 20,
-            "alternativas": [
+            "recomendaciones": [
               {
-                "mercado": "Goles totales del partido: Menos de 4.5",
-                "score": 0.95,
+                "mercado": "Menos de 4.5 goles",
                 "probabilidad": 97.5,
-                "justificacion": "Combinando el historial goleador de ambos equipos, 98% de las combinaciones posibles dan menos de 4.5 goles totales.",
-                "confianza": "alta"
+                "score": 0.975,
+                "confianza": "alta",
+                "familia": "goles",
+                "justificacion": "La combinación de los historiales goleadores queda por debajo de 4.5 goles en 98% de los escenarios históricos."
               },
               {
-                "mercado": "Goles propios de Valencia: Menos de 2.5",
-                "score": 0.9,
-                "probabilidad": 95.0,
-                "justificacion": "Valencia tuvo menos de 2.5 goles propios en 95% de sus últimos 20 partidos.",
-                "confianza": "alta"
+                "mercado": "Menos de 6.5 tarjetas",
+                "probabilidad": 92.0,
+                "score": 0.92,
+                "confianza": "alta",
+                "familia": "tarjetas",
+                "justificacion": "El historial combinado queda por debajo de 6.5 tarjetas en 92% de los escenarios."
+              },
+              {
+                "mercado": "Más de 17.5 remates totales",
+                "probabilidad": 89.2,
+                "score": 0.8925,
+                "confianza": "alta",
+                "familia": "remates",
+                "justificacion": "El historial combinado supera 17.5 remates en 89% de los escenarios."
+              },
+              {
+                "mercado": "Ambos anotan: No",
+                "probabilidad": 65.0,
+                "score": 0.65,
+                "confianza": "alta",
+                "familia": "btts",
+                "justificacion": "La tendencia combinada indica que ambos equipos no marcan en una proporción alta de sus partidos recientes."
+              },
+              {
+                "mercado": "Doble oportunidad: Real Betis o empate",
+                "probabilidad": 63.4,
+                "score": 0.6341355910108006,
+                "confianza": "alta",
+                "familia": "resultado",
+                "justificacion": "El diferencial goleador reciente favorece a Real Betis sobre una muestra de 20 partidos por equipo."
+              }
+            ],
+            "alternativas": [
+              {
+                "mercado": "Menos de 6.5 tarjetas",
+                "probabilidad": 92.0,
+                "score": 0.92,
+                "confianza": "alta",
+                "familia": "tarjetas",
+                "justificacion": "El historial combinado queda por debajo de 6.5 tarjetas en 92% de los escenarios."
+              },
+              {
+                "mercado": "Más de 17.5 remates totales",
+                "probabilidad": 89.2,
+                "score": 0.8925,
+                "confianza": "alta",
+                "familia": "remates",
+                "justificacion": "El historial combinado supera 17.5 remates en 89% de los escenarios."
+              },
+              {
+                "mercado": "Ambos anotan: No",
+                "probabilidad": 65.0,
+                "score": 0.65,
+                "confianza": "alta",
+                "familia": "btts",
+                "justificacion": "La tendencia combinada indica que ambos equipos no marcan en una proporción alta de sus partidos recientes."
+              },
+              {
+                "mercado": "Doble oportunidad: Real Betis o empate",
+                "probabilidad": 63.4,
+                "score": 0.6341355910108006,
+                "confianza": "alta",
+                "familia": "resultado",
+                "justificacion": "El diferencial goleador reciente favorece a Real Betis sobre una muestra de 20 partidos por equipo."
               }
             ]
           },
-          "analisis": "En sus últimos 20 partidos con datos disponibles, Valencia promedia apenas 1.9 tarjetas por partido, un equipo disciplinado. (confianza alta, base: 20 partidos reales)\nEn sus últimos 20 partidos con datos disponibles, Real Betis promedia 2.0 tarjetas por partido, un nivel moderado. (confianza alta, base: 20 partidos reales)\nValencia remata 11.8 veces por partido, de las cuales 3.4 van al arco (29% de efectividad de puntería).\nReal Betis remata 13.8 veces por partido, de las cuales 4.8 van al arco (34% de efectividad de puntería).\nAmbos anotan (No) — promedio combinado 35%, tendencia baja de goles en ambos arcos."
+          "recomendaciones": [
+            {
+              "mercado": "Menos de 4.5 goles",
+              "probabilidad": 97.5,
+              "score": 0.975,
+              "confianza": "alta",
+              "familia": "goles",
+              "justificacion": "La combinación de los historiales goleadores queda por debajo de 4.5 goles en 98% de los escenarios históricos."
+            },
+            {
+              "mercado": "Menos de 6.5 tarjetas",
+              "probabilidad": 92.0,
+              "score": 0.92,
+              "confianza": "alta",
+              "familia": "tarjetas",
+              "justificacion": "El historial combinado queda por debajo de 6.5 tarjetas en 92% de los escenarios."
+            },
+            {
+              "mercado": "Más de 17.5 remates totales",
+              "probabilidad": 89.2,
+              "score": 0.8925,
+              "confianza": "alta",
+              "familia": "remates",
+              "justificacion": "El historial combinado supera 17.5 remates en 89% de los escenarios."
+            },
+            {
+              "mercado": "Ambos anotan: No",
+              "probabilidad": 65.0,
+              "score": 0.65,
+              "confianza": "alta",
+              "familia": "btts",
+              "justificacion": "La tendencia combinada indica que ambos equipos no marcan en una proporción alta de sus partidos recientes."
+            },
+            {
+              "mercado": "Doble oportunidad: Real Betis o empate",
+              "probabilidad": 63.4,
+              "score": 0.6341355910108006,
+              "confianza": "alta",
+              "familia": "resultado",
+              "justificacion": "El diferencial goleador reciente favorece a Real Betis sobre una muestra de 20 partidos por equipo."
+            }
+          ],
+          "analisis": "Valencia promedia 1.9 tarjetas en sus últimos 20 partidos.\nReal Betis promedia 2.0 tarjetas en sus últimos 20 partidos.\nValencia promedia 11.8 remates por partido, con 3.4 al arco.\nReal Betis promedia 13.8 remates por partido, con 4.8 al arco.\nTendencia combinada de ambos anotan: 35%.",
+          "datos_completos": true
         }
       ]
     },
@@ -55315,9 +56626,12 @@
           },
           "pick_mas_seguro": {
             "disponible": false,
-            "razon": "Kruger United no tiene partidos jugados registrados en la fuente todavía (probable pretemporada o inicio de temporada) — no hay base real para proyectar nada de este equipo."
+            "razon": "Kruger United: solo 3 partidos con datos",
+            "recomendaciones": []
           },
-          "analisis": "En sus últimos 3 partidos con datos disponibles, Kruger United promedia 3.3 tarjetas por partido — una tendencia marcadamente indisciplinada. (confianza baja, base: 3 partidos reales)\nEn sus últimos 20 partidos con datos disponibles, Durban City promedia apenas 1.9 tarjetas por partido, un equipo disciplinado. (confianza alta, base: 20 partidos reales)\nKruger United remata 9.3 veces por partido, de las cuales 2.7 van al arco (29% de efectividad de puntería).\nDurban City remata 10.8 veces por partido, de las cuales 3.5 van al arco (33% de efectividad de puntería).\nAmbos anotan — 43% combinado, sin tendencia clara hacia sí o no."
+          "recomendaciones": [],
+          "analisis": "Kruger United promedia 3.3 tarjetas en sus últimos 3 partidos.\nDurban City promedia 1.9 tarjetas en sus últimos 20 partidos.\nKruger United promedia 9.3 remates por partido, con 2.7 al arco.\nDurban City promedia 10.8 remates por partido, con 3.5 al arco.\nTendencia combinada de ambos anotan: 43%.",
+          "datos_completos": false
         },
         {
           "event_id": "401902063",
@@ -57231,30 +58545,109 @@
           },
           "pick_mas_seguro": {
             "disponible": true,
-            "mercado": "Goles propios de TS Galaxy FC: Menos de 2.5",
-            "justificacion": "TS Galaxy FC tuvo menos de 2.5 goles propios en 100% de sus últimos 20 partidos.",
+            "mercado": "Menos de 4.5 goles",
+            "justificacion": "La combinación de los historiales goleadores queda por debajo de 4.5 goles en 100% de los escenarios históricos.",
             "confianza": "alta",
-            "score": 1.0,
-            "probabilidad": 100.0,
+            "score": 0.995,
+            "probabilidad": 99.5,
             "n_min": 20,
-            "alternativas": [
+            "recomendaciones": [
               {
-                "mercado": "Goles totales del partido: Menos de 4.5",
-                "score": 0.99,
+                "mercado": "Menos de 4.5 goles",
                 "probabilidad": 99.5,
-                "justificacion": "Combinando el historial goleador de ambos equipos, 100% de las combinaciones posibles dan menos de 4.5 goles totales.",
-                "confianza": "alta"
+                "score": 0.995,
+                "confianza": "alta",
+                "familia": "goles",
+                "justificacion": "La combinación de los historiales goleadores queda por debajo de 4.5 goles en 100% de los escenarios históricos."
               },
               {
-                "mercado": "Tarjetas totales del partido: Menos de 6.5",
-                "score": 0.92,
+                "mercado": "Menos de 6.5 tarjetas",
                 "probabilidad": 96.0,
-                "justificacion": "Combinando el historial de tarjetas de ambos equipos, 96% de las combinaciones posibles dan menos de 6.5 tarjetas totales.",
-                "confianza": "alta"
+                "score": 0.96,
+                "confianza": "alta",
+                "familia": "tarjetas",
+                "justificacion": "El historial combinado queda por debajo de 6.5 tarjetas en 96% de los escenarios."
+              },
+              {
+                "mercado": "Menos de 27.5 remates totales",
+                "probabilidad": 80.2,
+                "score": 0.8025,
+                "confianza": "alta",
+                "familia": "remates",
+                "justificacion": "El historial combinado queda por debajo de 27.5 remates en 80% de los escenarios."
+              },
+              {
+                "mercado": "Ambos anotan: No",
+                "probabilidad": 67.5,
+                "score": 0.675,
+                "confianza": "alta",
+                "familia": "btts",
+                "justificacion": "La tendencia combinada indica que ambos equipos no marcan en una proporción alta de sus partidos recientes."
+              }
+            ],
+            "alternativas": [
+              {
+                "mercado": "Menos de 6.5 tarjetas",
+                "probabilidad": 96.0,
+                "score": 0.96,
+                "confianza": "alta",
+                "familia": "tarjetas",
+                "justificacion": "El historial combinado queda por debajo de 6.5 tarjetas en 96% de los escenarios."
+              },
+              {
+                "mercado": "Menos de 27.5 remates totales",
+                "probabilidad": 80.2,
+                "score": 0.8025,
+                "confianza": "alta",
+                "familia": "remates",
+                "justificacion": "El historial combinado queda por debajo de 27.5 remates en 80% de los escenarios."
+              },
+              {
+                "mercado": "Ambos anotan: No",
+                "probabilidad": 67.5,
+                "score": 0.675,
+                "confianza": "alta",
+                "familia": "btts",
+                "justificacion": "La tendencia combinada indica que ambos equipos no marcan en una proporción alta de sus partidos recientes."
               }
             ]
           },
-          "analisis": "En sus últimos 20 partidos con datos disponibles, Marumo Gallants promedia apenas 1.6 tarjetas por partido, un equipo disciplinado. (confianza alta, base: 20 partidos reales)\nEn sus últimos 20 partidos con datos disponibles, TS Galaxy FC promedia 2.1 tarjetas por partido, un nivel moderado. (confianza alta, base: 20 partidos reales)\nMarumo Gallants remata 10.8 veces por partido, de las cuales 2.8 van al arco (25% de efectividad de puntería).\nTS Galaxy FC remata 11.4 veces por partido, de las cuales 3.7 van al arco (32% de efectividad de puntería).\nAmbos anotan (No) — promedio combinado 32%, tendencia baja de goles en ambos arcos."
+          "recomendaciones": [
+            {
+              "mercado": "Menos de 4.5 goles",
+              "probabilidad": 99.5,
+              "score": 0.995,
+              "confianza": "alta",
+              "familia": "goles",
+              "justificacion": "La combinación de los historiales goleadores queda por debajo de 4.5 goles en 100% de los escenarios históricos."
+            },
+            {
+              "mercado": "Menos de 6.5 tarjetas",
+              "probabilidad": 96.0,
+              "score": 0.96,
+              "confianza": "alta",
+              "familia": "tarjetas",
+              "justificacion": "El historial combinado queda por debajo de 6.5 tarjetas en 96% de los escenarios."
+            },
+            {
+              "mercado": "Menos de 27.5 remates totales",
+              "probabilidad": 80.2,
+              "score": 0.8025,
+              "confianza": "alta",
+              "familia": "remates",
+              "justificacion": "El historial combinado queda por debajo de 27.5 remates en 80% de los escenarios."
+            },
+            {
+              "mercado": "Ambos anotan: No",
+              "probabilidad": 67.5,
+              "score": 0.675,
+              "confianza": "alta",
+              "familia": "btts",
+              "justificacion": "La tendencia combinada indica que ambos equipos no marcan en una proporción alta de sus partidos recientes."
+            }
+          ],
+          "analisis": "Marumo Gallants promedia 1.6 tarjetas en sus últimos 20 partidos.\nTS Galaxy FC promedia 2.1 tarjetas en sus últimos 20 partidos.\nMarumo Gallants promedia 10.8 remates por partido, con 2.8 al arco.\nTS Galaxy FC promedia 11.4 remates por partido, con 3.7 al arco.\nTendencia combinada de ambos anotan: 32%.",
+          "datos_completos": true
         },
         {
           "event_id": "401902062",
@@ -59114,30 +60507,133 @@
           },
           "pick_mas_seguro": {
             "disponible": true,
-            "mercado": "Goles recibidos por Orlando Pirates: Menos de 2.5",
-            "justificacion": "Orlando Pirates recibió menos de 2.5 goles en 100% de sus últimos 20 partidos.",
+            "mercado": "Menos de 6.5 tarjetas",
+            "justificacion": "El historial combinado queda por debajo de 6.5 tarjetas en 100% de los escenarios.",
             "confianza": "alta",
             "score": 1.0,
             "probabilidad": 100.0,
             "n_min": 20,
-            "alternativas": [
+            "recomendaciones": [
               {
-                "mercado": "Tarjetas de Orlando Pirates: Menos de 2.5",
-                "score": 1.0,
+                "mercado": "Menos de 6.5 tarjetas",
                 "probabilidad": 100.0,
-                "justificacion": "Orlando Pirates tuvo menos de 2.5 tarjetas en 100% de sus últimos 20 partidos.",
-                "confianza": "alta"
+                "score": 1.0,
+                "confianza": "alta",
+                "familia": "tarjetas",
+                "justificacion": "El historial combinado queda por debajo de 6.5 tarjetas en 100% de los escenarios."
               },
               {
-                "mercado": "Tarjetas totales del partido: Menos de 6.5",
-                "score": 1.0,
-                "probabilidad": 100.0,
-                "justificacion": "Combinando el historial de tarjetas de ambos equipos, 100% de las combinaciones posibles dan menos de 6.5 tarjetas totales.",
-                "confianza": "alta"
+                "mercado": "Más de 0.5 goles",
+                "probabilidad": 96.5,
+                "score": 0.965,
+                "confianza": "alta",
+                "familia": "goles",
+                "justificacion": "La combinación de los historiales goleadores supera 0.5 goles en 96% de los escenarios históricos."
+              },
+              {
+                "mercado": "Más de 17.5 remates totales",
+                "probabilidad": 92.8,
+                "score": 0.9275,
+                "confianza": "alta",
+                "familia": "remates",
+                "justificacion": "El historial combinado supera 17.5 remates en 93% de los escenarios."
+              },
+              {
+                "mercado": "Doble oportunidad: Orlando Pirates o empate",
+                "probabilidad": 83.9,
+                "score": 0.8388910504234147,
+                "confianza": "alta",
+                "familia": "resultado",
+                "justificacion": "El diferencial goleador reciente favorece a Orlando Pirates sobre una muestra de 20 partidos por equipo."
+              },
+              {
+                "mercado": "Ambos anotan: No",
+                "probabilidad": 70.0,
+                "score": 0.7,
+                "confianza": "alta",
+                "familia": "btts",
+                "justificacion": "La tendencia combinada indica que ambos equipos no marcan en una proporción alta de sus partidos recientes."
+              }
+            ],
+            "alternativas": [
+              {
+                "mercado": "Más de 0.5 goles",
+                "probabilidad": 96.5,
+                "score": 0.965,
+                "confianza": "alta",
+                "familia": "goles",
+                "justificacion": "La combinación de los historiales goleadores supera 0.5 goles en 96% de los escenarios históricos."
+              },
+              {
+                "mercado": "Más de 17.5 remates totales",
+                "probabilidad": 92.8,
+                "score": 0.9275,
+                "confianza": "alta",
+                "familia": "remates",
+                "justificacion": "El historial combinado supera 17.5 remates en 93% de los escenarios."
+              },
+              {
+                "mercado": "Doble oportunidad: Orlando Pirates o empate",
+                "probabilidad": 83.9,
+                "score": 0.8388910504234147,
+                "confianza": "alta",
+                "familia": "resultado",
+                "justificacion": "El diferencial goleador reciente favorece a Orlando Pirates sobre una muestra de 20 partidos por equipo."
+              },
+              {
+                "mercado": "Ambos anotan: No",
+                "probabilidad": 70.0,
+                "score": 0.7,
+                "confianza": "alta",
+                "familia": "btts",
+                "justificacion": "La tendencia combinada indica que ambos equipos no marcan en una proporción alta de sus partidos recientes."
               }
             ]
           },
-          "analisis": "En sus últimos 20 partidos con datos disponibles, Orlando Pirates promedia apenas 0.8 tarjetas por partido, un equipo disciplinado. (confianza alta, base: 20 partidos reales)\nEn sus últimos 20 partidos con datos disponibles, Sekhukhune United FC promedia 2.1 tarjetas por partido, un nivel moderado. (confianza alta, base: 20 partidos reales)\nOrlando Pirates remata 20.1 veces por partido, de las cuales 7.8 van al arco (38% de efectividad de puntería).\nSekhukhune United FC remata 10.8 veces por partido, de las cuales 3.9 van al arco (36% de efectividad de puntería).\nAmbos anotan (No) — promedio combinado 30%, tendencia baja de goles en ambos arcos."
+          "recomendaciones": [
+            {
+              "mercado": "Menos de 6.5 tarjetas",
+              "probabilidad": 100.0,
+              "score": 1.0,
+              "confianza": "alta",
+              "familia": "tarjetas",
+              "justificacion": "El historial combinado queda por debajo de 6.5 tarjetas en 100% de los escenarios."
+            },
+            {
+              "mercado": "Más de 0.5 goles",
+              "probabilidad": 96.5,
+              "score": 0.965,
+              "confianza": "alta",
+              "familia": "goles",
+              "justificacion": "La combinación de los historiales goleadores supera 0.5 goles en 96% de los escenarios históricos."
+            },
+            {
+              "mercado": "Más de 17.5 remates totales",
+              "probabilidad": 92.8,
+              "score": 0.9275,
+              "confianza": "alta",
+              "familia": "remates",
+              "justificacion": "El historial combinado supera 17.5 remates en 93% de los escenarios."
+            },
+            {
+              "mercado": "Doble oportunidad: Orlando Pirates o empate",
+              "probabilidad": 83.9,
+              "score": 0.8388910504234147,
+              "confianza": "alta",
+              "familia": "resultado",
+              "justificacion": "El diferencial goleador reciente favorece a Orlando Pirates sobre una muestra de 20 partidos por equipo."
+            },
+            {
+              "mercado": "Ambos anotan: No",
+              "probabilidad": 70.0,
+              "score": 0.7,
+              "confianza": "alta",
+              "familia": "btts",
+              "justificacion": "La tendencia combinada indica que ambos equipos no marcan en una proporción alta de sus partidos recientes."
+            }
+          ],
+          "analisis": "Orlando Pirates promedia 0.8 tarjetas en sus últimos 20 partidos.\nSekhukhune United FC promedia 2.1 tarjetas en sus últimos 20 partidos.\nOrlando Pirates promedia 20.1 remates por partido, con 7.8 al arco.\nSekhukhune United FC promedia 10.8 remates por partido, con 3.9 al arco.\nTendencia combinada de ambos anotan: 30%.",
+          "datos_completos": true
         },
         {
           "event_id": "401902061",
@@ -60550,30 +62046,109 @@
           },
           "pick_mas_seguro": {
             "disponible": true,
-            "mercado": "Goles totales del partido: Menos de 4.5",
-            "justificacion": "Combinando el historial goleador de ambos equipos, 98% de las combinaciones posibles dan menos de 4.5 goles totales.",
+            "mercado": "Menos de 4.5 goles",
+            "justificacion": "La combinación de los historiales goleadores queda por debajo de 4.5 goles en 98% de los escenarios históricos.",
             "confianza": "alta",
-            "score": 0.965,
+            "score": 0.9825,
             "probabilidad": 98.2,
             "n_min": 20,
-            "alternativas": [
+            "recomendaciones": [
               {
-                "mercado": "Goles propios de Siwelele: Menos de 2.5",
-                "score": 0.9,
-                "probabilidad": 95.0,
-                "justificacion": "Siwelele tuvo menos de 2.5 goles propios en 95% de sus últimos 20 partidos.",
-                "confianza": "alta"
+                "mercado": "Menos de 4.5 goles",
+                "probabilidad": 98.2,
+                "score": 0.9825,
+                "confianza": "alta",
+                "familia": "goles",
+                "justificacion": "La combinación de los historiales goleadores queda por debajo de 4.5 goles en 98% de los escenarios históricos."
               },
               {
-                "mercado": "Goles propios de Chippa United: Menos de 2.5",
-                "score": 0.9,
-                "probabilidad": 95.0,
-                "justificacion": "Chippa United tuvo menos de 2.5 goles propios en 95% de sus últimos 20 partidos.",
-                "confianza": "alta"
+                "mercado": "Menos de 6.5 tarjetas",
+                "probabilidad": 92.0,
+                "score": 0.92,
+                "confianza": "alta",
+                "familia": "tarjetas",
+                "justificacion": "El historial combinado queda por debajo de 6.5 tarjetas en 92% de los escenarios."
+              },
+              {
+                "mercado": "Menos de 27.5 remates totales",
+                "probabilidad": 90.8,
+                "score": 0.9075,
+                "confianza": "alta",
+                "familia": "remates",
+                "justificacion": "El historial combinado queda por debajo de 27.5 remates en 91% de los escenarios."
+              },
+              {
+                "mercado": "Ambos anotan: No",
+                "probabilidad": 67.5,
+                "score": 0.675,
+                "confianza": "alta",
+                "familia": "btts",
+                "justificacion": "La tendencia combinada indica que ambos equipos no marcan en una proporción alta de sus partidos recientes."
+              }
+            ],
+            "alternativas": [
+              {
+                "mercado": "Menos de 6.5 tarjetas",
+                "probabilidad": 92.0,
+                "score": 0.92,
+                "confianza": "alta",
+                "familia": "tarjetas",
+                "justificacion": "El historial combinado queda por debajo de 6.5 tarjetas en 92% de los escenarios."
+              },
+              {
+                "mercado": "Menos de 27.5 remates totales",
+                "probabilidad": 90.8,
+                "score": 0.9075,
+                "confianza": "alta",
+                "familia": "remates",
+                "justificacion": "El historial combinado queda por debajo de 27.5 remates en 91% de los escenarios."
+              },
+              {
+                "mercado": "Ambos anotan: No",
+                "probabilidad": 67.5,
+                "score": 0.675,
+                "confianza": "alta",
+                "familia": "btts",
+                "justificacion": "La tendencia combinada indica que ambos equipos no marcan en una proporción alta de sus partidos recientes."
               }
             ]
           },
-          "analisis": "En sus últimos 20 partidos con datos disponibles, Siwelele promedia 2.1 tarjetas por partido, un nivel moderado. (confianza alta, base: 20 partidos reales)\nEn sus últimos 20 partidos con datos disponibles, Chippa United promedia apenas 1.6 tarjetas por partido, un equipo disciplinado. (confianza alta, base: 20 partidos reales)\nSiwelele remata 10.8 veces por partido, de las cuales 3.6 van al arco (34% de efectividad de puntería).\nChippa United remata 9.7 veces por partido, de las cuales 2.8 van al arco (29% de efectividad de puntería).\nAmbos anotan (No) — promedio combinado 32%, tendencia baja de goles en ambos arcos."
+          "recomendaciones": [
+            {
+              "mercado": "Menos de 4.5 goles",
+              "probabilidad": 98.2,
+              "score": 0.9825,
+              "confianza": "alta",
+              "familia": "goles",
+              "justificacion": "La combinación de los historiales goleadores queda por debajo de 4.5 goles en 98% de los escenarios históricos."
+            },
+            {
+              "mercado": "Menos de 6.5 tarjetas",
+              "probabilidad": 92.0,
+              "score": 0.92,
+              "confianza": "alta",
+              "familia": "tarjetas",
+              "justificacion": "El historial combinado queda por debajo de 6.5 tarjetas en 92% de los escenarios."
+            },
+            {
+              "mercado": "Menos de 27.5 remates totales",
+              "probabilidad": 90.8,
+              "score": 0.9075,
+              "confianza": "alta",
+              "familia": "remates",
+              "justificacion": "El historial combinado queda por debajo de 27.5 remates en 91% de los escenarios."
+            },
+            {
+              "mercado": "Ambos anotan: No",
+              "probabilidad": 67.5,
+              "score": 0.675,
+              "confianza": "alta",
+              "familia": "btts",
+              "justificacion": "La tendencia combinada indica que ambos equipos no marcan en una proporción alta de sus partidos recientes."
+            }
+          ],
+          "analisis": "Siwelele promedia 2.1 tarjetas en sus últimos 20 partidos.\nChippa United promedia 1.6 tarjetas en sus últimos 20 partidos.\nSiwelele promedia 10.8 remates por partido, con 3.6 al arco.\nChippa United promedia 9.7 remates por partido, con 2.8 al arco.\nTendencia combinada de ambos anotan: 32%.",
+          "datos_completos": true
         }
       ]
     },
@@ -62423,9 +63998,12 @@
           },
           "pick_mas_seguro": {
             "disponible": false,
-            "razon": "Abha no tiene partidos jugados registrados en la fuente todavía (probable pretemporada o inicio de temporada) — no hay base real para proyectar nada de este equipo."
+            "razon": "Abha: solo 2 partidos con datos",
+            "recomendaciones": []
           },
-          "analisis": "En sus últimos 2 partidos con datos disponibles, Abha promedia 2.0 tarjetas por partido, un nivel moderado. (confianza baja, base: 2 partidos reales)\nEn sus últimos 20 partidos con datos disponibles, Al Khaleej promedia 2.0 tarjetas por partido, un nivel moderado. (confianza alta, base: 20 partidos reales)\nAbha remata 11.0 veces por partido, de las cuales 4.5 van al arco (41% de efectividad de puntería).\nAl Khaleej remata 10.1 veces por partido, de las cuales 3.5 van al arco (34% de efectividad de puntería).\nAmbos anotan — 48% combinado, sin tendencia clara hacia sí o no."
+          "recomendaciones": [],
+          "analisis": "Abha promedia 2.0 tarjetas en sus últimos 2 partidos.\nAl Khaleej promedia 2.0 tarjetas en sus últimos 20 partidos.\nAbha promedia 11.0 remates por partido, con 4.5 al arco.\nAl Khaleej promedia 10.1 remates por partido, con 3.5 al arco.\nTendencia combinada de ambos anotan: 48%.",
+          "datos_completos": false
         },
         {
           "event_id": "401900389",
@@ -64339,30 +65917,85 @@
           },
           "pick_mas_seguro": {
             "disponible": true,
-            "mercado": "Goles propios de Al Taawoun: Menos de 2.5",
-            "justificacion": "Al Taawoun tuvo menos de 2.5 goles propios en 95% de sus últimos 20 partidos.",
+            "mercado": "Menos de 6.5 tarjetas",
+            "justificacion": "El historial combinado queda por debajo de 6.5 tarjetas en 95% de los escenarios.",
             "confianza": "alta",
-            "score": 0.9,
+            "score": 0.95,
             "probabilidad": 95.0,
             "n_min": 20,
-            "alternativas": [
+            "recomendaciones": [
               {
-                "mercado": "Tarjetas de Al Fayha: Menos de 2.5",
-                "score": 0.9,
+                "mercado": "Menos de 6.5 tarjetas",
                 "probabilidad": 95.0,
-                "justificacion": "Al Fayha tuvo menos de 2.5 tarjetas en 95% de sus últimos 20 partidos.",
-                "confianza": "alta"
+                "score": 0.95,
+                "confianza": "alta",
+                "familia": "tarjetas",
+                "justificacion": "El historial combinado queda por debajo de 6.5 tarjetas en 95% de los escenarios."
               },
               {
-                "mercado": "Tarjetas totales del partido: Menos de 6.5",
-                "score": 0.9,
-                "probabilidad": 95.0,
-                "justificacion": "Combinando el historial de tarjetas de ambos equipos, 95% de las combinaciones posibles dan menos de 6.5 tarjetas totales.",
-                "confianza": "alta"
+                "mercado": "Más de 0.5 goles",
+                "probabilidad": 87.8,
+                "score": 0.8775,
+                "confianza": "alta",
+                "familia": "goles",
+                "justificacion": "La combinación de los historiales goleadores supera 0.5 goles en 88% de los escenarios históricos."
+              },
+              {
+                "mercado": "Más de 17.5 remates totales",
+                "probabilidad": 80.0,
+                "score": 0.8,
+                "confianza": "alta",
+                "familia": "remates",
+                "justificacion": "El historial combinado supera 17.5 remates en 80% de los escenarios."
+              }
+            ],
+            "alternativas": [
+              {
+                "mercado": "Más de 0.5 goles",
+                "probabilidad": 87.8,
+                "score": 0.8775,
+                "confianza": "alta",
+                "familia": "goles",
+                "justificacion": "La combinación de los historiales goleadores supera 0.5 goles en 88% de los escenarios históricos."
+              },
+              {
+                "mercado": "Más de 17.5 remates totales",
+                "probabilidad": 80.0,
+                "score": 0.8,
+                "confianza": "alta",
+                "familia": "remates",
+                "justificacion": "El historial combinado supera 17.5 remates en 80% de los escenarios."
               }
             ]
           },
-          "analisis": "En sus últimos 20 partidos con datos disponibles, Al Taawoun promedia 2.2 tarjetas por partido, un nivel moderado. (confianza alta, base: 20 partidos reales)\nEn sus últimos 20 partidos con datos disponibles, Al Fayha promedia apenas 1.4 tarjetas por partido, un equipo disciplinado. (confianza alta, base: 20 partidos reales)\nAl Taawoun remata 12.7 veces por partido, de las cuales 3.9 van al arco (30% de efectividad de puntería).\nAl Fayha remata 10.4 veces por partido, de las cuales 3.5 van al arco (34% de efectividad de puntería).\nAmbos anotan — 50% combinado, sin tendencia clara hacia sí o no."
+          "recomendaciones": [
+            {
+              "mercado": "Menos de 6.5 tarjetas",
+              "probabilidad": 95.0,
+              "score": 0.95,
+              "confianza": "alta",
+              "familia": "tarjetas",
+              "justificacion": "El historial combinado queda por debajo de 6.5 tarjetas en 95% de los escenarios."
+            },
+            {
+              "mercado": "Más de 0.5 goles",
+              "probabilidad": 87.8,
+              "score": 0.8775,
+              "confianza": "alta",
+              "familia": "goles",
+              "justificacion": "La combinación de los historiales goleadores supera 0.5 goles en 88% de los escenarios históricos."
+            },
+            {
+              "mercado": "Más de 17.5 remates totales",
+              "probabilidad": 80.0,
+              "score": 0.8,
+              "confianza": "alta",
+              "familia": "remates",
+              "justificacion": "El historial combinado supera 17.5 remates en 80% de los escenarios."
+            }
+          ],
+          "analisis": "Al Taawoun promedia 2.2 tarjetas en sus últimos 20 partidos.\nAl Fayha promedia 1.4 tarjetas en sus últimos 20 partidos.\nAl Taawoun promedia 12.7 remates por partido, con 3.9 al arco.\nAl Fayha promedia 10.4 remates por partido, con 3.5 al arco.\nTendencia combinada de ambos anotan: 50%.",
+          "datos_completos": true
         },
         {
           "event_id": "401900388",
@@ -66276,30 +67909,133 @@
           },
           "pick_mas_seguro": {
             "disponible": true,
-            "mercado": "Goles recibidos por Al Nassr: Menos de 2.5",
-            "justificacion": "Al Nassr recibió menos de 2.5 goles en 95% de sus últimos 20 partidos.",
+            "mercado": "Más de 0.5 goles",
+            "justificacion": "La combinación de los historiales goleadores supera 0.5 goles en 98% de los escenarios históricos.",
             "confianza": "alta",
-            "score": 0.9,
-            "probabilidad": 95.0,
+            "score": 0.985,
+            "probabilidad": 98.5,
             "n_min": 20,
-            "alternativas": [
+            "recomendaciones": [
               {
-                "mercado": "Goles propios de Al Nassr: Más de 0.5",
-                "score": 0.8999999999999999,
-                "probabilidad": 95.0,
-                "justificacion": "Al Nassr tuvo más de 0.5 goles propios en 95% de sus últimos 20 partidos.",
-                "confianza": "alta"
+                "mercado": "Más de 0.5 goles",
+                "probabilidad": 98.5,
+                "score": 0.985,
+                "confianza": "alta",
+                "familia": "goles",
+                "justificacion": "La combinación de los historiales goleadores supera 0.5 goles en 98% de los escenarios históricos."
               },
               {
-                "mercado": "Remates totales de Al Nassr: Más de 8.5",
-                "score": 0.8999999999999999,
-                "probabilidad": 95.0,
-                "justificacion": "Al Nassr tuvo más de 8.5 remates en 95% de sus últimos 20 partidos.",
-                "confianza": "alta"
+                "mercado": "Más de 17.5 remates totales",
+                "probabilidad": 95.5,
+                "score": 0.955,
+                "confianza": "alta",
+                "familia": "remates",
+                "justificacion": "El historial combinado supera 17.5 remates en 96% de los escenarios."
+              },
+              {
+                "mercado": "Doble oportunidad: Al Nassr o empate",
+                "probabilidad": 89.1,
+                "score": 0.8909031788043871,
+                "confianza": "alta",
+                "familia": "resultado",
+                "justificacion": "El diferencial goleador reciente favorece a Al Nassr sobre una muestra de 20 partidos por equipo."
+              },
+              {
+                "mercado": "Menos de 6.5 tarjetas",
+                "probabilidad": 81.2,
+                "score": 0.8125,
+                "confianza": "alta",
+                "familia": "tarjetas",
+                "justificacion": "El historial combinado queda por debajo de 6.5 tarjetas en 81% de los escenarios."
+              },
+              {
+                "mercado": "Ambos anotan: No",
+                "probabilidad": 70.0,
+                "score": 0.7,
+                "confianza": "alta",
+                "familia": "btts",
+                "justificacion": "La tendencia combinada indica que ambos equipos no marcan en una proporción alta de sus partidos recientes."
+              }
+            ],
+            "alternativas": [
+              {
+                "mercado": "Más de 17.5 remates totales",
+                "probabilidad": 95.5,
+                "score": 0.955,
+                "confianza": "alta",
+                "familia": "remates",
+                "justificacion": "El historial combinado supera 17.5 remates en 96% de los escenarios."
+              },
+              {
+                "mercado": "Doble oportunidad: Al Nassr o empate",
+                "probabilidad": 89.1,
+                "score": 0.8909031788043871,
+                "confianza": "alta",
+                "familia": "resultado",
+                "justificacion": "El diferencial goleador reciente favorece a Al Nassr sobre una muestra de 20 partidos por equipo."
+              },
+              {
+                "mercado": "Menos de 6.5 tarjetas",
+                "probabilidad": 81.2,
+                "score": 0.8125,
+                "confianza": "alta",
+                "familia": "tarjetas",
+                "justificacion": "El historial combinado queda por debajo de 6.5 tarjetas en 81% de los escenarios."
+              },
+              {
+                "mercado": "Ambos anotan: No",
+                "probabilidad": 70.0,
+                "score": 0.7,
+                "confianza": "alta",
+                "familia": "btts",
+                "justificacion": "La tendencia combinada indica que ambos equipos no marcan en una proporción alta de sus partidos recientes."
               }
             ]
           },
-          "analisis": "En sus últimos 20 partidos con datos disponibles, Al Ettifaq promedia 2.5 tarjetas por partido, un nivel moderado. (confianza alta, base: 20 partidos reales)\nEn sus últimos 20 partidos con datos disponibles, Al Nassr promedia apenas 1.9 tarjetas por partido, un equipo disciplinado. (confianza alta, base: 20 partidos reales)\nAl Ettifaq remata 11.6 veces por partido, de las cuales 4.8 van al arco (41% de efectividad de puntería).\nAl Nassr remata 16.9 veces por partido, de las cuales 7.2 van al arco (43% de efectividad de puntería).\nAmbos anotan (No) — promedio combinado 30%, tendencia baja de goles en ambos arcos."
+          "recomendaciones": [
+            {
+              "mercado": "Más de 0.5 goles",
+              "probabilidad": 98.5,
+              "score": 0.985,
+              "confianza": "alta",
+              "familia": "goles",
+              "justificacion": "La combinación de los historiales goleadores supera 0.5 goles en 98% de los escenarios históricos."
+            },
+            {
+              "mercado": "Más de 17.5 remates totales",
+              "probabilidad": 95.5,
+              "score": 0.955,
+              "confianza": "alta",
+              "familia": "remates",
+              "justificacion": "El historial combinado supera 17.5 remates en 96% de los escenarios."
+            },
+            {
+              "mercado": "Doble oportunidad: Al Nassr o empate",
+              "probabilidad": 89.1,
+              "score": 0.8909031788043871,
+              "confianza": "alta",
+              "familia": "resultado",
+              "justificacion": "El diferencial goleador reciente favorece a Al Nassr sobre una muestra de 20 partidos por equipo."
+            },
+            {
+              "mercado": "Menos de 6.5 tarjetas",
+              "probabilidad": 81.2,
+              "score": 0.8125,
+              "confianza": "alta",
+              "familia": "tarjetas",
+              "justificacion": "El historial combinado queda por debajo de 6.5 tarjetas en 81% de los escenarios."
+            },
+            {
+              "mercado": "Ambos anotan: No",
+              "probabilidad": 70.0,
+              "score": 0.7,
+              "confianza": "alta",
+              "familia": "btts",
+              "justificacion": "La tendencia combinada indica que ambos equipos no marcan en una proporción alta de sus partidos recientes."
+            }
+          ],
+          "analisis": "Al Ettifaq promedia 2.5 tarjetas en sus últimos 20 partidos.\nAl Nassr promedia 1.9 tarjetas en sus últimos 20 partidos.\nAl Ettifaq promedia 11.6 remates por partido, con 4.8 al arco.\nAl Nassr promedia 16.9 remates por partido, con 7.2 al arco.\nTendencia combinada de ambos anotan: 30%.",
+          "datos_completos": true
         },
         {
           "event_id": "401900387",
@@ -68215,66 +69951,97 @@
           },
           "pick_mas_seguro": {
             "disponible": true,
-            "mercado": "Goles totales del partido: Menos de 4.5",
-            "justificacion": "Combinando el historial goleador de ambos equipos, 94% de las combinaciones posibles dan menos de 4.5 goles totales.",
+            "mercado": "Menos de 4.5 goles",
+            "justificacion": "La combinación de los historiales goleadores queda por debajo de 4.5 goles en 94% de los escenarios históricos.",
             "confianza": "alta",
-            "score": 0.87,
+            "score": 0.935,
             "probabilidad": 93.5,
             "n_min": 20,
-            "alternativas": [
+            "recomendaciones": [
               {
-                "mercado": "Tarjetas totales del partido: Menos de 6.5",
-                "score": 0.815,
-                "probabilidad": 90.8,
-                "justificacion": "Combinando el historial de tarjetas de ambos equipos, 91% de las combinaciones posibles dan menos de 6.5 tarjetas totales.",
-                "confianza": "alta"
+                "mercado": "Menos de 4.5 goles",
+                "probabilidad": 93.5,
+                "score": 0.935,
+                "confianza": "alta",
+                "familia": "goles",
+                "justificacion": "La combinación de los historiales goleadores queda por debajo de 4.5 goles en 94% de los escenarios históricos."
               },
               {
-                "mercado": "Goles propios de Al Riyadh: Menos de 2.5",
-                "score": 0.8,
-                "probabilidad": 90.0,
-                "justificacion": "Al Riyadh tuvo menos de 2.5 goles propios en 90% de sus últimos 20 partidos.",
-                "confianza": "alta"
+                "mercado": "Menos de 6.5 tarjetas",
+                "probabilidad": 90.8,
+                "score": 0.9075,
+                "confianza": "alta",
+                "familia": "tarjetas",
+                "justificacion": "El historial combinado queda por debajo de 6.5 tarjetas en 91% de los escenarios."
+              },
+              {
+                "mercado": "Más de 17.5 remates totales",
+                "probabilidad": 88.0,
+                "score": 0.88,
+                "confianza": "alta",
+                "familia": "remates",
+                "justificacion": "El historial combinado supera 17.5 remates en 88% de los escenarios."
+              }
+            ],
+            "alternativas": [
+              {
+                "mercado": "Menos de 6.5 tarjetas",
+                "probabilidad": 90.8,
+                "score": 0.9075,
+                "confianza": "alta",
+                "familia": "tarjetas",
+                "justificacion": "El historial combinado queda por debajo de 6.5 tarjetas en 91% de los escenarios."
+              },
+              {
+                "mercado": "Más de 17.5 remates totales",
+                "probabilidad": 88.0,
+                "score": 0.88,
+                "confianza": "alta",
+                "familia": "remates",
+                "justificacion": "El historial combinado supera 17.5 remates en 88% de los escenarios."
               }
             ]
           },
-          "analisis": "En sus últimos 20 partidos con datos disponibles, Al Shabab promedia apenas 1.9 tarjetas por partido, un equipo disciplinado. (confianza alta, base: 20 partidos reales)\nEn sus últimos 20 partidos con datos disponibles, Al Riyadh promedia apenas 1.9 tarjetas por partido, un equipo disciplinado. (confianza alta, base: 20 partidos reales)\nAl Shabab remata 13.1 veces por partido, de las cuales 5.3 van al arco (40% de efectividad de puntería).\nAl Riyadh remata 12.8 veces por partido, de las cuales 3.9 van al arco (31% de efectividad de puntería).\nAmbos anotan — 42% combinado, sin tendencia clara hacia sí o no."
+          "recomendaciones": [
+            {
+              "mercado": "Menos de 4.5 goles",
+              "probabilidad": 93.5,
+              "score": 0.935,
+              "confianza": "alta",
+              "familia": "goles",
+              "justificacion": "La combinación de los historiales goleadores queda por debajo de 4.5 goles en 94% de los escenarios históricos."
+            },
+            {
+              "mercado": "Menos de 6.5 tarjetas",
+              "probabilidad": 90.8,
+              "score": 0.9075,
+              "confianza": "alta",
+              "familia": "tarjetas",
+              "justificacion": "El historial combinado queda por debajo de 6.5 tarjetas en 91% de los escenarios."
+            },
+            {
+              "mercado": "Más de 17.5 remates totales",
+              "probabilidad": 88.0,
+              "score": 0.88,
+              "confianza": "alta",
+              "familia": "remates",
+              "justificacion": "El historial combinado supera 17.5 remates en 88% de los escenarios."
+            }
+          ],
+          "analisis": "Al Shabab promedia 1.9 tarjetas en sus últimos 20 partidos.\nAl Riyadh promedia 1.9 tarjetas en sus últimos 20 partidos.\nAl Shabab promedia 13.1 remates por partido, con 5.3 al arco.\nAl Riyadh promedia 12.8 remates por partido, con 3.9 al arco.\nTendencia combinada de ambos anotan: 42%.",
+          "datos_completos": true
         }
       ]
     }
   ],
   "top5_dia": [
     {
-      "liga_nombre": "Brasileirao Serie B",
-      "liga_slug": "bra.2",
-      "local": "Atlético Goianiense",
-      "visita": "Botafogo-SP",
-      "mercado": "Goles recibidos por Botafogo-SP: Menos de 2.5",
-      "justificacion": "Botafogo-SP recibió menos de 2.5 goles en 100% de sus últimos 20 partidos.",
-      "confianza": "alta",
-      "score": 1.0,
-      "probabilidad": 100.0,
-      "n_min": 20
-    },
-    {
       "liga_nombre": "Primera A de Colombia",
       "liga_slug": "col.1",
       "local": "Deportivo Pereira",
       "visita": "Jaguares de Córdoba",
-      "mercado": "Goles propios de Deportivo Pereira: Menos de 2.5",
-      "justificacion": "Deportivo Pereira tuvo menos de 2.5 goles propios en 100% de sus últimos 20 partidos.",
-      "confianza": "alta",
-      "score": 1.0,
-      "probabilidad": 100.0,
-      "n_min": 20
-    },
-    {
-      "liga_nombre": "Primera A de Colombia",
-      "liga_slug": "col.1",
-      "local": "Atlético Bucaramanga",
-      "visita": "Águilas Doradas",
-      "mercado": "Goles propios de Águilas Doradas: Menos de 2.5",
-      "justificacion": "Águilas Doradas tuvo menos de 2.5 goles propios en 100% de sus últimos 20 partidos.",
+      "mercado": "Menos de 4.5 goles",
+      "justificacion": "La combinación de los historiales goleadores queda por debajo de 4.5 goles en 100% de los escenarios históricos.",
       "confianza": "alta",
       "score": 1.0,
       "probabilidad": 100.0,
@@ -68285,8 +70052,32 @@
       "liga_slug": "col.1",
       "local": "Cúcuta Deportivo",
       "visita": "Alianza FC",
-      "mercado": "Goles propios de Cúcuta Deportivo: Menos de 2.5",
-      "justificacion": "Cúcuta Deportivo tuvo menos de 2.5 goles propios en 100% de sus últimos 20 partidos.",
+      "mercado": "Menos de 4.5 goles",
+      "justificacion": "La combinación de los historiales goleadores queda por debajo de 4.5 goles en 100% de los escenarios históricos.",
+      "confianza": "alta",
+      "score": 1.0,
+      "probabilidad": 100.0,
+      "n_min": 20
+    },
+    {
+      "liga_nombre": "Primera Division de Paraguay",
+      "liga_slug": "par.1",
+      "local": "2 de Mayo",
+      "visita": "Guaraní",
+      "mercado": "Menos de 4.5 goles",
+      "justificacion": "La combinación de los historiales goleadores queda por debajo de 4.5 goles en 100% de los escenarios históricos.",
+      "confianza": "alta",
+      "score": 1.0,
+      "probabilidad": 100.0,
+      "n_min": 20
+    },
+    {
+      "liga_nombre": "Premiership Sudafricana",
+      "liga_slug": "rsa.1",
+      "local": "Orlando Pirates",
+      "visita": "Sekhukhune United FC",
+      "mercado": "Menos de 6.5 tarjetas",
+      "justificacion": "El historial combinado queda por debajo de 6.5 tarjetas en 100% de los escenarios.",
       "confianza": "alta",
       "score": 1.0,
       "probabilidad": 100.0,
@@ -68295,13 +70086,13 @@
     {
       "liga_nombre": "Primera A de Colombia",
       "liga_slug": "col.1",
-      "local": "Independiente Santa Fe",
-      "visita": "Jaguares de Córdoba",
-      "mercado": "Goles propios de Jaguares de Córdoba: Menos de 2.5",
-      "justificacion": "Jaguares de Córdoba tuvo menos de 2.5 goles propios en 100% de sus últimos 20 partidos.",
+      "local": "Atlético Bucaramanga",
+      "visita": "Águilas Doradas",
+      "mercado": "Menos de 4.5 goles",
+      "justificacion": "La combinación de los historiales goleadores queda por debajo de 4.5 goles en 100% de los escenarios históricos.",
       "confianza": "alta",
-      "score": 1.0,
-      "probabilidad": 100.0,
+      "score": 0.995,
+      "probabilidad": 99.5,
       "n_min": 20
     }
   ]
