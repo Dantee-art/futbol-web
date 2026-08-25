@@ -1,6 +1,7 @@
 """
 espn_client.py
 Cliente ESPN sin API key.
+Historial: temporada actual + temporada anterior como respaldo.
 """
 import requests, json, os, time
 from datetime import date
@@ -53,25 +54,17 @@ def _ordenar(eventos):
     return eventos
 
 def partidos_jugados_recientes(liga_slug, team_id, n=20):
-    """
-    Devuelve hasta N partidos oficiales recientes.
-    Primero usa la temporada actual. Si no alcanza, completa EXPLICITAMENTE
-    con la temporada anterior y, solo si sigue sin alcanzar, con la anterior.
-    Esto evita dejar partidos sin predicción al inicio de una temporada.
-    """
-    vistos = set()
-    salida = []
-    temporadas = [date.today().year, date.today().year - 1, date.today().year - 2]
+    """Hasta N partidos oficiales: temporada actual, luego anterior y luego anterior."""
+    vistos=set(); salida=[]
+    temporadas=[date.today().year,date.today().year-1,date.today().year-2]
     for season in temporadas:
         try:
-            data = get_team_schedule(liga_slug, team_id, season=season)
-            eventos = _ordenar(_jugados_de(data.get("events", [])))
+            data=get_team_schedule(liga_slug,team_id,season=season)
+            eventos=_ordenar(_jugados_de(data.get("events",[])))
         except Exception as e:
-            print(f"[AVISO] historial {liga_slug}/{team_id}/{season}: {e}")
-            continue
+            print(f"[AVISO] historial {liga_slug}/{team_id}/{season}: {e}"); continue
         for e in eventos:
-            eid = str(e.get("id", ""))
-            if eid and eid not in vistos:
-                vistos.add(eid); salida.append(e)
-            if len(salida) >= n: return salida[:n]
+            eid=str(e.get("id",""))
+            if eid and eid not in vistos: vistos.add(eid); salida.append(e)
+            if len(salida)>=n: return salida[:n]
     return salida[:n]
