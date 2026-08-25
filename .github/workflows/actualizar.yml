@@ -2,8 +2,12 @@ name: Actualizar Picks Diarios
 
 on:
   schedule:
-    - cron: '0 9 * * *'   # 9am UTC = 6am Argentina
+    - cron: '0 9 * * *'
   workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/**'
+      - 'config/**'
 
 jobs:
   actualizar:
@@ -11,20 +15,16 @@ jobs:
     timeout-minutes: 340
     steps:
       - uses: actions/checkout@v4
-
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-
       - name: Instalar dependencias
         run: pip install requests
-
-      - name: Actualizar datos de partidos y picks
+      - name: Regenerar partidos y predicciones
         working-directory: scripts
         run: python actualizar_datos.py
-
-      - name: Commitear datos actualizados
+      - name: Guardar datos nuevos
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "Actualizacion automatica de picks diarios"
+          commit_message: "Actualizar partidos y predicciones"
           file_pattern: "datos/**"
